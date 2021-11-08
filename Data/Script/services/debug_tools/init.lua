@@ -59,7 +59,9 @@ function DebugTools:OnNewGame()
 	_DATA.Save.ActiveTeam:SetRank(1);
     _DATA.Save.ActiveTeam.Name = "";
     _DATA.Save.ActiveTeam.Bank = 1000
-	
+	if _DATA.Save.ActiveTeam.Leader.BaseForm.Species == 132 then
+	  SV.charvars.StartMelanie = true
+	end
   else
     PrintInfo("\n<!> ExampleSvc: Preparing debug save file")
     _DATA.Save.ActiveTeam:SetRank(1)

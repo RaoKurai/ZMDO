@@ -53,6 +53,7 @@ SV.test_grounds =
 
 SV.charvars = 
 {
+  StartMelanie = False,
   MelanieForms    = { { Species=132, Form=0, Skin=0} },
   MelanieIdx    = 1,
   LumiereForm = nil,

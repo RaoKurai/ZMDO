@@ -108,6 +108,20 @@ function SINGLE_CHAR_SCRIPT.DestinationFloor(owner, ownerChar, character, args)
 end
 
 
+function SINGLE_CHAR_SCRIPT.Tutorial(owner, ownerChar, character, args)
+  if character == nil then
+    SOUND:PlayFanfare("Fanfare/Note")
+    UI:ResetSpeaker()
+    if args.Level == 1 then
+	  UI:WaitShowDialogue("Tutorial 1")
+    elseif args.Level == 2 then
+	  UI:WaitShowDialogue("Tutorial 2")
+    elseif args.Level == 3 then
+	  UI:WaitShowDialogue("Tutorial 3")
+    end
+  end
+end
+
 function SINGLE_CHAR_SCRIPT.OutlawFloor(owner, ownerChar, character, args)
   SOUND:PlayBGM("C07. Outlaw.ogg", false)
   UI:ResetSpeaker()
