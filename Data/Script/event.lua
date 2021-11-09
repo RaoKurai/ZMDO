@@ -113,11 +113,19 @@ function SINGLE_CHAR_SCRIPT.Tutorial(owner, ownerChar, character, args)
     SOUND:PlayFanfare("Fanfare/Note")
     UI:ResetSpeaker()
     if args.Level == 1 then
-	  UI:WaitShowDialogue("Tutorial 1")
+	  if SV.charvars.StartMelanie == true then
+			UI:WaitShowDialogue("As a ditto, Melanie can transform into any enemy she defeats! [br] You don't get their moves, but you do get their type and stats. [br] Change forms with the basic attack to best fit the situation!")
+	  elseif SV.charvars.StartMelanie == false then
+			UI:WaitShowDialogue("Lumiere can sketch the last move an enemy used when he defeats them. [br] They'll appear in the bag like a TM to learn whenever you see fit.")
+	  end
     elseif args.Level == 2 then
-	  UI:WaitShowDialogue("Tutorial 2")
+	  if SV.charvars.StartMelanie == true then
+			UI:WaitShowDialogue("Lumiere can sketch the last move an enemy used when he defeats them. [br] They'll appear in the bag like a TM to learn whenever you see fit.")
+	  elseif SV.charvars.StartMelanie == false then
+			UI:WaitShowDialogue("As a ditto, Melanie can transform into any enemy she defeats! [br] You don't get their moves, but you do get their type and stats. [br] Change forms with the basic attack to best fit the situation!")
+	  end
     elseif args.Level == 3 then
-	  UI:WaitShowDialogue("Tutorial 3")
+	  UI:WaitShowDialogue("The duo is back together! [br] Now, when talking to Melanie or Lumiere, you can choose to 'split form' and create a team member. [br] It will consume Melanie's current form, and one of Lumiere's moves to create a pokemon with both of them.")
     end
   end
 end
