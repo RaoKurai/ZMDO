@@ -86,9 +86,7 @@ function DebugTools:OnNewGame()
     _DATA.Save.ActiveTeam.Players[0].IsFounder = true
     _DATA.Save.ActiveTeam.Players[1].IsFounder = true
 	
-	local testVal = TASK:GetArrayValue(_DATA.Save.DungeonUnlocks, 0)
-	local testVal2 = TASK:GetArrayValue(_DATA.Save.DungeonUnlocks, 0)
-    for ii = 1, _DATA.Save.DungeonUnlocks.Length, 1 do
+    for ii = 1, _DATA.Save.DungeonUnlocks.Count, 1 do
       _DATA.Save.DungeonUnlocks[ii-1] = RogueEssence.Data.GameProgress.UnlockState.Discovered
     end
   end
