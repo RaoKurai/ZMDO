@@ -621,7 +621,7 @@ function COMMON.DungeonInteract(chara, target, action_cancel, turn_cancel)
 			table.insert(phrases, "There's someone in Pe'Kemon city that looks like this![pause=0] Except...[pause=30] airier.")
 		elseif target.CurrentForm.Species == 417 then
 			table.insert(phrases, "Wanna cuddle?[pause=0] My nuzzles are extra tingly!")
-		elseif target.CurrentForm.Species == 311 and chara.CurrentForm.Species == 312then
+		elseif target.CurrentForm.Species == 311 and chara.CurrentForm.Species == 312 then
 			table.insert(phrases, "Hey look, we match now!")
 		elseif target.CurrentForm.Species == 312 and chara.CurrentForm.Species == 311 then
 			table.insert(phrases, "Hey look, we match now!")

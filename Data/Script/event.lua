@@ -126,17 +126,27 @@ function SINGLE_CHAR_SCRIPT.Tutorial(owner, ownerChar, character, args)
 	  if SV.charvars.ExpositionLevel < 2 then
 	    SOUND:PlayFanfare("Fanfare/Note")
 	    if SV.charvars.StartMelanie == true then
-			UI:WaitShowDialogue("Lumiere can sketch the last move an enemy used when he defeats them.[br]They'll appear in the bag to learn from whenever you see fit.")
+			UI:WaitShowDialogue("Transforming only works if you defeat the target with a regular attack.[br]You can check the target's remaining health with [S].")
 	    elseif SV.charvars.StartMelanie == false then
-			UI:WaitShowDialogue("As a Ditto, Melanie can transform into any enemy she defeats![br]You don't get their moves, but you do get their type and stats.")
+			UI:WaitShowDialogue("Sketching only works if you defeat the target with a regular attack.[br]You can check the target's remaining health with [S].")
 	    end
 		SV.charvars.ExpositionLevel = 2
 	  end
     elseif args.Level == 3 then
 	  if SV.charvars.ExpositionLevel < 3 then
 	    SOUND:PlayFanfare("Fanfare/Note")
-	    UI:WaitShowDialogue("When Melanie and Lumiere interact, they can create new team members.[br]This will consume Melanie's current form, and one of Lumiere's moves.")
+	    if SV.charvars.StartMelanie == true then
+			UI:WaitShowDialogue("Lumiere can sketch the last move an enemy used when he defeats them.[br]They'll appear in the bag to learn from whenever you see fit.")
+	    elseif SV.charvars.StartMelanie == false then
+			UI:WaitShowDialogue("As a Ditto, Melanie can transform into any enemy she defeats![br]You don't get their moves, but you do get their type and stats.")
+	    end
 		SV.charvars.ExpositionLevel = 3
+	  end
+    elseif args.Level == 4 then
+	  if SV.charvars.ExpositionLevel < 4 then
+	    SOUND:PlayFanfare("Fanfare/Note")
+	    UI:WaitShowDialogue("When Melanie and Lumiere interact, they can share moves, forms, and split new team members.[br]Splitting will consume Melanie's current form, and one of Lumiere's moves.")
+		SV.charvars.ExpositionLevel = 4
 	  end
     end
   end
