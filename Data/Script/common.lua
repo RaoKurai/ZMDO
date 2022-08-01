@@ -606,7 +606,8 @@ function COMMON.DungeonInteract(chara, target, action_cancel, turn_cancel)
 		"We'll always be together, okay?",
 		"I'll protect you, Lumiere!",
 		"Take your time, Lumiere, go at your own pace.",
-		"Tired of being a "..mon.Name:ToLocal().."?[pause=0] I can fix that!"
+		"Tired of being a "..mon.Name:ToLocal().."?[pause=0] I can fix that!",
+		"Got any sketches to show me?"
 		}
 		
 		if target.CurrentForm.Species == 133 then
@@ -700,11 +701,13 @@ function COMMON.DungeonInteract(chara, target, action_cancel, turn_cancel)
 	elseif target.BaseForm.Species == 235 then
 		DUNGEON:CharTurnToChar(target, chara)
 		
+		local mon = _DATA:GetMonster(chara.CurrentForm.Species)
 		local phrases = { "Oh, what is it, Melanie?",
 		"I'll sketch all the moves, and color your shape with them, Melanie~",
 		"I'll never leave you behind, Melanie.",
 		"I'll protect you, Melanie!",
-		"Wanna learn something new, Melanie?"
+		"Wanna learn something new, Melanie?",
+		"I wonder what it's like to be a "..mon.Name:ToLocal().."..."
 		}
 		
 		if target.CurrentForm.Species == 393 then
