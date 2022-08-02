@@ -795,7 +795,8 @@ function COMMON.DungeonInteract(chara, target, action_cancel, turn_cancel)
 			TASK:WaitTask(_DUNGEON:ProcessUseSkill(target, -1, action_res))
 		end
 	elseif tbl.TalkAmount == nil then
-		local move = RogueEssence.Data.DataManager.Instance:GetSkill(target.BaseSkills[move_idx].SkillNum)
+		local skillNum = target.BaseSkills[0].SkillNum
+		local move = RogueEssence.Data.DataManager.Instance:GetSkill(skillNum)
 		UI:SetSpeaker(target)
 		if chara.BaseForm.Species == 132 then
 			UI:WaitShowDialogue("I have your form, and Lumiere's "..move:GetIconName().."!")

@@ -677,7 +677,7 @@ function BATTLE_SCRIPT.SplitGuest(owner, ownerChar, context, args)
 	character.BaseSkills[0] = RogueEssence.Dungeon.SlotSkill(skill)
 	character.BaseIntrinsics[0] = context.Target.Intrinsics[0].Element.ID
 
-	local new_mob = RogueEssence.Dungeon.Character(character, context.User.MemberTeam)
+	local new_mob = RogueEssence.Dungeon.Character(character)
 	context.User.MemberTeam.Guests:Add(new_mob)
 	new_mob.CharLoc = context.Target.CharLoc
 	new_mob.CharDir = context.Target.CharDir
