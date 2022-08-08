@@ -34,7 +34,7 @@ SV.General =
 
 SV.checkpoint = 
 {
-  Zone    = 1, Segment  = -1,
+  Zone    = "guildmaster_island", Segment  = -1,
   Map  = 1, Entry  = 0
 }
 
@@ -54,7 +54,7 @@ SV.test_grounds =
 SV.charvars = 
 {
   StartMelanie = false,
-  MelanieForms    = { { Species=132, Form=0, Skin=0} },
+  MelanieForms    = { { Species="ditto", Form=0, Skin="normal"} },
   MelanieIdx    = 1,
   LumiereForm = nil,
   LumiereMoves = 0,

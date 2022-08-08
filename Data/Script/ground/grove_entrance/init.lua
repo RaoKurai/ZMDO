@@ -58,7 +58,7 @@ end
 
 function grove_entrance.Cutscene()
   --Hide assembly and storage
-  GAME:UnlockDungeon(2)
+  GAME:UnlockDungeon("mystery_grove")
   
   local starter = CH('PLAYER')
   
@@ -99,7 +99,7 @@ function grove_entrance.Cutscene()
 	-- wake up, exclaim!
 	GROUND:CharSetAnim(starter, 'None', true)
     SOUND:PlayBattleSE("EVT_Emote_Exclaim")
-    GROUND:CharSetEmote(starter, 2, 1)
+    GROUND:CharSetEmote(starter, "notice", 1)
 	UI:WaitShowDialogue("Wha?[pause=0] Where am I?")
 	UI:WaitShowDialogue("I don't remember napping here...")
 	UI:WaitShowDialogue("Melanie, did you carry me off as a Ponyta again?")
@@ -127,7 +127,7 @@ end
 
 function grove_entrance.Exit_Touch(obj, activator)
   DEBUG.EnableDbgCoro() --Enable debugging this coroutine
-  local dungeon_entrances = { 2 }
+  local dungeon_entrances = { "mystery_grove" }
   local ground_entrances = { }
   COMMON.ShowDestinationMenu(dungeon_entrances,ground_entrances)
 end

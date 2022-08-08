@@ -35,7 +35,7 @@ function melumi_house.Enter(map)
 
   SV.checkpoint = 
   {
-    Zone    = 1, Segment  = -1,
+    Zone    = "guildmaster_island", Segment  = -1,
     Map  = 7, Entry  = 0
   }
   
@@ -75,7 +75,7 @@ end
 
 function melumi_house.Exit_Touch(obj, activator)
   DEBUG.EnableDbgCoro() --Enable debugging this coroutine
-  local dungeon_entrances = { 2, 3, 4 }
+  local dungeon_entrances = { "mystery_grove", "mystery_cave", "mystery_dungeon" }
   local ground_entrances = { }
   COMMON.ShowDestinationMenu(dungeon_entrances,ground_entrances)
 end

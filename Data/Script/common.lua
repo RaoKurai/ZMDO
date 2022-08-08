@@ -264,95 +264,6 @@ COMMON.PERSONALITY[37] = { -- escort
   WAIT = {190}
 }
 
-COMMON.ESSENTIALS = {
-  { Index = 1, Hidden = 0, Price = 50},
-  { Index = 2, Hidden = 0, Price = 150},
-  { Index = 6, Hidden = 0, Price = 500},
-  { Index = 10, Hidden = 0, Price = 80},
-  { Index = 11, Hidden = 0, Price = 80},
-  { Index = 12, Hidden = 0, Price = 120},
-  { Index = 101, Hidden = 0, Price = 500},
-  { Index = 210, Hidden = 0, Price = 400}
-}
-  
-COMMON.UTILITIES = {
-  { Index = 37, Hidden = 0, Price = 100},
-  { Index = 38, Hidden = 0, Price = 100},
-  { Index = 108, Hidden = 0, Price = 80},
-  { Index = 110, Hidden = 0, Price = 80},
-  { Index = 112, Hidden = 0, Price = 200},
-  { Index = 113, Hidden = 0, Price = 80},
-  { Index = 114, Hidden = 0, Price = 350},
-  { Index = 115, Hidden = 0, Price = 80},
-  { Index = 116, Hidden = 0, Price = 80},
-  { Index = 117, Hidden = 0, Price = 150},
-  { Index = 118, Hidden = 0, Price = 150},
-  { Index = 183, Hidden = 0, Price = 120},
-  { Index = 184, Hidden = 0, Price = 250},
-  { Index = 185, Hidden = 0, Price = 80}
-}
-  
-COMMON.AMMO = {
-  { Index = 200, Hidden = 9, Price = 45},
-  { Index = 201, Hidden = 9, Price = 90},
-  { Index = 202, Hidden = 9, Price = 90},
-  { Index = 203, Hidden = 9, Price = 90},
-  { Index = 204, Hidden = 9, Price = 360},
-  { Index = 207, Hidden = 9, Price = 45},
-  { Index = 208, Hidden = 9, Price = 90},
-  { Index = 220, Hidden = 9, Price = 180},
-  { Index = 221, Hidden = 9, Price = 180},
-  { Index = 222, Hidden = 9, Price = 180},
-  { Index = 223, Hidden = 9, Price = 180},
-  { Index = 225, Hidden = 9, Price = 180},
-  { Index = 226, Hidden = 9, Price = 180},
-  { Index = 228, Hidden = 9, Price = 180},
-  { Index = 231, Hidden = 9, Price = 180},
-  { Index = 232, Hidden = 9, Price = 180},
-  { Index = 233, Hidden = 9, Price = 180},
-  { Index = 234, Hidden = 9, Price = 180}
-}
-COMMON.ORBS = {
-  { Index = 251, Hidden = 0, Price = 150},
-  { Index = 252, Hidden = 0, Price = 250},
-  { Index = 253, Hidden = 0, Price = 350},
-  { Index = 254, Hidden = 0, Price = 200},
-  { Index = 256, Hidden = 0, Price = 250},
-  { Index = 257, Hidden = 0, Price = 150},
-  { Index = 258, Hidden = 0, Price = 150},
-  { Index = 259, Hidden = 0, Price = 350},
-  { Index = 263, Hidden = 0, Price = 150},
-  { Index = 264, Hidden = 0, Price = 300},
-  { Index = 265, Hidden = 0, Price = 150},
-  { Index = 266, Hidden = 0, Price = 150},
-  { Index = 267, Hidden = 0, Price = 250},
-  { Index = 268, Hidden = 0, Price = 250},
-  { Index = 269, Hidden = 0, Price = 200},
-  { Index = 270, Hidden = 0, Price = 200},
-  { Index = 271, Hidden = 0, Price = 250},
-  { Index = 272, Hidden = 0, Price = 250},
-  { Index = 273, Hidden = 0, Price = 250},
-  { Index = 274, Hidden = 0, Price = 250},
-  { Index = 275, Hidden = 0, Price = 250},
-  { Index = 276, Hidden = 0, Price = 250},
-  { Index = 277, Hidden = 0, Price = 250},
-  { Index = 278, Hidden = 0, Price = 150},
-  { Index = 281, Hidden = 0, Price = 350},
-  { Index = 282, Hidden = 0, Price = 250},
-  { Index = 283, Hidden = 0, Price = 150},
-  { Index = 284, Hidden = 0, Price = 150},
-  { Index = 286, Hidden = 0, Price = 250},
-  { Index = 287, Hidden = 0, Price = 250},
-  { Index = 288, Hidden = 0, Price = 150},
-  { Index = 289, Hidden = 0, Price = 250}
-}
-  
-COMMON.SPECIAL = {
-  { Index = 455, Hidden = 3, Price = 4000},
-  { Index = 260, Hidden = 0, Price = 1000},
-  { Index = 250, Hidden = 0, Price = 150}
-}
-  
 
 ----------------------------------------------------------
 -- Convenience Scription Functions
@@ -415,7 +326,7 @@ function COMMON.ShowTeamAssemblyMenu(obj, init_fun)
   end
 end
 
-function COMMON.ShowDestinationMenu(dungeon_entrances,ground_entrances)
+function COMMON.ShowDestinationMenu(dungeon_entrances, ground_entrances)
   
   --check for unlock of dungeons
   local open_dests = {}
@@ -490,71 +401,6 @@ function COMMON.UnlockWithFanfare(dungeon_id)
 
 end
 
-function COMMON.ClearPlayerPrices()
-  local item_count = GAME:GetPlayerBagCount()
-  for item_idx = 0, item_count-1, 1 do
-    local inv_item = GAME:GetPlayerBagItem(item_idx)
-	inv_item.Price = 0
-  end
-  local player_count = _DUNGEON.ActiveTeam.Players.Count
-  for player_idx = 0, player_count-1, 1 do
-    local inv_item = GAME:GetPlayerEquippedItem(player_idx)
-	inv_item.Price = 0
-  end
-end
-
-function COMMON.ClearAllPrices()
-  COMMON.ClearPlayerPrices()
-
-  -- clear map prices
-  local item_count = _ZONE.CurrentMap.Items.Count
-  for item_idx = 0, item_count-1, 1 do
-    local map_item = _ZONE.CurrentMap.Items[item_idx]
-	map_item.Price = 0
-  end
-end
-
-function COMMON.PayDungeonCartPrice(price)
-  COMMON.ClearPlayerPrices()
-  GAME:RemoveFromPlayerMoney(price)
-  local security_status = 38
-  if _ZONE.CurrentMap.Status:ContainsKey(security_status) then
-    local status = _ZONE.CurrentMap.Status[security_status]
-	if status.StatusStates:Contains(luanet.ctype(ShopPriceType)) then
-	  local security_price = status.StatusStates:Get(luanet.ctype(ShopPriceType))
-	  security_price.Amount = security_price.Amount - price
-	end
-  end
-end
-
-ShopPriceType = luanet.import_type('PMDC.Dungeon.ShopPriceState')
-
-function COMMON.GetDungeonCartPrice()
-
-  local price = 0
-  local security_status = 38
-  if _ZONE.CurrentMap.Status:ContainsKey(security_status) then
-    local status = _ZONE.CurrentMap.Status[security_status]
-	if status.StatusStates:Contains(luanet.ctype(ShopPriceType)) then
-	  local security_price = status.StatusStates:Get(luanet.ctype(ShopPriceType))
-	  price = security_price.Amount
-	end
-  end
-  
-  -- iterate items on shop mats and subtract total price
-  local item_count = _ZONE.CurrentMap.Items.Count
-  for item_idx = 0, item_count-1, 1 do
-    local map_item = _ZONE.CurrentMap.Items[item_idx]
-	if map_item.Price > 0 then
-	  local tile = _ZONE.CurrentMap.Tiles[map_item.TileLoc.X][map_item.TileLoc.Y]
-	  -- only subtract price if on shop mat
-	  if tile.Effect.ID == 45 then
-	    price = price - map_item.Price
-	  end
-	end
-  end
-  return price
-end
 
 function COMMON.FindNpcWithTable(foes, key, value)
   local team_list = _ZONE.CurrentMap.AllyTeams
@@ -577,13 +423,13 @@ function COMMON.FindNpcWithTable(foes, key, value)
 end
 
 function COMMON.CanTalk(chara)
-  if chara:GetStatusEffect(1) ~= nil then
+  if chara:GetStatusEffect("sleep") ~= nil then
     return false
   end
-  if chara:GetStatusEffect(3) ~= nil then
+  if chara:GetStatusEffect("freeze") ~= nil then
     return false
   end
-  if chara:GetStatusEffect(7) ~= nil then
+  if chara:GetStatusEffect("confuse") ~= nil then
     return false
   end
   return true
@@ -919,98 +765,6 @@ function COMMON.DungeonInteract(chara, target, action_cancel, turn_cancel)
     action_cancel.Cancel = false
   end
   
-  --characters can comment on:
-
-  --flavour for the dungeon (talk about the area and its lore)
-  --being able to evolve
-  --nearly reaching the end of the dungeon
-  --being hungry
-  --out of PP
-  --being able to recruit someone
-  --tutorial tips
-  ---gaining EXP while in assembly
-  ---apricorns
-  ---sleeping pokemon
-  --commenting on how long they've been on the team
-  ---I know we just met, but...
-  ---We've been together for over 10 floors now, don't leave me now!
-  --beginning a fight "do you think we can take them?"
-  --upon recruitment "explore the world, you say?  I'm in!" "yay, friends!" "fine, I'll come with you.  just don't slow me down" "oh my... you smell heavenly.  can I come with you?"
-  --"you look tasty- I mean X, can I come with you?", "Team X, huh?  I like the sound of that!", "you lot seem smart/wise, I think you have what it takes to reach the top."
-  --when/after someone faints "X isn't with us anymore... but we have to keep going."
-  --"if you faint as the leader, I'll gladly take your place."
-  --specific personalities for mechanical creatures
-  --specific personalities for childish creatures
-  --verbal tics (chirp/tweet, meow, woof/arf, squeak, pika)
-  --third-person dialogue
-  --burned "ow, ow ,ow!  hot, hot!, hot!"
-  --paralyzed "I can't feel my legs..." (check body type for this)
-  --when there's only 2 members left, and no means to summon more recruits "we're the only ones left." "come on!  we can't give up!"
-  --"I wonder what [fainted mon] would've done..."
-  --lore on the legendary guildmasters
-  ---
-  --the rise of recent disasters- mystery dungeons
-  --the guildmaster's treasures?
-  --a challenge that no one has passed yet; people stopped bothering
-  --but as the disasters appear, the pokemon begin to search for a leader
-  --At low HP: "X's resolve is being tested..."
-  --isn't my fur just luxurious? (vain personality)
-  --first priority is for phrases that occur at each break point
-  --would you like to hear a song? (if knows sing, round, or perish song)
-  --"so it's just us now, huh?" (two pokemon, one or more has fainted)
-  --We're going to be okay, right?  Tell me we're going to be okay.
-  --Hey... if I don't make it out of here, tell (assembly mon) I love her.
-  --talk about how one of their moves is a type, and it will be super-effective on an enemy found on the floor
-  --rumors spread of a treasure in a dangerous location
-  ----actually a trap; an ambush spot
-  --My body wasn't ready for this...
-  --Hey, what is it like to have arms?
-  --That Red apricorn you have there.  We can use it to recruit a Fire-type Pokemon.
-  --Let's find a strong Fire-type Pokemon to give that Red Apricorn to.
-  --That Oran Berry we just picked up should help us in a pinch.
-  --Those Mankeys are fighting-type Pokemon.  We should hit them with Flying type moves!
-  --So why are you in this exploration? [Treasure][Meet Pokemon][Guildmaster][I dunno]
-  --To set foot in this dungeon... you're either very brave, or foolhardy.
-  --I've gotta hand it to you. Not many Exploration teams make it this far.
-  --Too bad I don't have any hands.
-  --You know what's weird?  We've been talking all this time and those (visible Pokemon) over there haven't made a single step towards us.  Do you think they're just that polite?
-  --I don't like the look that (enemy pokemon) is giving me...
-  --But enough talk, we need to get to the next floor.
-  --But enough talk, we've got a situation here! (if multiple enemies are in sight)
-  --Anyways, we need to keep moving.
-  --Finally!  The stairs! (cheer when the stairs come into view, and load this dialogue up in time)
-  --sleep
-  --"Zzz...[pause=0] another five minutes please..."
-  --"Zzz...[pause=10] Zzz..."
-  --decoy
-  --"...What?"
-  --"...What's a \"decoy\"?"
-  --"Do I look like I know what a \"decoy\" is?"
-  --"Hey Einstein, I'm on your side!"
-  --"Is there something on my face?"
-
-  --evolve
-  --"Hey, I think I'm ready to evolve now!"
-  --"Hey, I think I can evolve into a {0} now!"
-  --"I sense something... getting ready to evolve now"
-  --"Did you know?  I'm ready to evolve now!"
-  --"What should I evolve into?  Any ideas?"
-  --"Oh, I just can't wait till I evolve!"
-  --"I'm getting excited just thinking about it!"
-  --"I swear to god when I evolve, I am going to kill you all!"
-
-  --"Let's make it all the way to the end!"
-  --"I wanna be...[pause=0]\nthe very best..."
-  --"You teach me, and I'll teach you."
-  --"I'll rescue you and if I do you gotta rescue me."
-  --"Who should we recruit next?"
-  --"Some apricorns can only recruit certain types of Pokémon.[pause=0] You know that, yes?"
-  --"Rumor has it that whoever reaches the summit will be given the title of Guildmaster."
-  --"So why do they call you the {0} Pokémon?", DataManager.Instance.GetMonster(character.BaseForm.Species).Title.ToLocal()
-
-  --"Press {0} if you want me to lead the team.", (ii + 1).ToString()
-  --"press 1 if you feel bad for [fainted mon]"
-
   
 end
 
@@ -1088,165 +842,17 @@ function COMMON.GroundInteract(chara, target)
 end
 
 function COMMON.Rescued(zone, name, mail)
-  
-
-  if _DATA.CurrentReplay ~= nil then
-    SOUND:PlayBattleSE("EVT_Title_Intro")
-    GAME:FadeOut(true, 0)
-    GAME:FadeIn(20)
-    SOUND:PlayBGM("C05. Rescue.ogg", true)
-	_DUNGEON:LogMsg(STRINGS:FormatKey("MSG_RESCUED_BY", name))
-  else
-                --//spawn the rescuers based on mail
-    local leaderLoc = null;
-
-    local team = RogueEssence.Dungeon.ExplorerTeam()
-    team.Name = mail.RescuedBy
-
-                --for (int ii = 0; ii < mail.RescuingTeam.Length; ii++)
-                --{
-                --    CharData character = new CharData();
-                --    character.BaseForm = mail.RescuingTeam[ii];
-                --    character.Nickname = mail.RescuingNames[ii];
-                --    character.Level = 1;
-
-                --    Character new_mob = new Character(character, team);
-
-                --    Loc? destLoc = ZoneManager.Instance.CurrentMap.GetClosestTileForChar(new_mob, leaderLoc.HasValue ? leaderLoc.Value : ActiveTeam.Leader.CharLoc);
-
-                --    if (destLoc == null)
-                --        break;
-
-                --    leaderLoc = destLoc;
-
-                --    team.Players.Add(new_mob);
-                --    new_mob.CharLoc = destLoc.Value;
-                --    new_mob.CharDir = DirExt.ApproximateDir8(ActiveTeam.Leader.CharLoc - destLoc.Value);
-                --    AITactic tactic = DataManager.Instance.GetAITactic(0);
-                --    new_mob.Tactic = new AITactic(tactic);
-                --}
-                --ZoneManager.Instance.CurrentMap.MapTeams.Add(team);
-
-                --//foreach (Character member in team.Players)
-                --//    member.RefreshTraits();
-
-    SOUND:PlayBattleSE("EVT_Title_Intro")
-    GAME:FadeOut(true, 0)
-    GAME:FadeIn(20)
-                --yield return CoroutineManager.Instance.StartCoroutine(GameManager.Instance.FadeIn());
-
-    SOUND:PlayBGM("C05. Rescue.ogg", true)
-    TASK:WaitTask(_MENU:SetDialogue(STRINGS:FormatKey("MSG_RESCUES_LEFT", _DATA.Save.RescuesLeft)))
-    GAME:WaitFrames(10)
-  
-
-
-                --//TODO: make the rescuers talk
-                --yield return CoroutineManager.Instance.StartCoroutine(MenuManager.Instance.SetDialogue(team.Leader.Appearance, team.Leader:GetDisplayName(true), new EmoteStyle(Emotion.Normal), true, Text.Format("{0}, right?", ActiveTeam:GetDisplayName())));
-                --yield return CoroutineManager.Instance.StartCoroutine(MenuManager.Instance.SetDialogue(team.Leader.Appearance, team.Leader:GetDisplayName(true), new EmoteStyle(Emotion.Normal), true, Text.Format("Glad we could make it! We got your SOS just in time!")));
-                --yield return CoroutineManager.Instance.StartCoroutine(MenuManager.Instance.SetDialogue(team.Leader.Appearance, team.Leader:GetDisplayName(true), new EmoteStyle(Emotion.Normal), true, Text.Format("It's all in a day's work for {0}!", team:GetDisplayName())));
-                --yield return CoroutineManager.Instance.StartCoroutine(MenuManager.Instance.SetDialogue(team.Leader.Appearance, team.Leader:GetDisplayName(true), new EmoteStyle(Emotion.Normal), true, Text.Format("Good luck, the rest is up to you!")));
-
-                --//warp them out
-
-                --for (int ii = team.Players.Count - 1; ii >= 0; ii--)
-                --{
-                --    GameManager.Instance.BattleSE("DUN_Send_Home");
-                --    SingleEmitter emitter = new SingleEmitter(new BeamAnimData("Column_Yellow", 3));
-                --    emitter.Layer = DrawLayer.Front;
-                --    emitter.SetupEmit(team.Players[ii].MapLoc, team.Players[ii].MapLoc, team.Players[ii].CharDir);
-                --    CreateAnim(emitter, DrawLayer.NoDraw);
-                --    yield return CoroutineManager.Instance.StartCoroutine(team.Players[ii].DieSilent());
-                --    yield return new WaitForFrames(20);
-                --}
-                --RemoveDeadTeams();
-  end
-  
-  local rescue_idx = 39
-  local rescue_status = RogueEssence.Dungeon.MapStatus(rescue_idx)
-  rescue_status:LoadFromData()
-  TASK:WaitTask(_DUNGEON:AddMapStatus(rescue_status))
+  --Dummied out
 end
 
 function COMMON.EndRescue(zone, result, rescue, segmentID)
-  COMMON.EndDayCycle()
-  local zoneId = 1
-  local structureId = -1
-  local mapId = 12
-  local entryId = 1
-  GAME:EndDungeonRun(result, zoneId, structureId, mapId, entryId, true, true)
-  SV.General.Rescue = result
-  GAME:EnterZone(zoneId, structureId, mapId, entryId)
+  --Dummied out
 end
 
 function COMMON.BeginDungeon(zoneId, segmentID, mapId)
-  COMMON.EnterDungeonMissionCheck(zoneId, segmentID)
+  --COMMON.EnterDungeonMissionCheck(zoneId, segmentID)
 end
 
-function COMMON.EnterDungeonMissionCheck(zoneId, segmentID)
-  for name, mission in pairs(SV.test_grounds.Missions) do
-    PrintInfo("Checking Mission: "..tostring(name))
-	if mission.Complete == 0 and zoneId == mission.DestZone and segmentID == mission.DestSegment then
-	  if mission.Type == 1 then -- escort
-		
-		-- add escort to team
-		local mon_id = RogueEssence.Dungeon.MonsterID(mission.EscortSpecies, 0, 0, Gender.Male)
-        local new_mob = _DATA.Save.ActiveTeam:CreatePlayer(_DATA.Save.Rand, mon_id, 50, -1, -1)
-        _DATA.Save.ActiveTeam.Guests:Add(new_mob)
-		
-		-- place in a legal position on map
-		local dest = _ZONE.CurrentMap:GetClosestTileForChar(new_mob, _DATA.Save.ActiveTeam.Leader.CharLoc)
-        local endLoc = _DATA.Save.ActiveTeam.Leader.CharLoc
-		if dest.HasValue then
-		  endLoc = dest
-		end
-        new_mob.CharLoc = endLoc
-		
-		local talk_evt = RogueEssence.Dungeon.BattleScriptEvent("EscortInteract")
-        new_mob.ActionEvents:Add(talk_evt)
-		
-		local tbl = LTBL(new_mob)
-		tbl.Escort = name
-	    
-        UI:ResetSpeaker()
-        UI:WaitShowDialogue("Added ".. new_mob.Name .." to the party as a guest.")
-	  end
-	end
-  end
-end
-
-
-function COMMON.ExitDungeonMissionCheck(zoneId, segmentID)
-  for name, mission in pairs(SV.test_grounds.Missions) do
-    PrintInfo("Checking Mission: "..tostring(name))
-	if mission.Complete == 0 and zoneId == mission.DestZone and segmentID == mission.DestSegment then
-	  if mission.Type == 1 then -- escort
-	    -- remove the escort from the party
-		local escort = COMMON.FindMissionEscort(name)
-		if escort then
-		  _DUNGEON:RemoveChar(escort)
-		end
-	  end
-	end
-  end
-end
-
-
-
-function COMMON.FindMissionEscort(missionId)
-  local escort = nil
-  PrintInfo("Name: "..missionId)
-  local party = GAME:GetPlayerGuestTable()
-  for i, p in ipairs(party) do
-    local e_tbl = LTBL(p)
-	PrintInfo("Escort: "..e_tbl.Escort)
-	if e_tbl.Escort == missionId then
-	  escort = p
-	  break
-	end
-  end
-  return escort
-end
 
 function COMMON.EndDungeonDay(result, zoneId, structureId, mapId, entryId)
   COMMON.EndDayCycle()
@@ -1271,58 +877,4 @@ function COMMON.EndDayCycle()
   
   SV.base_shop = { }
   
-  math.randomseed(GAME:GetDailySeed())
-  --roll a random index from 1 to length of category
-  --add the item in that index category to the shop
-  --2 essentials, always
-  local type_count = 2
-	for ii = 1, type_count, 1 do
-		local base_data = COMMON.ESSENTIALS[math.random(1, #COMMON.ESSENTIALS)]
-		table.insert(SV.base_shop, base_data)
-	end
-  
-  --1-2 ammo, always
-  type_count = math.random(1, 2)
-	for ii = 1, type_count, 1 do
-		local base_data = COMMON.AMMO[math.random(1, #COMMON.AMMO)]
-		table.insert(SV.base_shop, base_data)
-	end
-  
-  --2-3 utilities, always
-  type_count = math.random(3, 4)
-	for ii = 1, type_count, 1 do
-		local base_data = COMMON.UTILITIES[math.random(1, #COMMON.UTILITIES)]
-		table.insert(SV.base_shop, base_data)
-	end
-  
-  --1-2 orbs, always
-  type_count = math.random(1, 2)
-	for ii = 1, type_count, 1 do
-		local base_data = COMMON.ORBS[math.random(1, #COMMON.ORBS)]
-		table.insert(SV.base_shop, base_data)
-	end
-  
-  --1-2 special item, always
-  type_count = 1
-	for ii = 1, type_count, 1 do
-		local base_data = COMMON.SPECIAL[math.random(1, #COMMON.SPECIAL)]
-		table.insert(SV.base_shop, base_data)
-	end
-  
-  
-  local catalog = {}
-  
-  for ii = 1, #COMMON_GEN.TRADES_RANDOM, 1 do
-	local base_data = COMMON_GEN.TRADES_RANDOM[ii]
-	table.insert(catalog, base_data)
-  end
-
-  SV.base_trades = { }
-  type_count = 5
-	for ii = 1, type_count, 1 do
-		local idx = math.random(1, #catalog)
-		local base_data = catalog[idx]
-		table.insert(SV.base_trades, base_data)
-		table.remove(catalog, idx)
-	end
 end

@@ -61,10 +61,10 @@ end
 
 function crystal_entrance.Cutscene()
 
-  GAME:UnlockDungeon(3)
+  GAME:UnlockDungeon("mystery_cave")
   SV.checkpoint = 
   {
-    Zone    = 1, Segment  = -1,
+    Zone    = "guildmaster_island", Segment  = -1,
     Map  = 3, Entry  = 0
   }
   
@@ -75,8 +75,8 @@ function crystal_entrance.Cutscene()
   local partner = CH('Partner')
   
   SOUND:PlayBattleSE("EVT_Emote_Exclaim_2")
-  GROUND:CharSetEmote(partner, 3, 1)
-  GROUND:CharSetEmote(player, 3, 1)
+  GROUND:CharSetEmote(partner, "exclaim", 1)
+  GROUND:CharSetEmote(player, "exclaim", 1)
   
   UI:SetSpeaker(player)
   UI:WaitShowDialogue("Wha?")
@@ -160,7 +160,7 @@ end
 
 function crystal_entrance.Exit_Touch(obj, activator)
   DEBUG.EnableDbgCoro() --Enable debugging this coroutine
-  local dungeon_entrances = { 3 }
+  local dungeon_entrances = { "mystery_cave" }
   local ground_entrances = { }
   COMMON.ShowDestinationMenu(dungeon_entrances,ground_entrances)
 end

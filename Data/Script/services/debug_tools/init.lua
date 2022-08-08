@@ -69,14 +69,14 @@ function DebugTools:OnNewGame()
     _DATA.Save.ActiveTeam.Money = 1000
     _DATA.Save.ActiveTeam.Bank = 1000000
   
-    local mon_id = RogueEssence.Dungeon.MonsterID(235, 0, 0, Gender.Male)
-    local player = _DATA.Save.ActiveTeam:CreatePlayer(_DATA.Save.Rand, mon_id, 26, -1, 0)
+    local mon_id = RogueEssence.Dungeon.MonsterID("smeargle", 0, "normal", Gender.Male)
+    local player = _DATA.Save.ActiveTeam:CreatePlayer(_DATA.Save.Rand, mon_id, 30, "", 0)
     player.Nickname = "Lumiere"
     local talk_evt = RogueEssence.Dungeon.BattleScriptEvent("AllyInteract")
     player.ActionEvents:Add(talk_evt)
     _DATA.Save.ActiveTeam.Players:Add(player)
-    mon_id = RogueEssence.Dungeon.MonsterID(132, 0, 0, Gender.Genderless)
-    player = _DATA.Save.ActiveTeam:CreatePlayer(_DATA.Save.Rand, mon_id, 28, -1, 0)
+    mon_id = RogueEssence.Dungeon.MonsterID("ditto", 0, "normal", Gender.Genderless)
+    player = _DATA.Save.ActiveTeam:CreatePlayer(_DATA.Save.Rand, mon_id, 30, "", 0)
     player.Nickname = "Melanie"
     talk_evt = RogueEssence.Dungeon.BattleScriptEvent("AllyInteract")
     player.ActionEvents:Add(talk_evt)

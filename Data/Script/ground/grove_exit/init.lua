@@ -58,21 +58,21 @@ function grove_exit.Cutscene()
   
   starter = CH("PLAYER")
   if starter.Data.BaseForm.Species == 132 then
-	local mon_id = RogueEssence.Dungeon.MonsterID(235, 0, 0, Gender.Male)
-	local player = _DATA.Save.ActiveTeam:CreatePlayer(_DATA.Save.Rand, mon_id, 30, -1, 0)
+	local mon_id = RogueEssence.Dungeon.MonsterID("smeargle", 0, "normal", Gender.Male)
+	local player = _DATA.Save.ActiveTeam:CreatePlayer(_DATA.Save.Rand, mon_id, 30, "", 0)
 	player.Nickname = "Lumiere"
     local talk_evt = RogueEssence.Dungeon.BattleScriptEvent("AllyInteract")
     player.ActionEvents:Add(talk_evt)
 	_DATA.Save.ActiveTeam.Players:Add(player)
-	_DATA.Save:RegisterMonster(235)
+	_DATA.Save:RegisterMonster("smeargle")
   else
-	local mon_id = RogueEssence.Dungeon.MonsterID(132, 0, 0, Gender.Genderless)
-	local player = _DATA.Save.ActiveTeam:CreatePlayer(_DATA.Save.Rand, mon_id, 30, -1, 0)
+	local mon_id = RogueEssence.Dungeon.MonsterID("ditto", 0, "normal", Gender.Genderless)
+	local player = _DATA.Save.ActiveTeam:CreatePlayer(_DATA.Save.Rand, mon_id, 30, "", 0)
 	player.Nickname = "Melanie"
     local talk_evt = RogueEssence.Dungeon.BattleScriptEvent("AllyInteract")
     player.ActionEvents:Add(talk_evt)
 	_DATA.Save.ActiveTeam.Players:Add(player)
-	_DATA.Save:RegisterMonster(132)
+	_DATA.Save:RegisterMonster("ditto")
   end
   
   COMMON.RespawnPartner(false)
@@ -95,7 +95,7 @@ function grove_exit.Cutscene()
   GROUND:CharAnimateTurnTo(partner, Direction.Down, turnTime)
   
   SOUND:PlayBattleSE("EVT_Emote_Exclaim_2")
-  GROUND:CharSetEmote(partner, 3, 1)
+  GROUND:CharSetEmote(partner, "exclaim", 1)
   
   if player.Data.BaseForm.Species == 132 then
   
@@ -152,19 +152,19 @@ function grove_exit.Cutscene()
 	
     GROUND:CharAnimateTurnTo(partner, Direction.Up, 3)
     GROUND:CharAnimateTurnTo(partner, Direction.Down, 3)
-	partner.Data.BaseForm = RogueEssence.Dungeon.MonsterID(393, 0, 1, Gender.Male)
+	partner.Data.BaseForm = RogueEssence.Dungeon.MonsterID("piplup", 0, "melanie", Gender.Male)
     GAME:WaitFrames(20);
     UI:SetSpeaker(partner)
     UI:WaitShowDialogue("The Piplup were small,")
     GROUND:CharAnimateTurnTo(partner, Direction.Up, 3)
     GROUND:CharAnimateTurnTo(partner, Direction.Down, 3)
-	partner.Data.BaseForm = RogueEssence.Dungeon.MonsterID(152, 0, 1, Gender.Male)
+	partner.Data.BaseForm = RogueEssence.Dungeon.MonsterID("chikorita", 0, "melanie", Gender.Male)
     GAME:WaitFrames(20);
     UI:SetSpeaker(partner)
     UI:WaitShowDialogue("The Chikorita stood on four legs,")
     GROUND:CharAnimateTurnTo(partner, Direction.Up, 3)
     GROUND:CharAnimateTurnTo(partner, Direction.Down, 3)
-	partner.Data.BaseForm = RogueEssence.Dungeon.MonsterID(427, 0, 1, Gender.Male)
+	partner.Data.BaseForm = RogueEssence.Dungeon.MonsterID("buneary", 0, "melanie", Gender.Male)
     GAME:WaitFrames(20);
     UI:SetSpeaker(partner)
     UI:WaitShowDialogue("And the Buneary didn't want to talk to me at all![pause=0] That never happens!")

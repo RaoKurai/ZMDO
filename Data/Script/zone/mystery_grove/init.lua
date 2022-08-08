@@ -34,9 +34,9 @@ function mystery_grove.ExitSegment(zone, result, rescue, segmentID, mapID)
   else
     if segmentID == 0 then
 	  if SV.complete == true then
-        COMMON.EndDungeonDay(result, 1, -1, 7, 0)
+        COMMON.EndDungeonDay(result, "guildmaster_island", -1, 7, 0)
 	  else
-        COMMON.EndDungeonDay(result, 1, -1, 2, 0)
+        COMMON.EndDungeonDay(result, "guildmaster_island", -1, 2, 0)
 	  end
     else
       PrintInfo("No exit procedure found!")

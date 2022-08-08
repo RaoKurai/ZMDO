@@ -60,10 +60,10 @@ end
 
 function mystery_entrance.Cutscene()
 
-  GAME:UnlockDungeon(4)
+  GAME:UnlockDungeon("mystery_dungeon")
   SV.checkpoint = 
   {
-    Zone    = 1, Segment  = -1,
+    Zone    = "guildmaster_island", Segment  = -1,
     Map  = 5, Entry  = 0
   }
   
@@ -89,8 +89,8 @@ function mystery_entrance.Cutscene()
   
   
   SOUND:PlayBattleSE("EVT_Emote_Exclaim_2")
-  GROUND:CharSetEmote(partner, 3, 1)
-  GROUND:CharSetEmote(player, 3, 1)
+  GROUND:CharSetEmote(partner, "exclaim", 1)
+  GROUND:CharSetEmote(player, "exclaim", 1)
   
   
   UI:SetSpeaker(player)
@@ -121,7 +121,7 @@ function mystery_entrance.Cutscene()
   UI:WaitShowDialogue("Wow,[pause=30] that'd be amazing!")
   GAME:WaitFrames(30)
   SOUND:PlayBattleSE("EVT_Emote_Sweatdrop")
-  GROUND:CharSetEmote(partner, 9, 1)
+  GROUND:CharSetEmote(partner, "sweatdrop", 1)
   GAME:WaitFrames(60)
   UI:WaitShowDialogue("If that's true, this is a once-in-a-lifetime event![pause=0] Let's keep going!")
   GAME:CutsceneMode(false)
@@ -159,7 +159,7 @@ end
 
 function mystery_entrance.Exit_Touch(obj, activator)
   DEBUG.EnableDbgCoro() --Enable debugging this coroutine
-  local dungeon_entrances = { 4 }
+  local dungeon_entrances = { "mystery_dungeon" }
   local ground_entrances = { }
   COMMON.ShowDestinationMenu(dungeon_entrances,ground_entrances)
 end
@@ -178,7 +178,7 @@ function mystery_entrance.Partner_Action(chara, activator)
   if chara.Data.BaseForm.Species == 132 then
     UI:WaitShowDialogue("Don't be afraid, Lumiere![pause=0] If anything scary comes our way,[pause=30] I'll fend it off...")
 	local origForm = chara.Data.BaseForm
-	chara.Data.BaseForm = RogueEssence.Dungeon.MonsterID(248, 0, 1, Gender.Male)
+	chara.Data.BaseForm = RogueEssence.Dungeon.MonsterID("tyranitar", 0, "melanie", Gender.Male)
 	UI:SetSpeaker(chara)
     SOUND:PlayBattleSE("EVT_Roar")
     UI:WaitShowDialogue("By transforming into something TEN times scarier!")
@@ -186,10 +186,10 @@ function mystery_entrance.Partner_Action(chara, activator)
 	chara.Data.BaseForm = origForm
     GAME:WaitFrames(30)
     SOUND:PlayBattleSE("EVT_Emote_Sweatdrop")
-    GROUND:CharSetEmote(player, 9, 1)
+    GROUND:CharSetEmote(player, "sweatdrop", 1)
   else
     SOUND:PlayBattleSE("EVT_Emote_Sweating")
-    GROUND:CharSetEmote(chara, 5, 1)
+    GROUND:CharSetEmote(chara, "sweating", 1)
     UI:WaitShowDialogue("It's...[pause=0] a little scary.")
     UI:WaitShowDialogue("Hold me...[pause=30] will you?")
   end
