@@ -2,16 +2,16 @@
 <root>
 <StartChars>
   <StartChar>
-	<Species>132</Species>
+	<Species>ditto</Species>
 	<Form>0</Form>
-	<Skin>0</Skin>
+	<Skin>normal</Skin>
 	<Gender>Genderless</Gender>
 	<Name>Melanie</Name>
   </StartChar>
   <StartChar>
-	<Species>235</Species>
+	<Species>smeargle</Species>
 	<Form>0</Form>
-	<Skin>0</Skin>
+	<Skin>normal</Skin>
 	<Gender>Male</Gender>
 	<Name>Lumiere</Name>
   </StartChar>
@@ -165,10 +165,23 @@
 <StartLevel>30</StartLevel>
 <MaxLevel>100</MaxLevel>
 <StartPersonality>5</StartPersonality>
+<DefaultZone>debug</DefaultZone>
+<DefaultRank>none</DefaultRank>
+<DefaultSkin>normal</DefaultSkin>
+<DefaultAI>stick_together</DefaultAI>
+<DefaultTile>none</DefaultTile>
+<DefaultElement>none</DefaultElement>
+<DefaultMapStatus>clear</DefaultMapStatus>
+<DefaultIntrinsic>none</DefaultIntrinsic>
+<DefaultSkill>attack</DefaultSkill>
+<DefaultMonster>missingno</DefaultMonster>
 <StartMap>
-  <Zone>1</Zone>
+  <Zone>guildmaster_island</Zone>
   <Segment>-1</Segment>
   <ID>1</ID>
   <Entry>0</Entry>
 </StartMap>
+<GenFloor>floor</GenFloor>
+<GenWall>wall</GenWall>
+<GenUnbreakable>unbreakable</GenUnbreakable>
 </root>
