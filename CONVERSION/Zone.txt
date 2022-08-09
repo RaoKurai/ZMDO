@@ -1,4 +1,0 @@
-1	guildmaster_island
-2	mystery_grove
-3	mystery_cave
-4	mystery_dungeon

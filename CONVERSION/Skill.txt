@@ -1,2 +1,0 @@
-0	attack
-711	prismatic_laser
