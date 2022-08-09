@@ -72,7 +72,7 @@ function SINGLE_CHAR_SCRIPT.UpdatePolymorph(owner, ownerChar, character, args)
     return
   end
   
-  if character.BaseForm.Species == 132 then -- ditto
+  if character.BaseForm.Species == "ditto" then -- ditto
     local monId = SV.charvars.MelanieForms[SV.charvars.MelanieIdx]
 	character:Transform(RogueEssence.Dungeon.MonsterID(monId.Species, monId.Form, monId.Skin, RogueEssence.Data.Gender.Genderless))
   end
@@ -84,7 +84,7 @@ function SINGLE_CHAR_SCRIPT.UpdateTransform(owner, ownerChar, character, args)
     return
   end
   
-  if character.BaseForm.Species == 235 then -- smeargle
+  if character.BaseForm.Species == "smeargle" then -- smeargle
     if SV.charvars.LumiereForm ~= nil then
 		character:Transform(RogueEssence.Dungeon.MonsterID(SV.charvars.LumiereForm.Species, SV.charvars.LumiereForm.Form, SV.charvars.LumiereForm.Skin, RogueEssence.Data.Gender.Male))
     end
@@ -112,21 +112,21 @@ end
 
 
 function BATTLE_SCRIPT.AllyPutty(owner, ownerChar, context, args)
-	if context.User.BaseForm.Species == 132 and context.Target.BaseForm.Species == 235 then -- melanie to lumiere
+	if context.User.BaseForm.Species == "ditto" and context.Target.BaseForm.Species == "smeargle" then -- melanie to lumiere
 		local id = context.Data.ID
 
 		local newData = RogueEssence.Data.BattleData()
-		newData.Element = 13
+		newData.Element = "none"
 		newData.Category = RogueEssence.Data.BattleData.SkillCategory.Status
 		newData.HitRate = -1
 		newData.OnHits:Add(0, RogueEssence.Dungeon.BattleScriptEvent("GiveMorph"))
 		context.Data = newData
 		context.Data.ID = id
-	elseif context.Target.BaseForm.Species == 132 and context.User.BaseForm.Species == 235 then -- lumiere to melanie
+	elseif context.Target.BaseForm.Species == "ditto" and context.User.BaseForm.Species == "smeargle" then -- lumiere to melanie
 		local id = context.Data.ID
 
 		local newData = RogueEssence.Data.BattleData()
-		newData.Element = 13
+		newData.Element = "none"
 		newData.Category = RogueEssence.Data.BattleData.SkillCategory.Status
 		newData.HitRate = -1
 		newData.OnHits:Add(0, RogueEssence.Dungeon.BattleScriptEvent("SplitGuest"))
@@ -138,7 +138,7 @@ end
 IDType = luanet.import_type('PMDC.Dungeon.IDState')
 
 function BATTLE_SCRIPT.GainSketch(owner, ownerChar, context, args)
-	if context.User.BaseForm.Species == 235 then -- smeargle
+	if context.User.BaseForm.Species == "smeargle" then -- smeargle
 		-- take the move last used by the target, create an Art from it
 		local testStatus = context.Target:GetStatusEffect("last_used_move") -- last used move
 		if testStatus ~= nil then
@@ -173,9 +173,9 @@ end
 
 	
 function BATTLE_SCRIPT.GainPolymorph(owner, ownerChar, context, args)
-	if context.User.BaseForm.Species == 132 then -- ditto
+	if context.User.BaseForm.Species == "ditto" then -- ditto
 		-- take the baseform of the target, create or add a status effect that keeps track of that form
-		local form = { Species=context.Target.BaseForm.Species, Form=context.Target.BaseForm.Form, Skin=1 }
+		local form = { Species=context.Target.BaseForm.Species, Form=context.Target.BaseForm.Form, Skin="melanie" }
 		--if form.Species == SV.charvars.MelanieForms[SV.charvars.MelanieIdx].Species then
 		--	return
 		--end
@@ -185,7 +185,7 @@ function BATTLE_SCRIPT.GainPolymorph(owner, ownerChar, context, args)
 				break
 			end
 		end
-		if form.Species == 172 then
+		if form.Species == "pichu" then
 			form.Form = 1
 		end
 		table.insert(SV.charvars.MelanieForms, form)
@@ -224,10 +224,10 @@ function BATTLE_SCRIPT.GainPolymorph(owner, ownerChar, context, args)
 		if unlock ~= RogueEssence.Data.GameProgress.UnlockState.Completed then
 			
 			local totalDex = _DATA.Save:GetTotalMonsterUnlock(RogueEssence.Data.GameProgress.UnlockState.Completed)
-			if _DATA.Save:GetMonsterUnlock(132) == RogueEssence.Data.GameProgress.UnlockState.Completed then
+			if _DATA.Save:GetMonsterUnlock("ditto") == RogueEssence.Data.GameProgress.UnlockState.Completed then
 				totalDex = totalDex - 1
 			end
-			if _DATA.Save:GetMonsterUnlock(235) == RogueEssence.Data.GameProgress.UnlockState.Completed then
+			if _DATA.Save:GetMonsterUnlock("smeargle") == RogueEssence.Data.GameProgress.UnlockState.Completed then
 				totalDex = totalDex - 1
 			end
 			
@@ -249,7 +249,7 @@ function BATTLE_SCRIPT.GainPolymorph(owner, ownerChar, context, args)
 				SOUND:PlayBattleSE("EVT_Evolution_Start")
 				GAME:FadeOut(true, 20)
 
-				local newId = { Species=132, Form=1, Skin=0}
+				local newId = { Species="ditto", Form=1, Skin="normal"}
 				SV.charvars.MelanieForms[1] = newId
 				SV.charvars.MelanieIdx = 1
 				context.User:Promote(RogueEssence.Dungeon.MonsterID(newId.Species, newId.Form, newId.Skin, RogueEssence.Data.Gender.Genderless))
@@ -275,7 +275,7 @@ end
 AttackHitTotalType = luanet.import_type('PMDC.Dungeon.AttackHitTotal')
 
 function BATTLE_SCRIPT.PolymorphMiss(owner, ownerChar, context, args)
-	if context.User.BaseForm.Species == 132 then -- ditto
+	if context.User.BaseForm.Species == "ditto" then -- ditto
 		-- only on normal attack
 		local total = 0
 		local state = context.GlobalContextStates:GetWithDefault(luanet.ctype(AttackHitTotalType))
@@ -336,7 +336,7 @@ function BATTLE_SCRIPT.GiveMorph(owner, ownerChar, context, args)
 	table.remove(SV.charvars.MelanieForms, SV.charvars.MelanieIdx)
 	SV.charvars.MelanieIdx = (SV.charvars.MelanieIdx - 1) % #SV.charvars.MelanieForms + 1
 
-	monId.Skin = 0
+	monId.Skin = "normal"
 
 	local morphStatus = RogueEssence.Dungeon.StatusEffect("transform")
 	morphStatus:LoadFromData()
@@ -367,7 +367,7 @@ function BATTLE_SCRIPT.SplitGuest(owner, ownerChar, context, args)
 		_DUNGEON:LogMsg(STRINGS:Format("{0} isn't transformed!", context.Target:GetDisplayName(false)))
 		return
 	end
-	if context.User.BaseSkills[1].SkillNum == -1 then
+	if context.User.BaseSkills[1].SkillNum == "" then
 		_DUNGEON:LogMsg(STRINGS:Format("{0} doesn't have enough moves!", context.User:GetDisplayName(false)))
 		return
 	end
@@ -384,10 +384,10 @@ function BATTLE_SCRIPT.SplitGuest(owner, ownerChar, context, args)
 	-- create new mon
 
 	local monId = SV.charvars.MelanieForms[SV.charvars.MelanieIdx]
-	if monId.Species == 172 then
+	if monId.Species == "pichu" then
 		monId.Form = 0
 	end
-	monId.Skin = 0
+	monId.Skin = "normal"
 	local skill = context.User.BaseSkills[0].SkillNum
 
 	local names = { "me", "la", "nie", "mel", "lan", "ie", "lu", "mi", "ere", "lum" }
@@ -471,7 +471,7 @@ MoveLearnContextType = luanet.import_type('PMDC.Dungeon.MoveLearnContext')
 function BATTLE_SCRIPT.SwapUlt(owner, ownerChar, context, args)
 	local learnContext = context.ContextStates:GetWithDefault(luanet.ctype(MoveLearnContextType))
 	if learnContext ~= nil then
-		if context.User.BaseForm.Species == 235 and learnContext.MoveLearn == 148 and SV.charvars.LumiereMoves >= 20 then
+		if context.User.BaseForm.Species == "smeargle" and learnContext.MoveLearn == 148 and SV.charvars.LumiereMoves >= 20 then
 			learnContext.MoveLearn = 711
 		end
 	end
@@ -480,7 +480,7 @@ end
 
 function BATTLE_SCRIPT.UltLearn(owner, ownerChar, context, args)
 
-	if context.User.BaseForm.Species == 235 then
+	if context.User.BaseForm.Species == "smeargle" then
 		local relearnable = 0
 		for ii = 0, context.User.Relearnables.Count - 1, 1 do
 			if context.User.Relearnables[ii] then

@@ -12,19 +12,6 @@
 "Comment": "",
 "SortOrder": 0
 },
-"last_used_move": {
-"Name": {
-"DefaultText": "Last Used Move",
-"LocalTexts": {
-"fr": "Dernière capacité utilisée",
-"de": "Zuletzt verwendete Attacke",
-"es": "Último Movimiento Usado"
-}
-},
-"Released": true,
-"Comment": "",
-"SortOrder": 0
-},
 "no_regen": {
 "Name": {
 "DefaultText": "No Regen",

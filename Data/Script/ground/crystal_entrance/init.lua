@@ -91,7 +91,7 @@ function crystal_entrance.Cutscene()
   
   GAME:WaitFrames(30)
   
-  if player.Data.BaseForm.Species == 132 then
+  if player.Data.BaseForm.Species == "ditto" then
     UI:SetSpeaker(player)
     UI:WaitShowDialogue("This is so unreal...[pause=0] You didn't draw this with your Mystery Paint, did you?")
     UI:SetSpeaker(partner)
@@ -174,7 +174,7 @@ end
 function crystal_entrance.Partner_Action(chara, activator)
   DEBUG.EnableDbgCoro() --Enable debugging this coroutine
   UI:SetSpeaker(chara)
-  if chara.Data.BaseForm.Species == 132 then
+  if chara.Data.BaseForm.Species == "ditto" then
     UI:WaitShowDialogue("So mysterious![pause=0] I wonder if we'll find more weird Pe'kemon here.")
   else
     UI:WaitShowDialogue("This place is actually quite pretty...[pause=30] I should draw it some time.")

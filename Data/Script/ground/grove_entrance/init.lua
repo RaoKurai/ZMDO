@@ -67,7 +67,7 @@ function grove_entrance.Cutscene()
   
   GAME:WaitFrames(60)
   
-  if starter.Data.BaseForm.Species == 132 then
+  if starter.Data.BaseForm.Species == "ditto" then
     UI:WaitShowDialogue("Yawwwwn...")
   GAME:WaitFrames(30)
     GAME:FadeIn(60)

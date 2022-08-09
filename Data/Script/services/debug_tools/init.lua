@@ -56,15 +56,15 @@ function DebugTools:OnNewGame()
   if _DATA.Save.ActiveTeam.Players.Count > 0 then
     local talk_evt = RogueEssence.Dungeon.BattleScriptEvent("AllyInteract")
     _DATA.Save.ActiveTeam.Players[0].ActionEvents:Add(talk_evt)
-	_DATA.Save.ActiveTeam:SetRank(1);
+	_DATA.Save.ActiveTeam:SetRank("normal")
     _DATA.Save.ActiveTeam.Name = "";
     _DATA.Save.ActiveTeam.Bank = 1000
-	if _DATA.Save.ActiveTeam.Leader.BaseForm.Species == 132 then
+	if _DATA.Save.ActiveTeam.Leader.BaseForm.Species == "ditto" then
 	  SV.charvars.StartMelanie = true
 	end
   else
     PrintInfo("\n<!> ExampleSvc: Preparing debug save file")
-    _DATA.Save.ActiveTeam:SetRank(1)
+    _DATA.Save.ActiveTeam:SetRank("normal")
     _DATA.Save.ActiveTeam.Name = "Debug"
     _DATA.Save.ActiveTeam.Money = 1000
     _DATA.Save.ActiveTeam.Bank = 1000000

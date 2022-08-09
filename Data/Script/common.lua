@@ -443,7 +443,7 @@ function COMMON.DungeonInteract(chara, target, action_cancel, turn_cancel)
   local action_res = RogueEssence.Dungeon.ActionResult()
   if COMMON.CanTalk(target) then
     local tbl = target.LuaDataTable
-	if target.BaseForm.Species == 132 then
+	if target.BaseForm.Species == "ditto" then
 		DUNGEON:CharTurnToChar(target, chara)
 		
 		local mon = _DATA:GetMonster(chara.CurrentForm.Species)
@@ -456,53 +456,53 @@ function COMMON.DungeonInteract(chara, target, action_cancel, turn_cancel)
 		"Got any sketches to show me?"
 		}
 		
-		if target.CurrentForm.Species == 133 then
+		if target.CurrentForm.Species == "eevee" then
 			table.insert(phrases, "I wonder what I'll evolve into...?[pause=0] Jolteon?[pause=20] Flareon?[pause=20] Lumineon?[pause=20] Empoleon?")
-		elseif target.CurrentForm.Species == 393 then
+		elseif target.CurrentForm.Species == "piplup" then
 			table.insert(phrases, "Ah, how nostalgic...")
-		elseif target.CurrentForm.Species == 172 then
+		elseif target.CurrentForm.Species == "pichu" then
 			table.insert(phrases, "Surprise![pause=0] A blast from the past!")
-		elseif target.CurrentForm.Species == 176 then
+		elseif target.CurrentForm.Species == "togetic" then
 			table.insert(phrases, "Let me spread joy to you!")
-		elseif target.CurrentForm.Species == 179 then
+		elseif target.CurrentForm.Species == "mareep" then
 			table.insert(phrases, "There's someone in Pe'Kemon city that looks like this![pause=0] Except...[pause=30] airier.")
-		elseif target.CurrentForm.Species == 417 then
+		elseif target.CurrentForm.Species == "pachirisu" then
 			table.insert(phrases, "Wanna cuddle?[pause=0] My nuzzles are extra tingly!")
-		elseif target.CurrentForm.Species == 311 and chara.CurrentForm.Species == 312 then
+		elseif target.CurrentForm.Species == "plusle" and chara.CurrentForm.Species == "minun" then
 			table.insert(phrases, "Hey look, we match now!")
-		elseif target.CurrentForm.Species == 312 and chara.CurrentForm.Species == 311 then
+		elseif target.CurrentForm.Species == "minun" and chara.CurrentForm.Species == "plusle" then
 			table.insert(phrases, "Hey look, we match now!")
-		elseif target.CurrentForm.Species == 427 then
+		elseif target.CurrentForm.Species == "buneary" then
 			table.insert(phrases, "I may be a Buneary for this moment, but I will always be YOUR bun!")
-		elseif target.CurrentForm.Species == 134 then
+		elseif target.CurrentForm.Species == "vaporeon" then
 			table.insert(phrases, "Now that I'm a Vaporeon, I can liquefy myself![pause=30] Wait...")
-		elseif target.CurrentForm.Species == 135 then
+		elseif target.CurrentForm.Species == "jolteon" then
 			table.insert(phrases, "Wow, I feel twitchy!")
-		elseif target.CurrentForm.Species == 136 then
+		elseif target.CurrentForm.Species == "flareon" then
 			table.insert(phrases, "This form sure is stuffy.[pause=0] My mane traps all the heat!")
-		elseif target.CurrentForm.Species == 196 then
+		elseif target.CurrentForm.Species == "espeon" then
 			table.insert(phrases, "You lyke thys form, ya?")
-		elseif target.CurrentForm.Species == 197 then
+		elseif target.CurrentForm.Species == "umbreon" then
 			table.insert(phrases, "I'll be your glowbun this time!")
-		elseif target.CurrentForm.Species == 700 then
+		elseif target.CurrentForm.Species == "sylveon" then
 			table.insert(phrases, "Join your hand with my feeler,[pause=0] and we'll join our hearts~")
-		elseif target.CurrentForm.Species == 137 then
+		elseif target.CurrentForm.Species == "porygon" then
 			table.insert(phrases, "Beep boop.[pause=0] Today's a good day to code.")
-		elseif target.CurrentForm.Species == 292 then
+		elseif target.CurrentForm.Species == "shedinja" then
 			table.insert(phrases, "I will be your (Wonder) Guard.")
-		elseif target.CurrentForm.Species == 6 then
+		elseif target.CurrentForm.Species == "charizard" then
 			table.insert(phrases, "Rawr![pause=30] Imma dragon*!")
-		elseif target.CurrentForm.Species == 330 then
+		elseif target.CurrentForm.Species == "flygon" then
 			table.insert(phrases, "Ah, how I love this form...")
-		elseif target.CurrentForm.Species == 334 then
+		elseif target.CurrentForm.Species == "altaria" then
 			table.insert(phrases, "I feel soft, light as a cloud!")
-		elseif target.CurrentForm.Species == 248 then
+		elseif target.CurrentForm.Species == "tyranitar" then
 			table.insert(phrases, "No one's gonna mess with us now!")
-		elseif target.CurrentForm.Species == 425 then
+		elseif target.CurrentForm.Species == "drifloon" then
 			table.insert(phrases, "...FLOON!")
-		elseif target.CurrentForm.Species == 448 then
+		elseif target.CurrentForm.Species == "lucario" then
 			table.insert(phrases, "I'm sensing Pokémon everywhere!")
-		elseif target.CurrentForm.Species == 149 then
+		elseif target.CurrentForm.Species == "dragonite" then
 			table.insert(phrases, "This big dragon is friendly!")
 		end
 		
@@ -516,7 +516,7 @@ function COMMON.DungeonInteract(chara, target, action_cancel, turn_cancel)
 		    table.insert(phrases, "I can transform into any wild Pokémon![pause=0] Just let me topple them with a regular attack!")
 		end
 		
-		if _DATA.Save.ActiveTeam.Players[0].BaseForm.Species == 132 then
+		if _DATA.Save.ActiveTeam.Players[0].BaseForm.Species == "ditto" then
 		  table.insert(phrases, "Press [1] if you want me to take the lead!")
 		else
 		  table.insert(phrases, "Press [2] if you want me to take the lead!")
@@ -544,7 +544,7 @@ function COMMON.DungeonInteract(chara, target, action_cancel, turn_cancel)
 			action_res.Success = RogueEssence.Dungeon.ActionResult.ResultType.Success
 			TASK:WaitTask(_DUNGEON:ProcessUseSkill(chara, -1, action_res))
 		end
-	elseif target.BaseForm.Species == 235 then
+	elseif target.BaseForm.Species == "smeargle" then
 		DUNGEON:CharTurnToChar(target, chara)
 		
 		local mon = _DATA:GetMonster(chara.CurrentForm.Species)
@@ -556,49 +556,49 @@ function COMMON.DungeonInteract(chara, target, action_cancel, turn_cancel)
 		"I wonder what it's like to be a "..mon.Name:ToLocal().."..."
 		}
 		
-		if target.CurrentForm.Species == 393 then
+		if target.CurrentForm.Species == "piplup" then
 			table.insert(phrases, "Waddle waddle~")
-		elseif target.CurrentForm.Species == 172 then
+		elseif target.CurrentForm.Species == "pichu" then
 			table.insert(phrases, "Ah, how nostalgic...")
-		elseif target.CurrentForm.Species == 176 then
+		elseif target.CurrentForm.Species == "togetic" then
 			table.insert(phrases, "Let me spread joy to you!")
-		elseif target.CurrentForm.Species == 179 then
+		elseif target.CurrentForm.Species == "mareep" then
 			table.insert(phrases, "If you ever need to rest,[pause=0] just lay down on my soft fluffy wool.")
-		elseif target.CurrentForm.Species == 417 then
+		elseif target.CurrentForm.Species == "pachirisu" then
 			table.insert(phrases, "Anychu and everychu is your friend!")
-		elseif target.CurrentForm.Species == 311 and chara.CurrentForm.Species == 312then
+		elseif target.CurrentForm.Species == "plusle" and chara.CurrentForm.Species == "minun" then
 			table.insert(phrases, "Now aren't we just a perfect pair of chus?")
-		elseif target.CurrentForm.Species == 312 and chara.CurrentForm.Species == 311 then
+		elseif target.CurrentForm.Species == "minun" and chara.CurrentForm.Species == "plusle" then
 			table.insert(phrases, "Now aren't we just a perfect pair of chus?")
-		elseif target.CurrentForm.Species == 427 then
+		elseif target.CurrentForm.Species == "buneary" then
 			table.insert(phrases, "I may be a Buneary for this moment, but I will always be YOUR bun!")
-		elseif target.CurrentForm.Species == 135 then
+		elseif target.CurrentForm.Species == "jolteon" then
 			table.insert(phrases, "Wow, I feel twitchy!")
-		elseif target.CurrentForm.Species == 136 then
+		elseif target.CurrentForm.Species == "flareon" then
 			table.insert(phrases, "This form sure is stuffy.[pause=0] My mane traps all the heat!")
-		elseif target.CurrentForm.Species == 196 then
+		elseif target.CurrentForm.Species == "espeon" then
 			table.insert(phrases, "You lyke thys form, ya?")
-		elseif target.CurrentForm.Species == 197 then
+		elseif target.CurrentForm.Species == "umbreon" then
 			table.insert(phrases, "I'll light the way!")
-		elseif target.CurrentForm.Species == 700 then
+		elseif target.CurrentForm.Species == "sylveon" then
 			table.insert(phrases, "Join your hand with my feeler,[pause=0] and we'll join our hearts~")
-		elseif target.CurrentForm.Species == 137 then
+		elseif target.CurrentForm.Species == "porygon" then
 			table.insert(phrases, "Beep boop.[pause=0] Today's a good day to code.")
-		elseif target.CurrentForm.Species == 292 then
+		elseif target.CurrentForm.Species == "shedinja" then
 			table.insert(phrases, "I will be your (Wonder) Guard.")
-		elseif target.CurrentForm.Species == 6 then
+		elseif target.CurrentForm.Species == "charizard" then
 			table.insert(phrases, "Rawr![pause=30] Imma dragon*!")
-		elseif target.CurrentForm.Species == 330 then
+		elseif target.CurrentForm.Species == "flygon" then
 			table.insert(phrases, "Ah, how I love this form...")
-		elseif target.CurrentForm.Species == 334 then
+		elseif target.CurrentForm.Species == "altaria" then
 			table.insert(phrases, "I feel soft, light as a cloud!")
-		elseif target.CurrentForm.Species == 248 then
+		elseif target.CurrentForm.Species == "tyranitar" then
 			table.insert(phrases, "No one's gonna mess with us now!")
-		elseif target.CurrentForm.Species == 425 then
+		elseif target.CurrentForm.Species == "drifloon" then
 			table.insert(phrases, "...FLOON!")
-		elseif target.CurrentForm.Species == 448 then
+		elseif target.CurrentForm.Species == "lucario" then
 			table.insert(phrases, "I'm sensing Pokémon everywhere!")
-		elseif target.CurrentForm.Species == 149 then
+		elseif target.CurrentForm.Species == "dragonite" then
 			table.insert(phrases, "Whoa, I can give even bigger hugs now!")
 		end
 		
@@ -612,7 +612,7 @@ function COMMON.DungeonInteract(chara, target, action_cancel, turn_cancel)
 		    table.insert(phrases, "If I defeat a Pokémon with a regular attack, I can sketch its last used move.")
 		end
 		
-		if _DATA.Save.ActiveTeam.Players[0].BaseForm.Species == 235 then
+		if _DATA.Save.ActiveTeam.Players[0].BaseForm.Species == "smeargle" then
 		  table.insert(phrases, "Press [1] if you want me to take the lead!")
 		else
 		  table.insert(phrases, "Press [2] if you want me to take the lead!")
@@ -644,9 +644,9 @@ function COMMON.DungeonInteract(chara, target, action_cancel, turn_cancel)
 		local skillNum = target.BaseSkills[0].SkillNum
 		local move = RogueEssence.Data.DataManager.Instance:GetSkill(skillNum)
 		UI:SetSpeaker(target)
-		if chara.BaseForm.Species == 132 then
+		if chara.BaseForm.Species == "ditto" then
 			UI:WaitShowDialogue("I have your form, and Lumiere's "..move:GetIconName().."!")
-		elseif chara.BaseForm.Species == 235 then
+		elseif chara.BaseForm.Species == "smeargle" then
 			UI:WaitShowDialogue("I have Melanie's form, and your "..move:GetIconName().."!")
 		end
 		
@@ -692,7 +692,7 @@ function COMMON.DungeonInteract(chara, target, action_cancel, turn_cancel)
 		  if string.find(chosen_quote, "%[move%]") then
 			local moves = {}
 			for move_idx = 0, 3 do
-			  if target.BaseSkills[move_idx].SkillNum > 0 then
+			  if target.BaseSkills[move_idx].SkillNum ~= "" then
 				table.insert(moves, target.BaseSkills[move_idx].SkillNum)
 			  end
 			end

@@ -71,7 +71,7 @@ function mystery_entrance.Cutscene()
   local partner = CH('Partner')
   
   local swap = false
-  if player.Data.BaseForm.Species == 132 then
+  if player.Data.BaseForm.Species == "ditto" then
   
     player = CH('PLAYER')
     partner = CH('Partner')
@@ -175,7 +175,7 @@ function mystery_entrance.Partner_Action(chara, activator)
   UI:SetSpeaker(chara)
   local player = CH('PLAYER')
   
-  if chara.Data.BaseForm.Species == 132 then
+  if chara.Data.BaseForm.Species == "ditto" then
     UI:WaitShowDialogue("Don't be afraid, Lumiere![pause=0] If anything scary comes our way,[pause=30] I'll fend it off...")
 	local origForm = chara.Data.BaseForm
 	chara.Data.BaseForm = RogueEssence.Dungeon.MonsterID("tyranitar", 0, "melanie", Gender.Male)

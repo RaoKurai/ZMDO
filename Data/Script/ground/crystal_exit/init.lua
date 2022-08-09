@@ -66,7 +66,7 @@ function crystal_exit.Cutscene()
   
   TASK:JoinCoroutines({coro1})
   
-  if player.Data.BaseForm.Species == 132 then
+  if player.Data.BaseForm.Species == "ditto" then
     UI:SetSpeaker(player)
     UI:WaitShowDialogue("Whew, looks like we're out.[pause=0] Pe'kemon City should be just up ahead.")
     UI:SetSpeaker(partner)

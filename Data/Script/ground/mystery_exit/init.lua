@@ -67,7 +67,7 @@ function mystery_exit.Cutscene()
   TASK:JoinCoroutines({coro1})
   
   
-  if player.Data.BaseForm.Species == 132 then
+  if player.Data.BaseForm.Species == "ditto" then
   
     UI:SetSpeaker(player)
     UI:WaitShowDialogue("We've come a long way down...[pause=0] or is it up?")

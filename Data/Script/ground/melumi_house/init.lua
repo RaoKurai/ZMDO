@@ -41,10 +41,10 @@ function melumi_house.Enter(map)
   
 
 	local totalDex = _DATA.Save:GetTotalMonsterUnlock(RogueEssence.Data.GameProgress.UnlockState.Completed)
-	if _DATA.Save:GetMonsterUnlock(132) == RogueEssence.Data.GameProgress.UnlockState.Completed then
+	if _DATA.Save:GetMonsterUnlock("ditto") == RogueEssence.Data.GameProgress.UnlockState.Completed then
 		totalDex = totalDex - 1
 	end
-	if _DATA.Save:GetMonsterUnlock(235) == RogueEssence.Data.GameProgress.UnlockState.Completed then
+	if _DATA.Save:GetMonsterUnlock("smeargle") == RogueEssence.Data.GameProgress.UnlockState.Completed then
 		totalDex = totalDex - 1
 	end
 	
@@ -99,7 +99,7 @@ function melumi_house.Partner_Action(chara, activator)
   DEBUG.EnableDbgCoro() --Enable debugging this coroutine
   UI:SetSpeaker(chara)
   local phrases = { }
-  if chara.Data.BaseForm.Species == 132 then
+  if chara.Data.BaseForm.Species == "ditto" then
     table.insert(phrases, "If you ever want to visit the Mystery Dungeons again, we can go together!")
     table.insert(phrases, "I wonder what Kazure is up to...[pause=0] It's gotta be something big.")
     table.insert(phrases, "There's going to be a special festival this year.[pause=0] The hundredth anniversary!")

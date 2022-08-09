@@ -57,7 +57,7 @@ function grove_exit.Cutscene()
   GAME:CutsceneMode(true)
   
   starter = CH("PLAYER")
-  if starter.Data.BaseForm.Species == 132 then
+  if starter.Data.BaseForm.Species == "ditto" then
 	local mon_id = RogueEssence.Dungeon.MonsterID("smeargle", 0, "normal", Gender.Male)
 	local player = _DATA.Save.ActiveTeam:CreatePlayer(_DATA.Save.Rand, mon_id, 30, "", 0)
 	player.Nickname = "Lumiere"
@@ -97,7 +97,7 @@ function grove_exit.Cutscene()
   SOUND:PlayBattleSE("EVT_Emote_Exclaim_2")
   GROUND:CharSetEmote(partner, "exclaim", 1)
   
-  if player.Data.BaseForm.Species == 132 then
+  if player.Data.BaseForm.Species == "ditto" then
   
     local coro2 = TASK:BranchCoroutine(function() grove_exit.Concurrent_Sequence() end)
   
@@ -246,7 +246,7 @@ function grove_exit.FinalCutscene()
   
   GAME:WaitFrames(30);
   
-  if player.Data.BaseForm.Species == 132 then
+  if player.Data.BaseForm.Species == "ditto" then
     GROUND:CharAnimateTurnTo(partner, Direction.Left, 4)
   
     UI:SetSpeaker(partner)
