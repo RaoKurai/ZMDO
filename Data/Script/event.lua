@@ -144,7 +144,7 @@ function BATTLE_SCRIPT.GainSketch(owner, ownerChar, context, args)
 		if testStatus ~= nil then
 			local state = testStatus.StatusStates:Get(luanet.ctype(IDType))
 			local move = state.ID
-			local item = RogueEssence.Dungeon.InvItem(move .. "_art")
+			local item = RogueEssence.Dungeon.InvItem("sketch_" .. move)
 			local team = context.User.MemberTeam
 
 			local entry = _DATA:GetSkill(move)

@@ -1,0 +1,3 @@
+130	transform
+131	no_regen
+132	dancing

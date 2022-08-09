@@ -1,0 +1,5143 @@
+﻿{
+"Version": "0.6.0.0",
+"Object": {
+"$type": "RogueEssence.Data.MonsterData, RogueEssence",
+"Name": {
+"DefaultText": "Ditto",
+"LocalTexts": {
+"ja": "メタモン",
+"ko": "메타몽",
+"zh-hant": "百變怪",
+"fr": "Métamorph",
+"de": "Ditto",
+"es": "Ditto",
+"it": "Ditto",
+"ja-jp": "メタモン",
+"zh-hans": "百变怪"
+}
+},
+"Released": true,
+"Comment": "",
+"Title": {
+"DefaultText": "Transform Pokémon",
+"LocalTexts": {
+"ja": "へんしんポケモン",
+"ko": "변신포켓몬",
+"zh-hant": "變身寶可夢",
+"fr": "Pokémon Morphing",
+"de": "Transform",
+"es": "Pokémon Transform.",
+"it": "Pokémon Mutante",
+"ja-jp": "へんしんポケモン",
+"zh-hans": "变身宝可梦"
+}
+},
+"IndexNum": 132,
+"EXPTable": "medium_fast",
+"SkillGroup1": "ditto",
+"SkillGroup2": "undiscovered",
+"JoinRate": -13,
+"PromoteFrom": "",
+"Promotions": [],
+"Forms": [
+{
+"$type": "PMDC.Data.MonsterFormData, PMDC",
+"Released": true,
+"Generation": 6,
+"Ratio": -1,
+"GenderlessWeight": 1,
+"MaleWeight": 0,
+"FemaleWeight": 0,
+"BaseHP": 50,
+"BaseAtk": 50,
+"BaseDef": 50,
+"BaseMAtk": 50,
+"BaseMDef": 50,
+"BaseSpeed": 50,
+"ExpYield": 101,
+"Height": 0.3,
+"Weight": 4.0,
+"Personalities": [
+0,
+1,
+2,
+3,
+4,
+7,
+8,
+9,
+11,
+13,
+14,
+16,
+30,
+31,
+36
+],
+"TeachSkills": [
+{
+"Skill": "attack"
+},
+{
+"Skill": "pound"
+},
+{
+"Skill": "karate_chop"
+},
+{
+"Skill": "double_slap"
+},
+{
+"Skill": "comet_punch"
+},
+{
+"Skill": "mega_punch"
+},
+{
+"Skill": "pay_day"
+},
+{
+"Skill": "fire_punch"
+},
+{
+"Skill": "ice_punch"
+},
+{
+"Skill": "thunder_punch"
+},
+{
+"Skill": "scratch"
+},
+{
+"Skill": "vice_grip"
+},
+{
+"Skill": "guillotine"
+},
+{
+"Skill": "razor_wind"
+},
+{
+"Skill": "swords_dance"
+},
+{
+"Skill": "cut"
+},
+{
+"Skill": "gust"
+},
+{
+"Skill": "wing_attack"
+},
+{
+"Skill": "whirlwind"
+},
+{
+"Skill": "fly"
+},
+{
+"Skill": "bind"
+},
+{
+"Skill": "slam"
+},
+{
+"Skill": "vine_whip"
+},
+{
+"Skill": "stomp"
+},
+{
+"Skill": "double_kick"
+},
+{
+"Skill": "mega_kick"
+},
+{
+"Skill": "jump_kick"
+},
+{
+"Skill": "rolling_kick"
+},
+{
+"Skill": "sand_attack"
+},
+{
+"Skill": "headbutt"
+},
+{
+"Skill": "horn_attack"
+},
+{
+"Skill": "fury_attack"
+},
+{
+"Skill": "horn_drill"
+},
+{
+"Skill": "tackle"
+},
+{
+"Skill": "body_slam"
+},
+{
+"Skill": "wrap"
+},
+{
+"Skill": "take_down"
+},
+{
+"Skill": "thrash"
+},
+{
+"Skill": "double_edge"
+},
+{
+"Skill": "tail_whip"
+},
+{
+"Skill": "poison_sting"
+},
+{
+"Skill": "twineedle"
+},
+{
+"Skill": "pin_missile"
+},
+{
+"Skill": "leer"
+},
+{
+"Skill": "bite"
+},
+{
+"Skill": "growl"
+},
+{
+"Skill": "roar"
+},
+{
+"Skill": "sing"
+},
+{
+"Skill": "supersonic"
+},
+{
+"Skill": "sonic_boom"
+},
+{
+"Skill": "disable"
+},
+{
+"Skill": "acid"
+},
+{
+"Skill": "ember"
+},
+{
+"Skill": "flamethrower"
+},
+{
+"Skill": "mist"
+},
+{
+"Skill": "water_gun"
+},
+{
+"Skill": "hydro_pump"
+},
+{
+"Skill": "surf"
+},
+{
+"Skill": "ice_beam"
+},
+{
+"Skill": "blizzard"
+},
+{
+"Skill": "psybeam"
+},
+{
+"Skill": "bubble_beam"
+},
+{
+"Skill": "aurora_beam"
+},
+{
+"Skill": "hyper_beam"
+},
+{
+"Skill": "peck"
+},
+{
+"Skill": "drill_peck"
+},
+{
+"Skill": "submission"
+},
+{
+"Skill": "low_kick"
+},
+{
+"Skill": "counter"
+},
+{
+"Skill": "seismic_toss"
+},
+{
+"Skill": "strength"
+},
+{
+"Skill": "absorb"
+},
+{
+"Skill": "mega_drain"
+},
+{
+"Skill": "leech_seed"
+},
+{
+"Skill": "growth"
+},
+{
+"Skill": "razor_leaf"
+},
+{
+"Skill": "solar_beam"
+},
+{
+"Skill": "poison_powder"
+},
+{
+"Skill": "stun_spore"
+},
+{
+"Skill": "sleep_powder"
+},
+{
+"Skill": "petal_dance"
+},
+{
+"Skill": "string_shot"
+},
+{
+"Skill": "dragon_rage"
+},
+{
+"Skill": "fire_spin"
+},
+{
+"Skill": "thunder_shock"
+},
+{
+"Skill": "thunderbolt"
+},
+{
+"Skill": "thunder_wave"
+},
+{
+"Skill": "thunder"
+},
+{
+"Skill": "rock_throw"
+},
+{
+"Skill": "earthquake"
+},
+{
+"Skill": "fissure"
+},
+{
+"Skill": "dig"
+},
+{
+"Skill": "toxic"
+},
+{
+"Skill": "confusion"
+},
+{
+"Skill": "psychic"
+},
+{
+"Skill": "hypnosis"
+},
+{
+"Skill": "meditate"
+},
+{
+"Skill": "agility"
+},
+{
+"Skill": "quick_attack"
+},
+{
+"Skill": "rage"
+},
+{
+"Skill": "teleport"
+},
+{
+"Skill": "night_shade"
+},
+{
+"Skill": "mimic"
+},
+{
+"Skill": "screech"
+},
+{
+"Skill": "double_team"
+},
+{
+"Skill": "recover"
+},
+{
+"Skill": "harden"
+},
+{
+"Skill": "minimize"
+},
+{
+"Skill": "smokescreen"
+},
+{
+"Skill": "confuse_ray"
+},
+{
+"Skill": "withdraw"
+},
+{
+"Skill": "defense_curl"
+},
+{
+"Skill": "barrier"
+},
+{
+"Skill": "light_screen"
+},
+{
+"Skill": "haze"
+},
+{
+"Skill": "reflect"
+},
+{
+"Skill": "focus_energy"
+},
+{
+"Skill": "bide"
+},
+{
+"Skill": "metronome"
+},
+{
+"Skill": "mirror_move"
+},
+{
+"Skill": "self_destruct"
+},
+{
+"Skill": "egg_bomb"
+},
+{
+"Skill": "lick"
+},
+{
+"Skill": "smog"
+},
+{
+"Skill": "sludge"
+},
+{
+"Skill": "bone_club"
+},
+{
+"Skill": "fire_blast"
+},
+{
+"Skill": "waterfall"
+},
+{
+"Skill": "clamp"
+},
+{
+"Skill": "swift"
+},
+{
+"Skill": "skull_bash"
+},
+{
+"Skill": "spike_cannon"
+},
+{
+"Skill": "constrict"
+},
+{
+"Skill": "amnesia"
+},
+{
+"Skill": "kinesis"
+},
+{
+"Skill": "soft_boiled"
+},
+{
+"Skill": "high_jump_kick"
+},
+{
+"Skill": "glare"
+},
+{
+"Skill": "dream_eater"
+},
+{
+"Skill": "poison_gas"
+},
+{
+"Skill": "barrage"
+},
+{
+"Skill": "leech_life"
+},
+{
+"Skill": "lovely_kiss"
+},
+{
+"Skill": "sky_attack"
+},
+{
+"Skill": "transform"
+},
+{
+"Skill": "bubble"
+},
+{
+"Skill": "dizzy_punch"
+},
+{
+"Skill": "spore"
+},
+{
+"Skill": "flash"
+},
+{
+"Skill": "psywave"
+},
+{
+"Skill": "splash"
+},
+{
+"Skill": "acid_armor"
+},
+{
+"Skill": "crabhammer"
+},
+{
+"Skill": "explosion"
+},
+{
+"Skill": "fury_swipes"
+},
+{
+"Skill": "bonemerang"
+},
+{
+"Skill": "rest"
+},
+{
+"Skill": "rock_slide"
+},
+{
+"Skill": "hyper_fang"
+},
+{
+"Skill": "sharpen"
+},
+{
+"Skill": "conversion"
+},
+{
+"Skill": "tri_attack"
+},
+{
+"Skill": "super_fang"
+},
+{
+"Skill": "slash"
+},
+{
+"Skill": "substitute"
+},
+{
+"Skill": "struggle"
+},
+{
+"Skill": "sketch"
+},
+{
+"Skill": "triple_kick"
+},
+{
+"Skill": "thief"
+},
+{
+"Skill": "spider_web"
+},
+{
+"Skill": "mind_reader"
+},
+{
+"Skill": "nightmare"
+},
+{
+"Skill": "flame_wheel"
+},
+{
+"Skill": "snore"
+},
+{
+"Skill": "curse"
+},
+{
+"Skill": "flail"
+},
+{
+"Skill": "conversion_2"
+},
+{
+"Skill": "aeroblast"
+},
+{
+"Skill": "cotton_spore"
+},
+{
+"Skill": "reversal"
+},
+{
+"Skill": "spite"
+},
+{
+"Skill": "powder_snow"
+},
+{
+"Skill": "protect"
+},
+{
+"Skill": "mach_punch"
+},
+{
+"Skill": "scary_face"
+},
+{
+"Skill": "feint_attack"
+},
+{
+"Skill": "sweet_kiss"
+},
+{
+"Skill": "belly_drum"
+},
+{
+"Skill": "sludge_bomb"
+},
+{
+"Skill": "mud_slap"
+},
+{
+"Skill": "octazooka"
+},
+{
+"Skill": "spikes"
+},
+{
+"Skill": "zap_cannon"
+},
+{
+"Skill": "foresight"
+},
+{
+"Skill": "destiny_bond"
+},
+{
+"Skill": "perish_song"
+},
+{
+"Skill": "icy_wind"
+},
+{
+"Skill": "detect"
+},
+{
+"Skill": "bone_rush"
+},
+{
+"Skill": "lock_on"
+},
+{
+"Skill": "outrage"
+},
+{
+"Skill": "sandstorm"
+},
+{
+"Skill": "giga_drain"
+},
+{
+"Skill": "endure"
+},
+{
+"Skill": "charm"
+},
+{
+"Skill": "rollout"
+},
+{
+"Skill": "false_swipe"
+},
+{
+"Skill": "swagger"
+},
+{
+"Skill": "milk_drink"
+},
+{
+"Skill": "spark"
+},
+{
+"Skill": "fury_cutter"
+},
+{
+"Skill": "steel_wing"
+},
+{
+"Skill": "mean_look"
+},
+{
+"Skill": "attract"
+},
+{
+"Skill": "sleep_talk"
+},
+{
+"Skill": "heal_bell"
+},
+{
+"Skill": "return"
+},
+{
+"Skill": "present"
+},
+{
+"Skill": "frustration"
+},
+{
+"Skill": "safeguard"
+},
+{
+"Skill": "pain_split"
+},
+{
+"Skill": "sacred_fire"
+},
+{
+"Skill": "magnitude"
+},
+{
+"Skill": "dynamic_punch"
+},
+{
+"Skill": "megahorn"
+},
+{
+"Skill": "dragon_breath"
+},
+{
+"Skill": "baton_pass"
+},
+{
+"Skill": "encore"
+},
+{
+"Skill": "pursuit"
+},
+{
+"Skill": "rapid_spin"
+},
+{
+"Skill": "sweet_scent"
+},
+{
+"Skill": "iron_tail"
+},
+{
+"Skill": "metal_claw"
+},
+{
+"Skill": "vital_throw"
+},
+{
+"Skill": "morning_sun"
+},
+{
+"Skill": "synthesis"
+},
+{
+"Skill": "moonlight"
+},
+{
+"Skill": "hidden_power"
+},
+{
+"Skill": "cross_chop"
+},
+{
+"Skill": "twister"
+},
+{
+"Skill": "rain_dance"
+},
+{
+"Skill": "sunny_day"
+},
+{
+"Skill": "crunch"
+},
+{
+"Skill": "mirror_coat"
+},
+{
+"Skill": "psych_up"
+},
+{
+"Skill": "extreme_speed"
+},
+{
+"Skill": "ancient_power"
+},
+{
+"Skill": "shadow_ball"
+},
+{
+"Skill": "future_sight"
+},
+{
+"Skill": "rock_smash"
+},
+{
+"Skill": "whirlpool"
+},
+{
+"Skill": "beat_up"
+},
+{
+"Skill": "fake_out"
+},
+{
+"Skill": "uproar"
+},
+{
+"Skill": "stockpile"
+},
+{
+"Skill": "spit_up"
+},
+{
+"Skill": "swallow"
+},
+{
+"Skill": "heat_wave"
+},
+{
+"Skill": "hail"
+},
+{
+"Skill": "torment"
+},
+{
+"Skill": "flatter"
+},
+{
+"Skill": "will_o_wisp"
+},
+{
+"Skill": "memento"
+},
+{
+"Skill": "facade"
+},
+{
+"Skill": "focus_punch"
+},
+{
+"Skill": "smelling_salts"
+},
+{
+"Skill": "follow_me"
+},
+{
+"Skill": "nature_power"
+},
+{
+"Skill": "charge"
+},
+{
+"Skill": "taunt"
+},
+{
+"Skill": "helping_hand"
+},
+{
+"Skill": "trick"
+},
+{
+"Skill": "role_play"
+},
+{
+"Skill": "wish"
+},
+{
+"Skill": "assist"
+},
+{
+"Skill": "ingrain"
+},
+{
+"Skill": "superpower"
+},
+{
+"Skill": "magic_coat"
+},
+{
+"Skill": "recycle"
+},
+{
+"Skill": "revenge"
+},
+{
+"Skill": "brick_break"
+},
+{
+"Skill": "yawn"
+},
+{
+"Skill": "knock_off"
+},
+{
+"Skill": "endeavor"
+},
+{
+"Skill": "eruption"
+},
+{
+"Skill": "skill_swap"
+},
+{
+"Skill": "imprison"
+},
+{
+"Skill": "refresh"
+},
+{
+"Skill": "grudge"
+},
+{
+"Skill": "snatch"
+},
+{
+"Skill": "secret_power"
+},
+{
+"Skill": "dive"
+},
+{
+"Skill": "arm_thrust"
+},
+{
+"Skill": "camouflage"
+},
+{
+"Skill": "tail_glow"
+},
+{
+"Skill": "luster_purge"
+},
+{
+"Skill": "mist_ball"
+},
+{
+"Skill": "feather_dance"
+},
+{
+"Skill": "teeter_dance"
+},
+{
+"Skill": "blaze_kick"
+},
+{
+"Skill": "mud_sport"
+},
+{
+"Skill": "ice_ball"
+},
+{
+"Skill": "needle_arm"
+},
+{
+"Skill": "slack_off"
+},
+{
+"Skill": "hyper_voice"
+},
+{
+"Skill": "poison_fang"
+},
+{
+"Skill": "crush_claw"
+},
+{
+"Skill": "blast_burn"
+},
+{
+"Skill": "hydro_cannon"
+},
+{
+"Skill": "meteor_mash"
+},
+{
+"Skill": "astonish"
+},
+{
+"Skill": "weather_ball"
+},
+{
+"Skill": "aromatherapy"
+},
+{
+"Skill": "fake_tears"
+},
+{
+"Skill": "air_cutter"
+},
+{
+"Skill": "overheat"
+},
+{
+"Skill": "odor_sleuth"
+},
+{
+"Skill": "rock_tomb"
+},
+{
+"Skill": "silver_wind"
+},
+{
+"Skill": "metal_sound"
+},
+{
+"Skill": "grass_whistle"
+},
+{
+"Skill": "tickle"
+},
+{
+"Skill": "cosmic_power"
+},
+{
+"Skill": "water_spout"
+},
+{
+"Skill": "signal_beam"
+},
+{
+"Skill": "shadow_punch"
+},
+{
+"Skill": "extrasensory"
+},
+{
+"Skill": "sky_uppercut"
+},
+{
+"Skill": "sand_tomb"
+},
+{
+"Skill": "sheer_cold"
+},
+{
+"Skill": "muddy_water"
+},
+{
+"Skill": "bullet_seed"
+},
+{
+"Skill": "aerial_ace"
+},
+{
+"Skill": "icicle_spear"
+},
+{
+"Skill": "iron_defense"
+},
+{
+"Skill": "block"
+},
+{
+"Skill": "howl"
+},
+{
+"Skill": "dragon_claw"
+},
+{
+"Skill": "frenzy_plant"
+},
+{
+"Skill": "bulk_up"
+},
+{
+"Skill": "bounce"
+},
+{
+"Skill": "mud_shot"
+},
+{
+"Skill": "poison_tail"
+},
+{
+"Skill": "covet"
+},
+{
+"Skill": "volt_tackle"
+},
+{
+"Skill": "magical_leaf"
+},
+{
+"Skill": "water_sport"
+},
+{
+"Skill": "calm_mind"
+},
+{
+"Skill": "leaf_blade"
+},
+{
+"Skill": "dragon_dance"
+},
+{
+"Skill": "rock_blast"
+},
+{
+"Skill": "shock_wave"
+},
+{
+"Skill": "water_pulse"
+},
+{
+"Skill": "doom_desire"
+},
+{
+"Skill": "psycho_boost"
+},
+{
+"Skill": "roost"
+},
+{
+"Skill": "gravity"
+},
+{
+"Skill": "miracle_eye"
+},
+{
+"Skill": "wake_up_slap"
+},
+{
+"Skill": "hammer_arm"
+},
+{
+"Skill": "gyro_ball"
+},
+{
+"Skill": "healing_wish"
+},
+{
+"Skill": "brine"
+},
+{
+"Skill": "natural_gift"
+},
+{
+"Skill": "feint"
+},
+{
+"Skill": "pluck"
+},
+{
+"Skill": "tailwind"
+},
+{
+"Skill": "acupressure"
+},
+{
+"Skill": "metal_burst"
+},
+{
+"Skill": "u_turn"
+},
+{
+"Skill": "close_combat"
+},
+{
+"Skill": "payback"
+},
+{
+"Skill": "assurance"
+},
+{
+"Skill": "embargo"
+},
+{
+"Skill": "fling"
+},
+{
+"Skill": "psycho_shift"
+},
+{
+"Skill": "trump_card"
+},
+{
+"Skill": "heal_block"
+},
+{
+"Skill": "wring_out"
+},
+{
+"Skill": "power_trick"
+},
+{
+"Skill": "gastro_acid"
+},
+{
+"Skill": "lucky_chant"
+},
+{
+"Skill": "me_first"
+},
+{
+"Skill": "copycat"
+},
+{
+"Skill": "power_swap"
+},
+{
+"Skill": "guard_swap"
+},
+{
+"Skill": "punishment"
+},
+{
+"Skill": "last_resort"
+},
+{
+"Skill": "worry_seed"
+},
+{
+"Skill": "sucker_punch"
+},
+{
+"Skill": "toxic_spikes"
+},
+{
+"Skill": "heart_swap"
+},
+{
+"Skill": "aqua_ring"
+},
+{
+"Skill": "magnet_rise"
+},
+{
+"Skill": "flare_blitz"
+},
+{
+"Skill": "force_palm"
+},
+{
+"Skill": "aura_sphere"
+},
+{
+"Skill": "rock_polish"
+},
+{
+"Skill": "poison_jab"
+},
+{
+"Skill": "dark_pulse"
+},
+{
+"Skill": "night_slash"
+},
+{
+"Skill": "aqua_tail"
+},
+{
+"Skill": "seed_bomb"
+},
+{
+"Skill": "air_slash"
+},
+{
+"Skill": "x_scissor"
+},
+{
+"Skill": "bug_buzz"
+},
+{
+"Skill": "dragon_pulse"
+},
+{
+"Skill": "dragon_rush"
+},
+{
+"Skill": "power_gem"
+},
+{
+"Skill": "drain_punch"
+},
+{
+"Skill": "vacuum_wave"
+},
+{
+"Skill": "focus_blast"
+},
+{
+"Skill": "energy_ball"
+},
+{
+"Skill": "brave_bird"
+},
+{
+"Skill": "earth_power"
+},
+{
+"Skill": "switcheroo"
+},
+{
+"Skill": "giga_impact"
+},
+{
+"Skill": "nasty_plot"
+},
+{
+"Skill": "bullet_punch"
+},
+{
+"Skill": "avalanche"
+},
+{
+"Skill": "ice_shard"
+},
+{
+"Skill": "shadow_claw"
+},
+{
+"Skill": "thunder_fang"
+},
+{
+"Skill": "ice_fang"
+},
+{
+"Skill": "fire_fang"
+},
+{
+"Skill": "shadow_sneak"
+},
+{
+"Skill": "mud_bomb"
+},
+{
+"Skill": "psycho_cut"
+},
+{
+"Skill": "zen_headbutt"
+},
+{
+"Skill": "mirror_shot"
+},
+{
+"Skill": "flash_cannon"
+},
+{
+"Skill": "rock_climb"
+},
+{
+"Skill": "defog"
+},
+{
+"Skill": "trick_room"
+},
+{
+"Skill": "draco_meteor"
+},
+{
+"Skill": "discharge"
+},
+{
+"Skill": "lava_plume"
+},
+{
+"Skill": "leaf_storm"
+},
+{
+"Skill": "power_whip"
+},
+{
+"Skill": "rock_wrecker"
+},
+{
+"Skill": "cross_poison"
+},
+{
+"Skill": "gunk_shot"
+},
+{
+"Skill": "iron_head"
+},
+{
+"Skill": "magnet_bomb"
+},
+{
+"Skill": "stone_edge"
+},
+{
+"Skill": "captivate"
+},
+{
+"Skill": "stealth_rock"
+},
+{
+"Skill": "grass_knot"
+},
+{
+"Skill": "chatter"
+},
+{
+"Skill": "judgment"
+},
+{
+"Skill": "bug_bite"
+},
+{
+"Skill": "charge_beam"
+},
+{
+"Skill": "wood_hammer"
+},
+{
+"Skill": "aqua_jet"
+},
+{
+"Skill": "attack_order"
+},
+{
+"Skill": "defend_order"
+},
+{
+"Skill": "heal_order"
+},
+{
+"Skill": "head_smash"
+},
+{
+"Skill": "double_hit"
+},
+{
+"Skill": "roar_of_time"
+},
+{
+"Skill": "spacial_rend"
+},
+{
+"Skill": "lunar_dance"
+},
+{
+"Skill": "crush_grip"
+},
+{
+"Skill": "magma_storm"
+},
+{
+"Skill": "dark_void"
+},
+{
+"Skill": "seed_flare"
+},
+{
+"Skill": "ominous_wind"
+},
+{
+"Skill": "shadow_force"
+},
+{
+"Skill": "hone_claws"
+},
+{
+"Skill": "wide_guard"
+},
+{
+"Skill": "guard_split"
+},
+{
+"Skill": "power_split"
+},
+{
+"Skill": "wonder_room"
+},
+{
+"Skill": "psyshock"
+},
+{
+"Skill": "venoshock"
+},
+{
+"Skill": "autotomize"
+},
+{
+"Skill": "rage_powder"
+},
+{
+"Skill": "telekinesis"
+},
+{
+"Skill": "magic_room"
+},
+{
+"Skill": "smack_down"
+},
+{
+"Skill": "storm_throw"
+},
+{
+"Skill": "flame_burst"
+},
+{
+"Skill": "sludge_wave"
+},
+{
+"Skill": "quiver_dance"
+},
+{
+"Skill": "heavy_slam"
+},
+{
+"Skill": "synchronoise"
+},
+{
+"Skill": "electro_ball"
+},
+{
+"Skill": "soak"
+},
+{
+"Skill": "flame_charge"
+},
+{
+"Skill": "coil"
+},
+{
+"Skill": "low_sweep"
+},
+{
+"Skill": "acid_spray"
+},
+{
+"Skill": "foul_play"
+},
+{
+"Skill": "simple_beam"
+},
+{
+"Skill": "entrainment"
+},
+{
+"Skill": "after_you"
+},
+{
+"Skill": "round"
+},
+{
+"Skill": "echoed_voice"
+},
+{
+"Skill": "chip_away"
+},
+{
+"Skill": "clear_smog"
+},
+{
+"Skill": "stored_power"
+},
+{
+"Skill": "quick_guard"
+},
+{
+"Skill": "ally_switch"
+},
+{
+"Skill": "scald"
+},
+{
+"Skill": "shell_smash"
+},
+{
+"Skill": "heal_pulse"
+},
+{
+"Skill": "hex"
+},
+{
+"Skill": "sky_drop"
+},
+{
+"Skill": "shift_gear"
+},
+{
+"Skill": "circle_throw"
+},
+{
+"Skill": "incinerate"
+},
+{
+"Skill": "quash"
+},
+{
+"Skill": "acrobatics"
+},
+{
+"Skill": "reflect_type"
+},
+{
+"Skill": "retaliate"
+},
+{
+"Skill": "final_gambit"
+},
+{
+"Skill": "bestow"
+},
+{
+"Skill": "inferno"
+},
+{
+"Skill": "water_pledge"
+},
+{
+"Skill": "fire_pledge"
+},
+{
+"Skill": "grass_pledge"
+},
+{
+"Skill": "volt_switch"
+},
+{
+"Skill": "struggle_bug"
+},
+{
+"Skill": "bulldoze"
+},
+{
+"Skill": "frost_breath"
+},
+{
+"Skill": "dragon_tail"
+},
+{
+"Skill": "work_up"
+},
+{
+"Skill": "electroweb"
+},
+{
+"Skill": "wild_charge"
+},
+{
+"Skill": "drill_run"
+},
+{
+"Skill": "dual_chop"
+},
+{
+"Skill": "heart_stamp"
+},
+{
+"Skill": "horn_leech"
+},
+{
+"Skill": "sacred_sword"
+},
+{
+"Skill": "razor_shell"
+},
+{
+"Skill": "heat_crash"
+},
+{
+"Skill": "leaf_tornado"
+},
+{
+"Skill": "steamroller"
+},
+{
+"Skill": "cotton_guard"
+},
+{
+"Skill": "night_daze"
+},
+{
+"Skill": "psystrike"
+},
+{
+"Skill": "tail_slap"
+},
+{
+"Skill": "hurricane"
+},
+{
+"Skill": "head_charge"
+},
+{
+"Skill": "gear_grind"
+},
+{
+"Skill": "searing_shot"
+},
+{
+"Skill": "techno_blast"
+},
+{
+"Skill": "relic_song"
+},
+{
+"Skill": "secret_sword"
+},
+{
+"Skill": "glaciate"
+},
+{
+"Skill": "bolt_strike"
+},
+{
+"Skill": "blue_flare"
+},
+{
+"Skill": "fiery_dance"
+},
+{
+"Skill": "freeze_shock"
+},
+{
+"Skill": "ice_burn"
+},
+{
+"Skill": "snarl"
+},
+{
+"Skill": "icicle_crash"
+},
+{
+"Skill": "v_create"
+},
+{
+"Skill": "fusion_flare"
+},
+{
+"Skill": "fusion_bolt"
+},
+{
+"Skill": "flying_press"
+},
+{
+"Skill": "mat_block"
+},
+{
+"Skill": "belch"
+},
+{
+"Skill": "rototiller"
+},
+{
+"Skill": "sticky_web"
+},
+{
+"Skill": "fell_stinger"
+},
+{
+"Skill": "phantom_force"
+},
+{
+"Skill": "trick_or_treat"
+},
+{
+"Skill": "noble_roar"
+},
+{
+"Skill": "ion_deluge"
+},
+{
+"Skill": "parabolic_charge"
+},
+{
+"Skill": "forests_curse"
+},
+{
+"Skill": "petal_blizzard"
+},
+{
+"Skill": "freeze_dry"
+},
+{
+"Skill": "disarming_voice"
+},
+{
+"Skill": "parting_shot"
+},
+{
+"Skill": "topsy_turvy"
+},
+{
+"Skill": "draining_kiss"
+},
+{
+"Skill": "crafty_shield"
+},
+{
+"Skill": "flower_shield"
+},
+{
+"Skill": "grassy_terrain"
+},
+{
+"Skill": "misty_terrain"
+},
+{
+"Skill": "electrify"
+},
+{
+"Skill": "play_rough"
+},
+{
+"Skill": "fairy_wind"
+},
+{
+"Skill": "moonblast"
+},
+{
+"Skill": "boomburst"
+},
+{
+"Skill": "fairy_lock"
+},
+{
+"Skill": "kings_shield"
+},
+{
+"Skill": "play_nice"
+},
+{
+"Skill": "confide"
+},
+{
+"Skill": "diamond_storm"
+},
+{
+"Skill": "steam_eruption"
+},
+{
+"Skill": "hyperspace_hole"
+},
+{
+"Skill": "water_shuriken"
+},
+{
+"Skill": "mystical_fire"
+},
+{
+"Skill": "spiky_shield"
+},
+{
+"Skill": "aromatic_mist"
+},
+{
+"Skill": "eerie_impulse"
+},
+{
+"Skill": "venom_drench"
+},
+{
+"Skill": "powder"
+},
+{
+"Skill": "geomancy"
+},
+{
+"Skill": "magnetic_flux"
+},
+{
+"Skill": "happy_hour"
+},
+{
+"Skill": "electric_terrain"
+},
+{
+"Skill": "dazzling_gleam"
+},
+{
+"Skill": "celebrate"
+},
+{
+"Skill": "hold_hands"
+},
+{
+"Skill": "baby_doll_eyes"
+},
+{
+"Skill": "nuzzle"
+},
+{
+"Skill": "hold_back"
+},
+{
+"Skill": "infestation"
+},
+{
+"Skill": "power_up_punch"
+},
+{
+"Skill": "oblivion_wing"
+},
+{
+"Skill": "thousand_arrows"
+},
+{
+"Skill": "thousand_waves"
+},
+{
+"Skill": "lands_wrath"
+},
+{
+"Skill": "light_of_ruin"
+},
+{
+"Skill": "origin_pulse"
+},
+{
+"Skill": "precipice_blades"
+},
+{
+"Skill": "dragon_ascent"
+},
+{
+"Skill": "hyperspace_fury"
+},
+{
+"Skill": "breakneck_blitz"
+},
+{
+"Skill": "623"
+},
+{
+"Skill": "all_out_pummeling"
+},
+{
+"Skill": "625"
+},
+{
+"Skill": "supersonic_skystrike"
+},
+{
+"Skill": "627"
+},
+{
+"Skill": "acid_downpour"
+},
+{
+"Skill": "629"
+},
+{
+"Skill": "tectonic_rage"
+},
+{
+"Skill": "631"
+},
+{
+"Skill": "continental_crush"
+},
+{
+"Skill": "633"
+},
+{
+"Skill": "savage_spin_out"
+},
+{
+"Skill": "635"
+},
+{
+"Skill": "never_ending_nightmare"
+},
+{
+"Skill": "637"
+},
+{
+"Skill": "corkscrew_crash"
+},
+{
+"Skill": "639"
+},
+{
+"Skill": "inferno_overdrive"
+},
+{
+"Skill": "641"
+},
+{
+"Skill": "hydro_vortex"
+},
+{
+"Skill": "643"
+},
+{
+"Skill": "bloom_doom"
+},
+{
+"Skill": "645"
+},
+{
+"Skill": "gigavolt_havoc"
+},
+{
+"Skill": "647"
+},
+{
+"Skill": "shattered_psyche"
+},
+{
+"Skill": "649"
+},
+{
+"Skill": "subzero_slammer"
+},
+{
+"Skill": "651"
+},
+{
+"Skill": "devastating_drake"
+},
+{
+"Skill": "653"
+},
+{
+"Skill": "black_hole_eclipse"
+},
+{
+"Skill": "655"
+},
+{
+"Skill": "twinkle_tackle"
+},
+{
+"Skill": "657"
+},
+{
+"Skill": "catastropika"
+},
+{
+"Skill": "shore_up"
+},
+{
+"Skill": "first_impression"
+},
+{
+"Skill": "baneful_bunker"
+},
+{
+"Skill": "spirit_shackle"
+},
+{
+"Skill": "darkest_lariat"
+},
+{
+"Skill": "sparkling_aria"
+},
+{
+"Skill": "ice_hammer"
+},
+{
+"Skill": "floral_healing"
+},
+{
+"Skill": "high_horsepower"
+},
+{
+"Skill": "strength_sap"
+},
+{
+"Skill": "solar_blade"
+},
+{
+"Skill": "leafage"
+},
+{
+"Skill": "spotlight"
+},
+{
+"Skill": "toxic_thread"
+},
+{
+"Skill": "laser_focus"
+},
+{
+"Skill": "gear_up"
+},
+{
+"Skill": "throat_chop"
+},
+{
+"Skill": "pollen_puff"
+},
+{
+"Skill": "anchor_shot"
+},
+{
+"Skill": "psychic_terrain"
+},
+{
+"Skill": "lunge"
+},
+{
+"Skill": "fire_lash"
+},
+{
+"Skill": "power_trip"
+},
+{
+"Skill": "burn_up"
+},
+{
+"Skill": "speed_swap"
+},
+{
+"Skill": "smart_strike"
+},
+{
+"Skill": "purify"
+},
+{
+"Skill": "revelation_dance"
+},
+{
+"Skill": "core_enforcer"
+},
+{
+"Skill": "trop_kick"
+},
+{
+"Skill": "instruct"
+},
+{
+"Skill": "beak_blast"
+},
+{
+"Skill": "clanging_scales"
+},
+{
+"Skill": "dragon_hammer"
+},
+{
+"Skill": "brutal_swing"
+},
+{
+"Skill": "aurora_veil"
+},
+{
+"Skill": "sinister_arrow_raid"
+},
+{
+"Skill": "malicious_moonsault"
+},
+{
+"Skill": "oceanic_operetta"
+},
+{
+"Skill": "guardian_of_alola"
+},
+{
+"Skill": "soul_stealing_7_star_strike"
+},
+{
+"Skill": "stoked_sparksurfer"
+},
+{
+"Skill": "pulverizing_pancake"
+},
+{
+"Skill": "extreme_evoboost"
+},
+{
+"Skill": "genesis_supernova"
+},
+{
+"Skill": "shell_trap"
+},
+{
+"Skill": "fleur_cannon"
+},
+{
+"Skill": "psychic_fangs"
+},
+{
+"Skill": "stomping_tantrum"
+},
+{
+"Skill": "shadow_bone"
+},
+{
+"Skill": "accelerock"
+},
+{
+"Skill": "liquidation"
+},
+{
+"Skill": "prismatic_laser"
+},
+{
+"Skill": "spectral_thief"
+},
+{
+"Skill": "sunsteel_strike"
+},
+{
+"Skill": "moongeist_beam"
+},
+{
+"Skill": "tearful_look"
+},
+{
+"Skill": "zing_zap"
+},
+{
+"Skill": "natures_madness"
+},
+{
+"Skill": "multi_attack"
+},
+{
+"Skill": "ten_million_volt_thunderbolt"
+},
+{
+"Skill": "mind_blown"
+},
+{
+"Skill": "plasma_fists"
+},
+{
+"Skill": "photon_geyser"
+},
+{
+"Skill": "light_that_burns_the_sky"
+},
+{
+"Skill": "searing_sunraze_smash"
+},
+{
+"Skill": "menacing_moonraze_maelstrom"
+},
+{
+"Skill": "lets_snuggle_forever"
+},
+{
+"Skill": "splintered_stormshards"
+},
+{
+"Skill": "clangorous_soulblaze"
+},
+{
+"Skill": "zippy_zap"
+},
+{
+"Skill": "splishy_splash"
+},
+{
+"Skill": "floaty_fall"
+},
+{
+"Skill": "pika_papow"
+},
+{
+"Skill": "bouncy_bubble"
+},
+{
+"Skill": "buzzy_buzz"
+},
+{
+"Skill": "sizzly_slide"
+},
+{
+"Skill": "glitzy_glow"
+},
+{
+"Skill": "baddy_bad"
+},
+{
+"Skill": "sappy_seed"
+},
+{
+"Skill": "freezy_frost"
+},
+{
+"Skill": "sparkly_swirl"
+},
+{
+"Skill": "veevee_volley"
+},
+{
+"Skill": "double_iron_bash"
+},
+{
+"Skill": "max_guard"
+},
+{
+"Skill": "dynamax_cannon"
+},
+{
+"Skill": "snipe_shot"
+},
+{
+"Skill": "jaw_lock"
+},
+{
+"Skill": "stuff_cheeks"
+},
+{
+"Skill": "no_retreat"
+},
+{
+"Skill": "tar_shot"
+},
+{
+"Skill": "magic_powder"
+},
+{
+"Skill": "dragon_darts"
+},
+{
+"Skill": "teatime"
+},
+{
+"Skill": "octolock"
+},
+{
+"Skill": "bolt_beak"
+},
+{
+"Skill": "fishious_rend"
+},
+{
+"Skill": "court_change"
+},
+{
+"Skill": "max_flare"
+},
+{
+"Skill": "max_flutterby"
+},
+{
+"Skill": "max_lightning"
+},
+{
+"Skill": "max_strike"
+},
+{
+"Skill": "max_knuckle"
+},
+{
+"Skill": "max_phantasm"
+},
+{
+"Skill": "max_hailstorm"
+},
+{
+"Skill": "max_ooze"
+},
+{
+"Skill": "max_geyser"
+},
+{
+"Skill": "max_airstream"
+},
+{
+"Skill": "max_starfall"
+},
+{
+"Skill": "max_wyrmwind"
+},
+{
+"Skill": "max_mindstorm"
+},
+{
+"Skill": "max_rockfall"
+},
+{
+"Skill": "max_quake"
+},
+{
+"Skill": "max_darkness"
+},
+{
+"Skill": "max_overgrowth"
+},
+{
+"Skill": "max_steelspike"
+},
+{
+"Skill": "clangorous_soul"
+},
+{
+"Skill": "body_press"
+},
+{
+"Skill": "decorate"
+},
+{
+"Skill": "drum_beating"
+},
+{
+"Skill": "snap_trap"
+},
+{
+"Skill": "pyro_ball"
+},
+{
+"Skill": "behemoth_blade"
+},
+{
+"Skill": "behemoth_bash"
+},
+{
+"Skill": "aura_wheel"
+},
+{
+"Skill": "breaking_swipe"
+},
+{
+"Skill": "branch_poke"
+},
+{
+"Skill": "overdrive"
+},
+{
+"Skill": "apple_acid"
+},
+{
+"Skill": "grav_apple"
+},
+{
+"Skill": "spirit_break"
+},
+{
+"Skill": "strange_steam"
+},
+{
+"Skill": "life_dew"
+},
+{
+"Skill": "obstruct"
+},
+{
+"Skill": "false_surrender"
+},
+{
+"Skill": "meteor_assault"
+},
+{
+"Skill": "eternabeam"
+},
+{
+"Skill": "steel_beam"
+},
+{
+"Skill": "expanding_force"
+},
+{
+"Skill": "steel_roller"
+},
+{
+"Skill": "scale_shot"
+},
+{
+"Skill": "meteor_beam"
+},
+{
+"Skill": "shell_side_arm"
+},
+{
+"Skill": "misty_explosion"
+},
+{
+"Skill": "grassy_glide"
+},
+{
+"Skill": "rising_voltage"
+},
+{
+"Skill": "terrain_pulse"
+},
+{
+"Skill": "skitter_smack"
+},
+{
+"Skill": "burning_jealousy"
+},
+{
+"Skill": "lash_out"
+},
+{
+"Skill": "poltergeist"
+},
+{
+"Skill": "corrosive_gas"
+},
+{
+"Skill": "coaching"
+},
+{
+"Skill": "flip_turn"
+},
+{
+"Skill": "triple_axel"
+},
+{
+"Skill": "dual_wingbeat"
+},
+{
+"Skill": "scorching_sands"
+},
+{
+"Skill": "jungle_healing"
+},
+{
+"Skill": "wicked_blow"
+},
+{
+"Skill": "surging_strikes"
+},
+{
+"Skill": "thunder_cage"
+},
+{
+"Skill": "dragon_energy"
+},
+{
+"Skill": "freezing_glare"
+},
+{
+"Skill": "fiery_wrath"
+},
+{
+"Skill": "thunderous_kick"
+},
+{
+"Skill": "glacial_lance"
+},
+{
+"Skill": "astral_barrage"
+},
+{
+"Skill": "eerie_spell"
+}
+],
+"SharedSkills": [],
+"SecretSkills": [],
+"FormName": {
+"DefaultText": "Ditto",
+"LocalTexts": {
+"ja": "メタモン",
+"ko": "메타몽",
+"zh-hant": "百變怪",
+"fr": "Métamorph",
+"de": "Ditto",
+"es": "Ditto",
+"it": "Ditto",
+"ja-jp": "メタモン",
+"zh-hans": "百变怪"
+}
+},
+"Temporary": false,
+"Element1": "normal",
+"Element2": "none",
+"Intrinsic1": "regenerator",
+"Intrinsic2": "none",
+"Intrinsic3": "sturdy",
+"LevelSkills": [
+{
+"Level": 1,
+"Skill": "splash"
+},
+{
+"Level": 1,
+"Skill": "acid_armor"
+},
+{
+"Level": 1,
+"Skill": "recover"
+}
+]
+},
+{
+"$type": "PMDC.Data.MonsterFormData, PMDC",
+"Released": true,
+"Generation": 6,
+"Ratio": -1,
+"GenderlessWeight": 1,
+"MaleWeight": 0,
+"FemaleWeight": 0,
+"BaseHP": 100,
+"BaseAtk": 100,
+"BaseDef": 100,
+"BaseMAtk": 100,
+"BaseMDef": 100,
+"BaseSpeed": 100,
+"ExpYield": 101,
+"Height": 0.4,
+"Weight": 4.0,
+"Personalities": [
+0,
+1,
+2,
+3,
+4,
+7,
+8,
+9,
+11,
+13,
+14,
+16,
+30,
+31,
+36
+],
+"TeachSkills": [
+{
+"Skill": "attack"
+},
+{
+"Skill": "pound"
+},
+{
+"Skill": "karate_chop"
+},
+{
+"Skill": "double_slap"
+},
+{
+"Skill": "comet_punch"
+},
+{
+"Skill": "mega_punch"
+},
+{
+"Skill": "pay_day"
+},
+{
+"Skill": "fire_punch"
+},
+{
+"Skill": "ice_punch"
+},
+{
+"Skill": "thunder_punch"
+},
+{
+"Skill": "scratch"
+},
+{
+"Skill": "vice_grip"
+},
+{
+"Skill": "guillotine"
+},
+{
+"Skill": "razor_wind"
+},
+{
+"Skill": "swords_dance"
+},
+{
+"Skill": "cut"
+},
+{
+"Skill": "gust"
+},
+{
+"Skill": "wing_attack"
+},
+{
+"Skill": "whirlwind"
+},
+{
+"Skill": "fly"
+},
+{
+"Skill": "bind"
+},
+{
+"Skill": "slam"
+},
+{
+"Skill": "vine_whip"
+},
+{
+"Skill": "stomp"
+},
+{
+"Skill": "double_kick"
+},
+{
+"Skill": "mega_kick"
+},
+{
+"Skill": "jump_kick"
+},
+{
+"Skill": "rolling_kick"
+},
+{
+"Skill": "sand_attack"
+},
+{
+"Skill": "headbutt"
+},
+{
+"Skill": "horn_attack"
+},
+{
+"Skill": "fury_attack"
+},
+{
+"Skill": "horn_drill"
+},
+{
+"Skill": "tackle"
+},
+{
+"Skill": "body_slam"
+},
+{
+"Skill": "wrap"
+},
+{
+"Skill": "take_down"
+},
+{
+"Skill": "thrash"
+},
+{
+"Skill": "double_edge"
+},
+{
+"Skill": "tail_whip"
+},
+{
+"Skill": "poison_sting"
+},
+{
+"Skill": "twineedle"
+},
+{
+"Skill": "pin_missile"
+},
+{
+"Skill": "leer"
+},
+{
+"Skill": "bite"
+},
+{
+"Skill": "growl"
+},
+{
+"Skill": "roar"
+},
+{
+"Skill": "sing"
+},
+{
+"Skill": "supersonic"
+},
+{
+"Skill": "sonic_boom"
+},
+{
+"Skill": "disable"
+},
+{
+"Skill": "acid"
+},
+{
+"Skill": "ember"
+},
+{
+"Skill": "flamethrower"
+},
+{
+"Skill": "mist"
+},
+{
+"Skill": "water_gun"
+},
+{
+"Skill": "hydro_pump"
+},
+{
+"Skill": "surf"
+},
+{
+"Skill": "ice_beam"
+},
+{
+"Skill": "blizzard"
+},
+{
+"Skill": "psybeam"
+},
+{
+"Skill": "bubble_beam"
+},
+{
+"Skill": "aurora_beam"
+},
+{
+"Skill": "hyper_beam"
+},
+{
+"Skill": "peck"
+},
+{
+"Skill": "drill_peck"
+},
+{
+"Skill": "submission"
+},
+{
+"Skill": "low_kick"
+},
+{
+"Skill": "counter"
+},
+{
+"Skill": "seismic_toss"
+},
+{
+"Skill": "strength"
+},
+{
+"Skill": "absorb"
+},
+{
+"Skill": "mega_drain"
+},
+{
+"Skill": "leech_seed"
+},
+{
+"Skill": "growth"
+},
+{
+"Skill": "razor_leaf"
+},
+{
+"Skill": "solar_beam"
+},
+{
+"Skill": "poison_powder"
+},
+{
+"Skill": "stun_spore"
+},
+{
+"Skill": "sleep_powder"
+},
+{
+"Skill": "petal_dance"
+},
+{
+"Skill": "string_shot"
+},
+{
+"Skill": "dragon_rage"
+},
+{
+"Skill": "fire_spin"
+},
+{
+"Skill": "thunder_shock"
+},
+{
+"Skill": "thunderbolt"
+},
+{
+"Skill": "thunder_wave"
+},
+{
+"Skill": "thunder"
+},
+{
+"Skill": "rock_throw"
+},
+{
+"Skill": "earthquake"
+},
+{
+"Skill": "fissure"
+},
+{
+"Skill": "dig"
+},
+{
+"Skill": "toxic"
+},
+{
+"Skill": "confusion"
+},
+{
+"Skill": "psychic"
+},
+{
+"Skill": "hypnosis"
+},
+{
+"Skill": "meditate"
+},
+{
+"Skill": "agility"
+},
+{
+"Skill": "quick_attack"
+},
+{
+"Skill": "rage"
+},
+{
+"Skill": "teleport"
+},
+{
+"Skill": "night_shade"
+},
+{
+"Skill": "mimic"
+},
+{
+"Skill": "screech"
+},
+{
+"Skill": "double_team"
+},
+{
+"Skill": "recover"
+},
+{
+"Skill": "harden"
+},
+{
+"Skill": "minimize"
+},
+{
+"Skill": "smokescreen"
+},
+{
+"Skill": "confuse_ray"
+},
+{
+"Skill": "withdraw"
+},
+{
+"Skill": "defense_curl"
+},
+{
+"Skill": "barrier"
+},
+{
+"Skill": "light_screen"
+},
+{
+"Skill": "haze"
+},
+{
+"Skill": "reflect"
+},
+{
+"Skill": "focus_energy"
+},
+{
+"Skill": "bide"
+},
+{
+"Skill": "metronome"
+},
+{
+"Skill": "mirror_move"
+},
+{
+"Skill": "self_destruct"
+},
+{
+"Skill": "egg_bomb"
+},
+{
+"Skill": "lick"
+},
+{
+"Skill": "smog"
+},
+{
+"Skill": "sludge"
+},
+{
+"Skill": "bone_club"
+},
+{
+"Skill": "fire_blast"
+},
+{
+"Skill": "waterfall"
+},
+{
+"Skill": "clamp"
+},
+{
+"Skill": "swift"
+},
+{
+"Skill": "skull_bash"
+},
+{
+"Skill": "spike_cannon"
+},
+{
+"Skill": "constrict"
+},
+{
+"Skill": "amnesia"
+},
+{
+"Skill": "kinesis"
+},
+{
+"Skill": "soft_boiled"
+},
+{
+"Skill": "high_jump_kick"
+},
+{
+"Skill": "glare"
+},
+{
+"Skill": "dream_eater"
+},
+{
+"Skill": "poison_gas"
+},
+{
+"Skill": "barrage"
+},
+{
+"Skill": "leech_life"
+},
+{
+"Skill": "lovely_kiss"
+},
+{
+"Skill": "sky_attack"
+},
+{
+"Skill": "transform"
+},
+{
+"Skill": "bubble"
+},
+{
+"Skill": "dizzy_punch"
+},
+{
+"Skill": "spore"
+},
+{
+"Skill": "flash"
+},
+{
+"Skill": "psywave"
+},
+{
+"Skill": "splash"
+},
+{
+"Skill": "acid_armor"
+},
+{
+"Skill": "crabhammer"
+},
+{
+"Skill": "explosion"
+},
+{
+"Skill": "fury_swipes"
+},
+{
+"Skill": "bonemerang"
+},
+{
+"Skill": "rest"
+},
+{
+"Skill": "rock_slide"
+},
+{
+"Skill": "hyper_fang"
+},
+{
+"Skill": "sharpen"
+},
+{
+"Skill": "conversion"
+},
+{
+"Skill": "tri_attack"
+},
+{
+"Skill": "super_fang"
+},
+{
+"Skill": "slash"
+},
+{
+"Skill": "substitute"
+},
+{
+"Skill": "struggle"
+},
+{
+"Skill": "sketch"
+},
+{
+"Skill": "triple_kick"
+},
+{
+"Skill": "thief"
+},
+{
+"Skill": "spider_web"
+},
+{
+"Skill": "mind_reader"
+},
+{
+"Skill": "nightmare"
+},
+{
+"Skill": "flame_wheel"
+},
+{
+"Skill": "snore"
+},
+{
+"Skill": "curse"
+},
+{
+"Skill": "flail"
+},
+{
+"Skill": "conversion_2"
+},
+{
+"Skill": "aeroblast"
+},
+{
+"Skill": "cotton_spore"
+},
+{
+"Skill": "reversal"
+},
+{
+"Skill": "spite"
+},
+{
+"Skill": "powder_snow"
+},
+{
+"Skill": "protect"
+},
+{
+"Skill": "mach_punch"
+},
+{
+"Skill": "scary_face"
+},
+{
+"Skill": "feint_attack"
+},
+{
+"Skill": "sweet_kiss"
+},
+{
+"Skill": "belly_drum"
+},
+{
+"Skill": "sludge_bomb"
+},
+{
+"Skill": "mud_slap"
+},
+{
+"Skill": "octazooka"
+},
+{
+"Skill": "spikes"
+},
+{
+"Skill": "zap_cannon"
+},
+{
+"Skill": "foresight"
+},
+{
+"Skill": "destiny_bond"
+},
+{
+"Skill": "perish_song"
+},
+{
+"Skill": "icy_wind"
+},
+{
+"Skill": "detect"
+},
+{
+"Skill": "bone_rush"
+},
+{
+"Skill": "lock_on"
+},
+{
+"Skill": "outrage"
+},
+{
+"Skill": "sandstorm"
+},
+{
+"Skill": "giga_drain"
+},
+{
+"Skill": "endure"
+},
+{
+"Skill": "charm"
+},
+{
+"Skill": "rollout"
+},
+{
+"Skill": "false_swipe"
+},
+{
+"Skill": "swagger"
+},
+{
+"Skill": "milk_drink"
+},
+{
+"Skill": "spark"
+},
+{
+"Skill": "fury_cutter"
+},
+{
+"Skill": "steel_wing"
+},
+{
+"Skill": "mean_look"
+},
+{
+"Skill": "attract"
+},
+{
+"Skill": "sleep_talk"
+},
+{
+"Skill": "heal_bell"
+},
+{
+"Skill": "return"
+},
+{
+"Skill": "present"
+},
+{
+"Skill": "frustration"
+},
+{
+"Skill": "safeguard"
+},
+{
+"Skill": "pain_split"
+},
+{
+"Skill": "sacred_fire"
+},
+{
+"Skill": "magnitude"
+},
+{
+"Skill": "dynamic_punch"
+},
+{
+"Skill": "megahorn"
+},
+{
+"Skill": "dragon_breath"
+},
+{
+"Skill": "baton_pass"
+},
+{
+"Skill": "encore"
+},
+{
+"Skill": "pursuit"
+},
+{
+"Skill": "rapid_spin"
+},
+{
+"Skill": "sweet_scent"
+},
+{
+"Skill": "iron_tail"
+},
+{
+"Skill": "metal_claw"
+},
+{
+"Skill": "vital_throw"
+},
+{
+"Skill": "morning_sun"
+},
+{
+"Skill": "synthesis"
+},
+{
+"Skill": "moonlight"
+},
+{
+"Skill": "hidden_power"
+},
+{
+"Skill": "cross_chop"
+},
+{
+"Skill": "twister"
+},
+{
+"Skill": "rain_dance"
+},
+{
+"Skill": "sunny_day"
+},
+{
+"Skill": "crunch"
+},
+{
+"Skill": "mirror_coat"
+},
+{
+"Skill": "psych_up"
+},
+{
+"Skill": "extreme_speed"
+},
+{
+"Skill": "ancient_power"
+},
+{
+"Skill": "shadow_ball"
+},
+{
+"Skill": "future_sight"
+},
+{
+"Skill": "rock_smash"
+},
+{
+"Skill": "whirlpool"
+},
+{
+"Skill": "beat_up"
+},
+{
+"Skill": "fake_out"
+},
+{
+"Skill": "uproar"
+},
+{
+"Skill": "stockpile"
+},
+{
+"Skill": "spit_up"
+},
+{
+"Skill": "swallow"
+},
+{
+"Skill": "heat_wave"
+},
+{
+"Skill": "hail"
+},
+{
+"Skill": "torment"
+},
+{
+"Skill": "flatter"
+},
+{
+"Skill": "will_o_wisp"
+},
+{
+"Skill": "memento"
+},
+{
+"Skill": "facade"
+},
+{
+"Skill": "focus_punch"
+},
+{
+"Skill": "smelling_salts"
+},
+{
+"Skill": "follow_me"
+},
+{
+"Skill": "nature_power"
+},
+{
+"Skill": "charge"
+},
+{
+"Skill": "taunt"
+},
+{
+"Skill": "helping_hand"
+},
+{
+"Skill": "trick"
+},
+{
+"Skill": "role_play"
+},
+{
+"Skill": "wish"
+},
+{
+"Skill": "assist"
+},
+{
+"Skill": "ingrain"
+},
+{
+"Skill": "superpower"
+},
+{
+"Skill": "magic_coat"
+},
+{
+"Skill": "recycle"
+},
+{
+"Skill": "revenge"
+},
+{
+"Skill": "brick_break"
+},
+{
+"Skill": "yawn"
+},
+{
+"Skill": "knock_off"
+},
+{
+"Skill": "endeavor"
+},
+{
+"Skill": "eruption"
+},
+{
+"Skill": "skill_swap"
+},
+{
+"Skill": "imprison"
+},
+{
+"Skill": "refresh"
+},
+{
+"Skill": "grudge"
+},
+{
+"Skill": "snatch"
+},
+{
+"Skill": "secret_power"
+},
+{
+"Skill": "dive"
+},
+{
+"Skill": "arm_thrust"
+},
+{
+"Skill": "camouflage"
+},
+{
+"Skill": "tail_glow"
+},
+{
+"Skill": "luster_purge"
+},
+{
+"Skill": "mist_ball"
+},
+{
+"Skill": "feather_dance"
+},
+{
+"Skill": "teeter_dance"
+},
+{
+"Skill": "blaze_kick"
+},
+{
+"Skill": "mud_sport"
+},
+{
+"Skill": "ice_ball"
+},
+{
+"Skill": "needle_arm"
+},
+{
+"Skill": "slack_off"
+},
+{
+"Skill": "hyper_voice"
+},
+{
+"Skill": "poison_fang"
+},
+{
+"Skill": "crush_claw"
+},
+{
+"Skill": "blast_burn"
+},
+{
+"Skill": "hydro_cannon"
+},
+{
+"Skill": "meteor_mash"
+},
+{
+"Skill": "astonish"
+},
+{
+"Skill": "weather_ball"
+},
+{
+"Skill": "aromatherapy"
+},
+{
+"Skill": "fake_tears"
+},
+{
+"Skill": "air_cutter"
+},
+{
+"Skill": "overheat"
+},
+{
+"Skill": "odor_sleuth"
+},
+{
+"Skill": "rock_tomb"
+},
+{
+"Skill": "silver_wind"
+},
+{
+"Skill": "metal_sound"
+},
+{
+"Skill": "grass_whistle"
+},
+{
+"Skill": "tickle"
+},
+{
+"Skill": "cosmic_power"
+},
+{
+"Skill": "water_spout"
+},
+{
+"Skill": "signal_beam"
+},
+{
+"Skill": "shadow_punch"
+},
+{
+"Skill": "extrasensory"
+},
+{
+"Skill": "sky_uppercut"
+},
+{
+"Skill": "sand_tomb"
+},
+{
+"Skill": "sheer_cold"
+},
+{
+"Skill": "muddy_water"
+},
+{
+"Skill": "bullet_seed"
+},
+{
+"Skill": "aerial_ace"
+},
+{
+"Skill": "icicle_spear"
+},
+{
+"Skill": "iron_defense"
+},
+{
+"Skill": "block"
+},
+{
+"Skill": "howl"
+},
+{
+"Skill": "dragon_claw"
+},
+{
+"Skill": "frenzy_plant"
+},
+{
+"Skill": "bulk_up"
+},
+{
+"Skill": "bounce"
+},
+{
+"Skill": "mud_shot"
+},
+{
+"Skill": "poison_tail"
+},
+{
+"Skill": "covet"
+},
+{
+"Skill": "volt_tackle"
+},
+{
+"Skill": "magical_leaf"
+},
+{
+"Skill": "water_sport"
+},
+{
+"Skill": "calm_mind"
+},
+{
+"Skill": "leaf_blade"
+},
+{
+"Skill": "dragon_dance"
+},
+{
+"Skill": "rock_blast"
+},
+{
+"Skill": "shock_wave"
+},
+{
+"Skill": "water_pulse"
+},
+{
+"Skill": "doom_desire"
+},
+{
+"Skill": "psycho_boost"
+},
+{
+"Skill": "roost"
+},
+{
+"Skill": "gravity"
+},
+{
+"Skill": "miracle_eye"
+},
+{
+"Skill": "wake_up_slap"
+},
+{
+"Skill": "hammer_arm"
+},
+{
+"Skill": "gyro_ball"
+},
+{
+"Skill": "healing_wish"
+},
+{
+"Skill": "brine"
+},
+{
+"Skill": "natural_gift"
+},
+{
+"Skill": "feint"
+},
+{
+"Skill": "pluck"
+},
+{
+"Skill": "tailwind"
+},
+{
+"Skill": "acupressure"
+},
+{
+"Skill": "metal_burst"
+},
+{
+"Skill": "u_turn"
+},
+{
+"Skill": "close_combat"
+},
+{
+"Skill": "payback"
+},
+{
+"Skill": "assurance"
+},
+{
+"Skill": "embargo"
+},
+{
+"Skill": "fling"
+},
+{
+"Skill": "psycho_shift"
+},
+{
+"Skill": "trump_card"
+},
+{
+"Skill": "heal_block"
+},
+{
+"Skill": "wring_out"
+},
+{
+"Skill": "power_trick"
+},
+{
+"Skill": "gastro_acid"
+},
+{
+"Skill": "lucky_chant"
+},
+{
+"Skill": "me_first"
+},
+{
+"Skill": "copycat"
+},
+{
+"Skill": "power_swap"
+},
+{
+"Skill": "guard_swap"
+},
+{
+"Skill": "punishment"
+},
+{
+"Skill": "last_resort"
+},
+{
+"Skill": "worry_seed"
+},
+{
+"Skill": "sucker_punch"
+},
+{
+"Skill": "toxic_spikes"
+},
+{
+"Skill": "heart_swap"
+},
+{
+"Skill": "aqua_ring"
+},
+{
+"Skill": "magnet_rise"
+},
+{
+"Skill": "flare_blitz"
+},
+{
+"Skill": "force_palm"
+},
+{
+"Skill": "aura_sphere"
+},
+{
+"Skill": "rock_polish"
+},
+{
+"Skill": "poison_jab"
+},
+{
+"Skill": "dark_pulse"
+},
+{
+"Skill": "night_slash"
+},
+{
+"Skill": "aqua_tail"
+},
+{
+"Skill": "seed_bomb"
+},
+{
+"Skill": "air_slash"
+},
+{
+"Skill": "x_scissor"
+},
+{
+"Skill": "bug_buzz"
+},
+{
+"Skill": "dragon_pulse"
+},
+{
+"Skill": "dragon_rush"
+},
+{
+"Skill": "power_gem"
+},
+{
+"Skill": "drain_punch"
+},
+{
+"Skill": "vacuum_wave"
+},
+{
+"Skill": "focus_blast"
+},
+{
+"Skill": "energy_ball"
+},
+{
+"Skill": "brave_bird"
+},
+{
+"Skill": "earth_power"
+},
+{
+"Skill": "switcheroo"
+},
+{
+"Skill": "giga_impact"
+},
+{
+"Skill": "nasty_plot"
+},
+{
+"Skill": "bullet_punch"
+},
+{
+"Skill": "avalanche"
+},
+{
+"Skill": "ice_shard"
+},
+{
+"Skill": "shadow_claw"
+},
+{
+"Skill": "thunder_fang"
+},
+{
+"Skill": "ice_fang"
+},
+{
+"Skill": "fire_fang"
+},
+{
+"Skill": "shadow_sneak"
+},
+{
+"Skill": "mud_bomb"
+},
+{
+"Skill": "psycho_cut"
+},
+{
+"Skill": "zen_headbutt"
+},
+{
+"Skill": "mirror_shot"
+},
+{
+"Skill": "flash_cannon"
+},
+{
+"Skill": "rock_climb"
+},
+{
+"Skill": "defog"
+},
+{
+"Skill": "trick_room"
+},
+{
+"Skill": "draco_meteor"
+},
+{
+"Skill": "discharge"
+},
+{
+"Skill": "lava_plume"
+},
+{
+"Skill": "leaf_storm"
+},
+{
+"Skill": "power_whip"
+},
+{
+"Skill": "rock_wrecker"
+},
+{
+"Skill": "cross_poison"
+},
+{
+"Skill": "gunk_shot"
+},
+{
+"Skill": "iron_head"
+},
+{
+"Skill": "magnet_bomb"
+},
+{
+"Skill": "stone_edge"
+},
+{
+"Skill": "captivate"
+},
+{
+"Skill": "stealth_rock"
+},
+{
+"Skill": "grass_knot"
+},
+{
+"Skill": "chatter"
+},
+{
+"Skill": "judgment"
+},
+{
+"Skill": "bug_bite"
+},
+{
+"Skill": "charge_beam"
+},
+{
+"Skill": "wood_hammer"
+},
+{
+"Skill": "aqua_jet"
+},
+{
+"Skill": "attack_order"
+},
+{
+"Skill": "defend_order"
+},
+{
+"Skill": "heal_order"
+},
+{
+"Skill": "head_smash"
+},
+{
+"Skill": "double_hit"
+},
+{
+"Skill": "roar_of_time"
+},
+{
+"Skill": "spacial_rend"
+},
+{
+"Skill": "lunar_dance"
+},
+{
+"Skill": "crush_grip"
+},
+{
+"Skill": "magma_storm"
+},
+{
+"Skill": "dark_void"
+},
+{
+"Skill": "seed_flare"
+},
+{
+"Skill": "ominous_wind"
+},
+{
+"Skill": "shadow_force"
+},
+{
+"Skill": "hone_claws"
+},
+{
+"Skill": "wide_guard"
+},
+{
+"Skill": "guard_split"
+},
+{
+"Skill": "power_split"
+},
+{
+"Skill": "wonder_room"
+},
+{
+"Skill": "psyshock"
+},
+{
+"Skill": "venoshock"
+},
+{
+"Skill": "autotomize"
+},
+{
+"Skill": "rage_powder"
+},
+{
+"Skill": "telekinesis"
+},
+{
+"Skill": "magic_room"
+},
+{
+"Skill": "smack_down"
+},
+{
+"Skill": "storm_throw"
+},
+{
+"Skill": "flame_burst"
+},
+{
+"Skill": "sludge_wave"
+},
+{
+"Skill": "quiver_dance"
+},
+{
+"Skill": "heavy_slam"
+},
+{
+"Skill": "synchronoise"
+},
+{
+"Skill": "electro_ball"
+},
+{
+"Skill": "soak"
+},
+{
+"Skill": "flame_charge"
+},
+{
+"Skill": "coil"
+},
+{
+"Skill": "low_sweep"
+},
+{
+"Skill": "acid_spray"
+},
+{
+"Skill": "foul_play"
+},
+{
+"Skill": "simple_beam"
+},
+{
+"Skill": "entrainment"
+},
+{
+"Skill": "after_you"
+},
+{
+"Skill": "round"
+},
+{
+"Skill": "echoed_voice"
+},
+{
+"Skill": "chip_away"
+},
+{
+"Skill": "clear_smog"
+},
+{
+"Skill": "stored_power"
+},
+{
+"Skill": "quick_guard"
+},
+{
+"Skill": "ally_switch"
+},
+{
+"Skill": "scald"
+},
+{
+"Skill": "shell_smash"
+},
+{
+"Skill": "heal_pulse"
+},
+{
+"Skill": "hex"
+},
+{
+"Skill": "sky_drop"
+},
+{
+"Skill": "shift_gear"
+},
+{
+"Skill": "circle_throw"
+},
+{
+"Skill": "incinerate"
+},
+{
+"Skill": "quash"
+},
+{
+"Skill": "acrobatics"
+},
+{
+"Skill": "reflect_type"
+},
+{
+"Skill": "retaliate"
+},
+{
+"Skill": "final_gambit"
+},
+{
+"Skill": "bestow"
+},
+{
+"Skill": "inferno"
+},
+{
+"Skill": "water_pledge"
+},
+{
+"Skill": "fire_pledge"
+},
+{
+"Skill": "grass_pledge"
+},
+{
+"Skill": "volt_switch"
+},
+{
+"Skill": "struggle_bug"
+},
+{
+"Skill": "bulldoze"
+},
+{
+"Skill": "frost_breath"
+},
+{
+"Skill": "dragon_tail"
+},
+{
+"Skill": "work_up"
+},
+{
+"Skill": "electroweb"
+},
+{
+"Skill": "wild_charge"
+},
+{
+"Skill": "drill_run"
+},
+{
+"Skill": "dual_chop"
+},
+{
+"Skill": "heart_stamp"
+},
+{
+"Skill": "horn_leech"
+},
+{
+"Skill": "sacred_sword"
+},
+{
+"Skill": "razor_shell"
+},
+{
+"Skill": "heat_crash"
+},
+{
+"Skill": "leaf_tornado"
+},
+{
+"Skill": "steamroller"
+},
+{
+"Skill": "cotton_guard"
+},
+{
+"Skill": "night_daze"
+},
+{
+"Skill": "psystrike"
+},
+{
+"Skill": "tail_slap"
+},
+{
+"Skill": "hurricane"
+},
+{
+"Skill": "head_charge"
+},
+{
+"Skill": "gear_grind"
+},
+{
+"Skill": "searing_shot"
+},
+{
+"Skill": "techno_blast"
+},
+{
+"Skill": "relic_song"
+},
+{
+"Skill": "secret_sword"
+},
+{
+"Skill": "glaciate"
+},
+{
+"Skill": "bolt_strike"
+},
+{
+"Skill": "blue_flare"
+},
+{
+"Skill": "fiery_dance"
+},
+{
+"Skill": "freeze_shock"
+},
+{
+"Skill": "ice_burn"
+},
+{
+"Skill": "snarl"
+},
+{
+"Skill": "icicle_crash"
+},
+{
+"Skill": "v_create"
+},
+{
+"Skill": "fusion_flare"
+},
+{
+"Skill": "fusion_bolt"
+},
+{
+"Skill": "flying_press"
+},
+{
+"Skill": "mat_block"
+},
+{
+"Skill": "belch"
+},
+{
+"Skill": "rototiller"
+},
+{
+"Skill": "sticky_web"
+},
+{
+"Skill": "fell_stinger"
+},
+{
+"Skill": "phantom_force"
+},
+{
+"Skill": "trick_or_treat"
+},
+{
+"Skill": "noble_roar"
+},
+{
+"Skill": "ion_deluge"
+},
+{
+"Skill": "parabolic_charge"
+},
+{
+"Skill": "forests_curse"
+},
+{
+"Skill": "petal_blizzard"
+},
+{
+"Skill": "freeze_dry"
+},
+{
+"Skill": "disarming_voice"
+},
+{
+"Skill": "parting_shot"
+},
+{
+"Skill": "topsy_turvy"
+},
+{
+"Skill": "draining_kiss"
+},
+{
+"Skill": "crafty_shield"
+},
+{
+"Skill": "flower_shield"
+},
+{
+"Skill": "grassy_terrain"
+},
+{
+"Skill": "misty_terrain"
+},
+{
+"Skill": "electrify"
+},
+{
+"Skill": "play_rough"
+},
+{
+"Skill": "fairy_wind"
+},
+{
+"Skill": "moonblast"
+},
+{
+"Skill": "boomburst"
+},
+{
+"Skill": "fairy_lock"
+},
+{
+"Skill": "kings_shield"
+},
+{
+"Skill": "play_nice"
+},
+{
+"Skill": "confide"
+},
+{
+"Skill": "diamond_storm"
+},
+{
+"Skill": "steam_eruption"
+},
+{
+"Skill": "hyperspace_hole"
+},
+{
+"Skill": "water_shuriken"
+},
+{
+"Skill": "mystical_fire"
+},
+{
+"Skill": "spiky_shield"
+},
+{
+"Skill": "aromatic_mist"
+},
+{
+"Skill": "eerie_impulse"
+},
+{
+"Skill": "venom_drench"
+},
+{
+"Skill": "powder"
+},
+{
+"Skill": "geomancy"
+},
+{
+"Skill": "magnetic_flux"
+},
+{
+"Skill": "happy_hour"
+},
+{
+"Skill": "electric_terrain"
+},
+{
+"Skill": "dazzling_gleam"
+},
+{
+"Skill": "celebrate"
+},
+{
+"Skill": "hold_hands"
+},
+{
+"Skill": "baby_doll_eyes"
+},
+{
+"Skill": "nuzzle"
+},
+{
+"Skill": "hold_back"
+},
+{
+"Skill": "infestation"
+},
+{
+"Skill": "power_up_punch"
+},
+{
+"Skill": "oblivion_wing"
+},
+{
+"Skill": "thousand_arrows"
+},
+{
+"Skill": "thousand_waves"
+},
+{
+"Skill": "lands_wrath"
+},
+{
+"Skill": "light_of_ruin"
+},
+{
+"Skill": "origin_pulse"
+},
+{
+"Skill": "precipice_blades"
+},
+{
+"Skill": "dragon_ascent"
+},
+{
+"Skill": "hyperspace_fury"
+},
+{
+"Skill": "breakneck_blitz"
+},
+{
+"Skill": "623"
+},
+{
+"Skill": "all_out_pummeling"
+},
+{
+"Skill": "625"
+},
+{
+"Skill": "supersonic_skystrike"
+},
+{
+"Skill": "627"
+},
+{
+"Skill": "acid_downpour"
+},
+{
+"Skill": "629"
+},
+{
+"Skill": "tectonic_rage"
+},
+{
+"Skill": "631"
+},
+{
+"Skill": "continental_crush"
+},
+{
+"Skill": "633"
+},
+{
+"Skill": "savage_spin_out"
+},
+{
+"Skill": "635"
+},
+{
+"Skill": "never_ending_nightmare"
+},
+{
+"Skill": "637"
+},
+{
+"Skill": "corkscrew_crash"
+},
+{
+"Skill": "639"
+},
+{
+"Skill": "inferno_overdrive"
+},
+{
+"Skill": "641"
+},
+{
+"Skill": "hydro_vortex"
+},
+{
+"Skill": "643"
+},
+{
+"Skill": "bloom_doom"
+},
+{
+"Skill": "645"
+},
+{
+"Skill": "gigavolt_havoc"
+},
+{
+"Skill": "647"
+},
+{
+"Skill": "shattered_psyche"
+},
+{
+"Skill": "649"
+},
+{
+"Skill": "subzero_slammer"
+},
+{
+"Skill": "651"
+},
+{
+"Skill": "devastating_drake"
+},
+{
+"Skill": "653"
+},
+{
+"Skill": "black_hole_eclipse"
+},
+{
+"Skill": "655"
+},
+{
+"Skill": "twinkle_tackle"
+},
+{
+"Skill": "657"
+},
+{
+"Skill": "catastropika"
+},
+{
+"Skill": "shore_up"
+},
+{
+"Skill": "first_impression"
+},
+{
+"Skill": "baneful_bunker"
+},
+{
+"Skill": "spirit_shackle"
+},
+{
+"Skill": "darkest_lariat"
+},
+{
+"Skill": "sparkling_aria"
+},
+{
+"Skill": "ice_hammer"
+},
+{
+"Skill": "floral_healing"
+},
+{
+"Skill": "high_horsepower"
+},
+{
+"Skill": "strength_sap"
+},
+{
+"Skill": "solar_blade"
+},
+{
+"Skill": "leafage"
+},
+{
+"Skill": "spotlight"
+},
+{
+"Skill": "toxic_thread"
+},
+{
+"Skill": "laser_focus"
+},
+{
+"Skill": "gear_up"
+},
+{
+"Skill": "throat_chop"
+},
+{
+"Skill": "pollen_puff"
+},
+{
+"Skill": "anchor_shot"
+},
+{
+"Skill": "psychic_terrain"
+},
+{
+"Skill": "lunge"
+},
+{
+"Skill": "fire_lash"
+},
+{
+"Skill": "power_trip"
+},
+{
+"Skill": "burn_up"
+},
+{
+"Skill": "speed_swap"
+},
+{
+"Skill": "smart_strike"
+},
+{
+"Skill": "purify"
+},
+{
+"Skill": "revelation_dance"
+},
+{
+"Skill": "core_enforcer"
+},
+{
+"Skill": "trop_kick"
+},
+{
+"Skill": "instruct"
+},
+{
+"Skill": "beak_blast"
+},
+{
+"Skill": "clanging_scales"
+},
+{
+"Skill": "dragon_hammer"
+},
+{
+"Skill": "brutal_swing"
+},
+{
+"Skill": "aurora_veil"
+},
+{
+"Skill": "sinister_arrow_raid"
+},
+{
+"Skill": "malicious_moonsault"
+},
+{
+"Skill": "oceanic_operetta"
+},
+{
+"Skill": "guardian_of_alola"
+},
+{
+"Skill": "soul_stealing_7_star_strike"
+},
+{
+"Skill": "stoked_sparksurfer"
+},
+{
+"Skill": "pulverizing_pancake"
+},
+{
+"Skill": "extreme_evoboost"
+},
+{
+"Skill": "genesis_supernova"
+},
+{
+"Skill": "shell_trap"
+},
+{
+"Skill": "fleur_cannon"
+},
+{
+"Skill": "psychic_fangs"
+},
+{
+"Skill": "stomping_tantrum"
+},
+{
+"Skill": "shadow_bone"
+},
+{
+"Skill": "accelerock"
+},
+{
+"Skill": "liquidation"
+},
+{
+"Skill": "prismatic_laser"
+},
+{
+"Skill": "spectral_thief"
+},
+{
+"Skill": "sunsteel_strike"
+},
+{
+"Skill": "moongeist_beam"
+},
+{
+"Skill": "tearful_look"
+},
+{
+"Skill": "zing_zap"
+},
+{
+"Skill": "natures_madness"
+},
+{
+"Skill": "multi_attack"
+},
+{
+"Skill": "ten_million_volt_thunderbolt"
+},
+{
+"Skill": "mind_blown"
+},
+{
+"Skill": "plasma_fists"
+},
+{
+"Skill": "photon_geyser"
+},
+{
+"Skill": "light_that_burns_the_sky"
+},
+{
+"Skill": "searing_sunraze_smash"
+},
+{
+"Skill": "menacing_moonraze_maelstrom"
+},
+{
+"Skill": "lets_snuggle_forever"
+},
+{
+"Skill": "splintered_stormshards"
+},
+{
+"Skill": "clangorous_soulblaze"
+},
+{
+"Skill": "zippy_zap"
+},
+{
+"Skill": "splishy_splash"
+},
+{
+"Skill": "floaty_fall"
+},
+{
+"Skill": "pika_papow"
+},
+{
+"Skill": "bouncy_bubble"
+},
+{
+"Skill": "buzzy_buzz"
+},
+{
+"Skill": "sizzly_slide"
+},
+{
+"Skill": "glitzy_glow"
+},
+{
+"Skill": "baddy_bad"
+},
+{
+"Skill": "sappy_seed"
+},
+{
+"Skill": "freezy_frost"
+},
+{
+"Skill": "sparkly_swirl"
+},
+{
+"Skill": "veevee_volley"
+},
+{
+"Skill": "double_iron_bash"
+},
+{
+"Skill": "max_guard"
+},
+{
+"Skill": "dynamax_cannon"
+},
+{
+"Skill": "snipe_shot"
+},
+{
+"Skill": "jaw_lock"
+},
+{
+"Skill": "stuff_cheeks"
+},
+{
+"Skill": "no_retreat"
+},
+{
+"Skill": "tar_shot"
+},
+{
+"Skill": "magic_powder"
+},
+{
+"Skill": "dragon_darts"
+},
+{
+"Skill": "teatime"
+},
+{
+"Skill": "octolock"
+},
+{
+"Skill": "bolt_beak"
+},
+{
+"Skill": "fishious_rend"
+},
+{
+"Skill": "court_change"
+},
+{
+"Skill": "max_flare"
+},
+{
+"Skill": "max_flutterby"
+},
+{
+"Skill": "max_lightning"
+},
+{
+"Skill": "max_strike"
+},
+{
+"Skill": "max_knuckle"
+},
+{
+"Skill": "max_phantasm"
+},
+{
+"Skill": "max_hailstorm"
+},
+{
+"Skill": "max_ooze"
+},
+{
+"Skill": "max_geyser"
+},
+{
+"Skill": "max_airstream"
+},
+{
+"Skill": "max_starfall"
+},
+{
+"Skill": "max_wyrmwind"
+},
+{
+"Skill": "max_mindstorm"
+},
+{
+"Skill": "max_rockfall"
+},
+{
+"Skill": "max_quake"
+},
+{
+"Skill": "max_darkness"
+},
+{
+"Skill": "max_overgrowth"
+},
+{
+"Skill": "max_steelspike"
+},
+{
+"Skill": "clangorous_soul"
+},
+{
+"Skill": "body_press"
+},
+{
+"Skill": "decorate"
+},
+{
+"Skill": "drum_beating"
+},
+{
+"Skill": "snap_trap"
+},
+{
+"Skill": "pyro_ball"
+},
+{
+"Skill": "behemoth_blade"
+},
+{
+"Skill": "behemoth_bash"
+},
+{
+"Skill": "aura_wheel"
+},
+{
+"Skill": "breaking_swipe"
+},
+{
+"Skill": "branch_poke"
+},
+{
+"Skill": "overdrive"
+},
+{
+"Skill": "apple_acid"
+},
+{
+"Skill": "grav_apple"
+},
+{
+"Skill": "spirit_break"
+},
+{
+"Skill": "strange_steam"
+},
+{
+"Skill": "life_dew"
+},
+{
+"Skill": "obstruct"
+},
+{
+"Skill": "false_surrender"
+},
+{
+"Skill": "meteor_assault"
+},
+{
+"Skill": "eternabeam"
+},
+{
+"Skill": "steel_beam"
+},
+{
+"Skill": "expanding_force"
+},
+{
+"Skill": "steel_roller"
+},
+{
+"Skill": "scale_shot"
+},
+{
+"Skill": "meteor_beam"
+},
+{
+"Skill": "shell_side_arm"
+},
+{
+"Skill": "misty_explosion"
+},
+{
+"Skill": "grassy_glide"
+},
+{
+"Skill": "rising_voltage"
+},
+{
+"Skill": "terrain_pulse"
+},
+{
+"Skill": "skitter_smack"
+},
+{
+"Skill": "burning_jealousy"
+},
+{
+"Skill": "lash_out"
+},
+{
+"Skill": "poltergeist"
+},
+{
+"Skill": "corrosive_gas"
+},
+{
+"Skill": "coaching"
+},
+{
+"Skill": "flip_turn"
+},
+{
+"Skill": "triple_axel"
+},
+{
+"Skill": "dual_wingbeat"
+},
+{
+"Skill": "scorching_sands"
+},
+{
+"Skill": "jungle_healing"
+},
+{
+"Skill": "wicked_blow"
+},
+{
+"Skill": "surging_strikes"
+},
+{
+"Skill": "thunder_cage"
+},
+{
+"Skill": "dragon_energy"
+},
+{
+"Skill": "freezing_glare"
+},
+{
+"Skill": "fiery_wrath"
+},
+{
+"Skill": "thunderous_kick"
+},
+{
+"Skill": "glacial_lance"
+},
+{
+"Skill": "astral_barrage"
+},
+{
+"Skill": "eerie_spell"
+}
+],
+"SharedSkills": [],
+"SecretSkills": [],
+"FormName": {
+"DefaultText": "Mewlanie",
+"LocalTexts": {}
+},
+"Temporary": false,
+"Element1": "normal",
+"Element2": "none",
+"Intrinsic1": "protean",
+"Intrinsic2": "none",
+"Intrinsic3": "sturdy",
+"LevelSkills": [
+{
+"Level": 1,
+"Skill": "splash"
+},
+{
+"Level": 1,
+"Skill": "acid_armor"
+},
+{
+"Level": 1,
+"Skill": "recover"
+}
+]
+}
+]
+}
+}
