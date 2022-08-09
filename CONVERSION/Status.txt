@@ -1,3 +1,4 @@
+27	last_used_move
 130	transform
 131	no_regen
 132	dancing

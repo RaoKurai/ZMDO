@@ -22,8 +22,8 @@
 "BagEffect": false,
 "ItemStates": [
 {
-"$type": "RogueEssence.Dungeon.ItemIndexState, RogueEssence",
-"Index": 537
+"$type": "RogueEssence.Dungeon.ItemIDState, RogueEssence",
+"ID": "steamroller"
 }
 ],
 "UseAction": {

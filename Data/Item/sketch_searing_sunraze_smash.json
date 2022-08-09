@@ -22,8 +22,8 @@
 "BagEffect": false,
 "ItemStates": [
 {
-"$type": "RogueEssence.Dungeon.ItemIndexState, RogueEssence",
-"Index": 724
+"$type": "RogueEssence.Dungeon.ItemIDState, RogueEssence",
+"ID": "searing_sunraze_smash"
 }
 ],
 "UseAction": {

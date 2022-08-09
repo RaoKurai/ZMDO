@@ -22,8 +22,8 @@
 "BagEffect": false,
 "ItemStates": [
 {
-"$type": "RogueEssence.Dungeon.ItemIndexState, RogueEssence",
-"Index": 642
+"$type": "RogueEssence.Dungeon.ItemIDState, RogueEssence",
+"ID": "hydro_vortex"
 }
 ],
 "UseAction": {

@@ -472,21 +472,15 @@ function BATTLE_SCRIPT.SwapUlt(owner, ownerChar, context, args)
 	local learnContext = context.ContextStates:GetWithDefault(luanet.ctype(MoveLearnContextType))
 	if learnContext ~= nil then
 		if context.User.BaseForm.Species == "smeargle" and learnContext.MoveLearn == 148 and SV.charvars.LumiereMoves >= 20 then
-			learnContext.MoveLearn = 711
+			learnContext.MoveLearn = "prismatic_laser"
 		end
 	end
 end
 
 
 function BATTLE_SCRIPT.UltLearn(owner, ownerChar, context, args)
-
 	if context.User.BaseForm.Species == "smeargle" then
-		local relearnable = 0
-		for ii = 0, context.User.Relearnables.Count - 1, 1 do
-			if context.User.Relearnables[ii] then
-				relearnable = relearnable + 1
-			end
-		end
+		local relearnable = context.User.Relearnables.Count
 		
 		if SV.charvars.LumiereMoves == relearnable then
 			-- do nothing

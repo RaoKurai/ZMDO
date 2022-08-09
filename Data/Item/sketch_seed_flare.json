@@ -22,8 +22,8 @@
 "BagEffect": false,
 "ItemStates": [
 {
-"$type": "RogueEssence.Dungeon.ItemIndexState, RogueEssence",
-"Index": 465
+"$type": "RogueEssence.Dungeon.ItemIDState, RogueEssence",
+"ID": "seed_flare"
 }
 ],
 "UseAction": {

@@ -22,8 +22,8 @@
 "BagEffect": false,
 "ItemStates": [
 {
-"$type": "RogueEssence.Dungeon.ItemIndexState, RogueEssence",
-"Index": 817
+"$type": "RogueEssence.Dungeon.ItemIDState, RogueEssence",
+"ID": "wicked_blow"
 }
 ],
 "UseAction": {

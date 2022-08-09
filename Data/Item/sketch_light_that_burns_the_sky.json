@@ -22,8 +22,8 @@
 "BagEffect": false,
 "ItemStates": [
 {
-"$type": "RogueEssence.Dungeon.ItemIndexState, RogueEssence",
-"Index": 723
+"$type": "RogueEssence.Dungeon.ItemIDState, RogueEssence",
+"ID": "light_that_burns_the_sky"
 }
 ],
 "UseAction": {

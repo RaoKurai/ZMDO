@@ -22,8 +22,8 @@
 "BagEffect": false,
 "ItemStates": [
 {
-"$type": "RogueEssence.Dungeon.ItemIndexState, RogueEssence",
-"Index": 700
+"$type": "RogueEssence.Dungeon.ItemIDState, RogueEssence",
+"ID": "stoked_sparksurfer"
 }
 ],
 "UseAction": {

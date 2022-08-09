@@ -22,8 +22,8 @@
 "BagEffect": false,
 "ItemStates": [
 {
-"$type": "RogueEssence.Dungeon.ItemIndexState, RogueEssence",
-"Index": 780
+"$type": "RogueEssence.Dungeon.ItemIDState, RogueEssence",
+"ID": "pyro_ball"
 }
 ],
 "UseAction": {

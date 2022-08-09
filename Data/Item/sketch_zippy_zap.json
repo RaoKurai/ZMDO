@@ -22,8 +22,8 @@
 "BagEffect": false,
 "ItemStates": [
 {
-"$type": "RogueEssence.Dungeon.ItemIndexState, RogueEssence",
-"Index": 729
+"$type": "RogueEssence.Dungeon.ItemIDState, RogueEssence",
+"ID": "zippy_zap"
 }
 ],
 "UseAction": {

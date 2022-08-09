@@ -22,8 +22,8 @@
 "BagEffect": false,
 "ItemStates": [
 {
-"$type": "RogueEssence.Dungeon.ItemIndexState, RogueEssence",
-"Index": 497
+"$type": "RogueEssence.Dungeon.ItemIDState, RogueEssence",
+"ID": "echoed_voice"
 }
 ],
 "UseAction": {

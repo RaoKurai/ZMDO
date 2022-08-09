@@ -22,8 +22,8 @@
 "BagEffect": false,
 "ItemStates": [
 {
-"$type": "RogueEssence.Dungeon.ItemIndexState, RogueEssence",
-"Index": 460
+"$type": "RogueEssence.Dungeon.ItemIDState, RogueEssence",
+"ID": "spacial_rend"
 }
 ],
 "UseAction": {

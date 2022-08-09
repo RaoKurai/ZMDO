@@ -22,8 +22,8 @@
 "BagEffect": false,
 "ItemStates": [
 {
-"$type": "RogueEssence.Dungeon.ItemIndexState, RogueEssence",
-"Index": 338
+"$type": "RogueEssence.Dungeon.ItemIDState, RogueEssence",
+"ID": "frenzy_plant"
 }
 ],
 "UseAction": {

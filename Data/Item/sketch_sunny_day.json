@@ -22,8 +22,8 @@
 "BagEffect": false,
 "ItemStates": [
 {
-"$type": "RogueEssence.Dungeon.ItemIndexState, RogueEssence",
-"Index": 241
+"$type": "RogueEssence.Dungeon.ItemIDState, RogueEssence",
+"ID": "sunny_day"
 }
 ],
 "UseAction": {

@@ -22,8 +22,8 @@
 "BagEffect": false,
 "ItemStates": [
 {
-"$type": "RogueEssence.Dungeon.ItemIndexState, RogueEssence",
-"Index": 550
+"$type": "RogueEssence.Dungeon.ItemIDState, RogueEssence",
+"ID": "bolt_strike"
 }
 ],
 "UseAction": {

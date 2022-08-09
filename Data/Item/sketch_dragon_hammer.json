@@ -22,8 +22,8 @@
 "BagEffect": false,
 "ItemStates": [
 {
-"$type": "RogueEssence.Dungeon.ItemIndexState, RogueEssence",
-"Index": 692
+"$type": "RogueEssence.Dungeon.ItemIDState, RogueEssence",
+"ID": "dragon_hammer"
 }
 ],
 "UseAction": {

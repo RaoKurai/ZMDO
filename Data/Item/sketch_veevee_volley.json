@@ -22,8 +22,8 @@
 "BagEffect": false,
 "ItemStates": [
 {
-"$type": "RogueEssence.Dungeon.ItemIndexState, RogueEssence",
-"Index": 741
+"$type": "RogueEssence.Dungeon.ItemIDState, RogueEssence",
+"ID": "veevee_volley"
 }
 ],
 "UseAction": {

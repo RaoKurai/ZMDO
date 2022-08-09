@@ -22,8 +22,8 @@
 "BagEffect": false,
 "ItemStates": [
 {
-"$type": "RogueEssence.Dungeon.ItemIndexState, RogueEssence",
-"Index": 493
+"$type": "RogueEssence.Dungeon.ItemIDState, RogueEssence",
+"ID": "simple_beam"
 }
 ],
 "UseAction": {

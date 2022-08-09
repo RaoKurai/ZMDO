@@ -22,8 +22,8 @@
 "BagEffect": false,
 "ItemStates": [
 {
-"$type": "RogueEssence.Dungeon.ItemIndexState, RogueEssence",
-"Index": 381
+"$type": "RogueEssence.Dungeon.ItemIDState, RogueEssence",
+"ID": "lucky_chant"
 }
 ],
 "UseAction": {

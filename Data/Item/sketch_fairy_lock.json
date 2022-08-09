@@ -22,8 +22,8 @@
 "BagEffect": false,
 "ItemStates": [
 {
-"$type": "RogueEssence.Dungeon.ItemIndexState, RogueEssence",
-"Index": 587
+"$type": "RogueEssence.Dungeon.ItemIDState, RogueEssence",
+"ID": "fairy_lock"
 }
 ],
 "UseAction": {

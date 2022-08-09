@@ -22,8 +22,8 @@
 "BagEffect": false,
 "ItemStates": [
 {
-"$type": "RogueEssence.Dungeon.ItemIndexState, RogueEssence",
-"Index": 421
+"$type": "RogueEssence.Dungeon.ItemIDState, RogueEssence",
+"ID": "shadow_claw"
 }
 ],
 "UseAction": {

@@ -22,8 +22,8 @@
 "BagEffect": false,
 "ItemStates": [
 {
-"$type": "RogueEssence.Dungeon.ItemIndexState, RogueEssence",
-"Index": 716
+"$type": "RogueEssence.Dungeon.ItemIDState, RogueEssence",
+"ID": "zing_zap"
 }
 ],
 "UseAction": {

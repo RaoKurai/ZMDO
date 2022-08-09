@@ -22,8 +22,8 @@
 "BagEffect": false,
 "ItemStates": [
 {
-"$type": "RogueEssence.Dungeon.ItemIndexState, RogueEssence",
-"Index": 311
+"$type": "RogueEssence.Dungeon.ItemIDState, RogueEssence",
+"ID": "weather_ball"
 }
 ],
 "UseAction": {

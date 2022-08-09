@@ -22,8 +22,8 @@
 "BagEffect": false,
 "ItemStates": [
 {
-"$type": "RogueEssence.Dungeon.ItemIndexState, RogueEssence",
-"Index": 411
+"$type": "RogueEssence.Dungeon.ItemIDState, RogueEssence",
+"ID": "focus_blast"
 }
 ],
 "UseAction": {

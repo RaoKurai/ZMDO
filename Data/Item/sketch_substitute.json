@@ -22,8 +22,8 @@
 "BagEffect": false,
 "ItemStates": [
 {
-"$type": "RogueEssence.Dungeon.ItemIndexState, RogueEssence",
-"Index": 164
+"$type": "RogueEssence.Dungeon.ItemIDState, RogueEssence",
+"ID": "substitute"
 }
 ],
 "UseAction": {

@@ -105,7 +105,7 @@ function grove_exit.Cutscene()
     UI:WaitShowDialogue("Lumiere![pause=30] There you are!")
   
     UI:WaitShowDialogue("HUGGGG!!")
-    GROUND:CharSetEmote(player, 4, 6)
+    GROUND:CharSetEmote(player, "glowing", 6)
     GAME:WaitFrames(30)
     UI:SetSpeaker(partner)
     UI:WaitShowDialogue("Melanie!")
@@ -119,7 +119,7 @@ function grove_exit.Cutscene()
     UI:SetSpeaker(player)
     UI:WaitShowDialogue("I'm so glad you're okay!")
   
-    GROUND:CharSetEmote(partner, 4, 6)
+    GROUND:CharSetEmote(partner, "glowing", 6)
     UI:SetSpeaker(partner)
     UI:WaitShowDialogue("Haha,[pause=30] Same here.[pause=0] I just went through the weirdest place.")
     UI:WaitShowDialogue("The passages all were twisty,[pause=30] and it was filled with all these weird Pe'kemon!")
@@ -127,7 +127,7 @@ function grove_exit.Cutscene()
     UI:SetSpeaker(player)
     UI:WaitShowDialogue("Oh my gosh,[pause=30] I saw them too!")
     UI:WaitShowDialogue("They came in so many shapes and sizes,[pause=30] I couldn't help but copy a few, hehe!")
-    GROUND:CharSetEmote(player, 1, 3)
+    GROUND:CharSetEmote(player, "happy", 3)
     GAME:WaitFrames(60);
     UI:SetSpeaker(partner)
     UI:WaitShowDialogue("Speaking of places with lots of shapes,[pause=30] I can't wait to see this Pe'kemon City you've been talking about.")
@@ -142,7 +142,7 @@ function grove_exit.Cutscene()
 	
     TASK:JoinCoroutines({coro2})
 	
-    GROUND:CharSetEmote(partner, 4, 6)
+    GROUND:CharSetEmote(partner, "glowing", 6)
     UI:SetSpeaker(partner)
     UI:WaitShowDialogue("Lumiere![pause=0] I was looking for you!")
 	
@@ -233,7 +233,7 @@ function grove_exit.FinalCutscene()
   UI:WaitShowDialogue("She's gonna be in for a big surprise!")
   
   
-  GROUND:CharSetEmote(zorua, 4, 6)
+  GROUND:CharSetEmote(zorua, "glowing", 6)
   GROUND:MoveInDirection(zorua, Direction.Up, 70, false, 2)
   
   GAME:MoveCamera(224, 300, 60, false)

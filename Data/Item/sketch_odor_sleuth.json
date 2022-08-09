@@ -22,8 +22,8 @@
 "BagEffect": false,
 "ItemStates": [
 {
-"$type": "RogueEssence.Dungeon.ItemIndexState, RogueEssence",
-"Index": 316
+"$type": "RogueEssence.Dungeon.ItemIDState, RogueEssence",
+"ID": "odor_sleuth"
 }
 ],
 "UseAction": {

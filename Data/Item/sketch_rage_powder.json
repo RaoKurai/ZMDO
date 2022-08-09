@@ -22,8 +22,8 @@
 "BagEffect": false,
 "ItemStates": [
 {
-"$type": "RogueEssence.Dungeon.ItemIndexState, RogueEssence",
-"Index": 476
+"$type": "RogueEssence.Dungeon.ItemIDState, RogueEssence",
+"ID": "rage_powder"
 }
 ],
 "UseAction": {

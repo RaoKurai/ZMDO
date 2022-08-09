@@ -22,8 +22,8 @@
 "BagEffect": false,
 "ItemStates": [
 {
-"$type": "RogueEssence.Dungeon.ItemIndexState, RogueEssence",
-"Index": 596
+"$type": "RogueEssence.Dungeon.ItemIDState, RogueEssence",
+"ID": "spiky_shield"
 }
 ],
 "UseAction": {

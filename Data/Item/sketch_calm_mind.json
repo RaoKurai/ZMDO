@@ -22,8 +22,8 @@
 "BagEffect": false,
 "ItemStates": [
 {
-"$type": "RogueEssence.Dungeon.ItemIndexState, RogueEssence",
-"Index": 347
+"$type": "RogueEssence.Dungeon.ItemIDState, RogueEssence",
+"ID": "calm_mind"
 }
 ],
 "UseAction": {

@@ -22,8 +22,8 @@
 "BagEffect": false,
 "ItemStates": [
 {
-"$type": "RogueEssence.Dungeon.ItemIndexState, RogueEssence",
-"Index": 31
+"$type": "RogueEssence.Dungeon.ItemIDState, RogueEssence",
+"ID": "fury_attack"
 }
 ],
 "UseAction": {

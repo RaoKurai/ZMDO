@@ -22,8 +22,8 @@
 "BagEffect": false,
 "ItemStates": [
 {
-"$type": "RogueEssence.Dungeon.ItemIndexState, RogueEssence",
-"Index": 677
+"$type": "RogueEssence.Dungeon.ItemIDState, RogueEssence",
+"ID": "anchor_shot"
 }
 ],
 "UseAction": {

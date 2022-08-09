@@ -22,8 +22,8 @@
 "BagEffect": false,
 "ItemStates": [
 {
-"$type": "RogueEssence.Dungeon.ItemIndexState, RogueEssence",
-"Index": 261
+"$type": "RogueEssence.Dungeon.ItemIDState, RogueEssence",
+"ID": "will_o_wisp"
 }
 ],
 "UseAction": {

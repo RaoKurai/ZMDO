@@ -22,8 +22,8 @@
 "BagEffect": false,
 "ItemStates": [
 {
-"$type": "RogueEssence.Dungeon.ItemIndexState, RogueEssence",
-"Index": 178
+"$type": "RogueEssence.Dungeon.ItemIDState, RogueEssence",
+"ID": "cotton_spore"
 }
 ],
 "UseAction": {

@@ -22,8 +22,8 @@
 "BagEffect": false,
 "ItemStates": [
 {
-"$type": "RogueEssence.Dungeon.ItemIndexState, RogueEssence",
-"Index": 436
+"$type": "RogueEssence.Dungeon.ItemIDState, RogueEssence",
+"ID": "lava_plume"
 }
 ],
 "UseAction": {

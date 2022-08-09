@@ -22,8 +22,8 @@
 "BagEffect": false,
 "ItemStates": [
 {
-"$type": "RogueEssence.Dungeon.ItemIndexState, RogueEssence",
-"Index": 675
+"$type": "RogueEssence.Dungeon.ItemIDState, RogueEssence",
+"ID": "throat_chop"
 }
 ],
 "UseAction": {

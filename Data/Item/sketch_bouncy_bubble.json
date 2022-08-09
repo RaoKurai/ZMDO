@@ -22,8 +22,8 @@
 "BagEffect": false,
 "ItemStates": [
 {
-"$type": "RogueEssence.Dungeon.ItemIndexState, RogueEssence",
-"Index": 733
+"$type": "RogueEssence.Dungeon.ItemIDState, RogueEssence",
+"ID": "bouncy_bubble"
 }
 ],
 "UseAction": {

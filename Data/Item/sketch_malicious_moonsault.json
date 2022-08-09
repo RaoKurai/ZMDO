@@ -22,8 +22,8 @@
 "BagEffect": false,
 "ItemStates": [
 {
-"$type": "RogueEssence.Dungeon.ItemIndexState, RogueEssence",
-"Index": 696
+"$type": "RogueEssence.Dungeon.ItemIDState, RogueEssence",
+"ID": "malicious_moonsault"
 }
 ],
 "UseAction": {

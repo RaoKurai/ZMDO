@@ -134,7 +134,7 @@ function crystal_exit.Cutscene()
     GROUND:MoveInDirection(partner, Direction.DownLeft, 18, false, 2)
 	partner.Data.BaseForm = origForm
     GROUND:CharAnimateTurnTo(partner, Direction.Up, 4)
-    GROUND:CharSetEmote(partner, 1, 4)
+    GROUND:CharSetEmote(partner, "happy", 4)
 	
     UI:SetSpeaker(partner)
     UI:WaitShowDialogue("I can't wait to show you Lumiere,[pause=30] you'll love meeting everyone!")

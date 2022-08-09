@@ -22,8 +22,8 @@
 "BagEffect": false,
 "ItemStates": [
 {
-"$type": "RogueEssence.Dungeon.ItemIndexState, RogueEssence",
-"Index": 136
+"$type": "RogueEssence.Dungeon.ItemIDState, RogueEssence",
+"ID": "high_jump_kick"
 }
 ],
 "UseAction": {

@@ -22,8 +22,8 @@
 "BagEffect": false,
 "ItemStates": [
 {
-"$type": "RogueEssence.Dungeon.ItemIndexState, RogueEssence",
-"Index": 728
+"$type": "RogueEssence.Dungeon.ItemIDState, RogueEssence",
+"ID": "clangorous_soulblaze"
 }
 ],
 "UseAction": {

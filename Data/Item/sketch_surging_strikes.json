@@ -22,8 +22,8 @@
 "BagEffect": false,
 "ItemStates": [
 {
-"$type": "RogueEssence.Dungeon.ItemIndexState, RogueEssence",
-"Index": 818
+"$type": "RogueEssence.Dungeon.ItemIDState, RogueEssence",
+"ID": "surging_strikes"
 }
 ],
 "UseAction": {

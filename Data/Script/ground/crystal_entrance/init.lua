@@ -99,7 +99,7 @@ function crystal_entrance.Cutscene()
   
     UI:SetSpeaker(player)
     UI:WaitShowDialogue("Aww... are you sure?[pause=0] Some of your backgrounds turn out just as cool as this!")
-    GROUND:CharSetEmote(player, 4, 4)
+    GROUND:CharSetEmote(player, "glowing", 4)
   
     GAME:WaitFrames(90)
   

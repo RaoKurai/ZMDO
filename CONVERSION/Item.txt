@@ -737,7 +737,7 @@
 1216	sketch_zing_zap
 1217	sketch_natures_madness
 1218	sketch_multi_attack
-1219	sketch_10_000_000_volt_thunderbolt
+1219	sketch_ten_million_volt_thunderbolt
 1220	sketch_mind_blown
 1221	sketch_plasma_fists
 1222	sketch_photon_geyser

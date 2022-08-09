@@ -22,8 +22,8 @@
 "BagEffect": false,
 "ItemStates": [
 {
-"$type": "RogueEssence.Dungeon.ItemIndexState, RogueEssence",
-"Index": 617
+"$type": "RogueEssence.Dungeon.ItemIDState, RogueEssence",
+"ID": "light_of_ruin"
 }
 ],
 "UseAction": {

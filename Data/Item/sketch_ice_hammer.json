@@ -22,8 +22,8 @@
 "BagEffect": false,
 "ItemStates": [
 {
-"$type": "RogueEssence.Dungeon.ItemIndexState, RogueEssence",
-"Index": 665
+"$type": "RogueEssence.Dungeon.ItemIDState, RogueEssence",
+"ID": "ice_hammer"
 }
 ],
 "UseAction": {

@@ -22,8 +22,8 @@
 "BagEffect": false,
 "ItemStates": [
 {
-"$type": "RogueEssence.Dungeon.ItemIndexState, RogueEssence",
-"Index": 230
+"$type": "RogueEssence.Dungeon.ItemIDState, RogueEssence",
+"ID": "sweet_scent"
 }
 ],
 "UseAction": {

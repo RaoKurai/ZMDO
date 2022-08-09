@@ -22,8 +22,8 @@
 "BagEffect": false,
 "ItemStates": [
 {
-"$type": "RogueEssence.Dungeon.ItemIndexState, RogueEssence",
-"Index": 563
+"$type": "RogueEssence.Dungeon.ItemIDState, RogueEssence",
+"ID": "rototiller"
 }
 ],
 "UseAction": {

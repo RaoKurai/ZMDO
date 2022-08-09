@@ -103,7 +103,7 @@
 "Value": {
 "$type": "RogueEssence.Dungeon.BattleScriptEvent, RogueEssence",
 "Script": "AltGummi",
-"ArgTable": "{ Element=03 }"
+"ArgTable": "{ Element=\"dragon\" }"
 }
 }
 ],

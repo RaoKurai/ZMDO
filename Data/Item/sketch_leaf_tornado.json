@@ -22,8 +22,8 @@
 "BagEffect": false,
 "ItemStates": [
 {
-"$type": "RogueEssence.Dungeon.ItemIndexState, RogueEssence",
-"Index": 536
+"$type": "RogueEssence.Dungeon.ItemIDState, RogueEssence",
+"ID": "leaf_tornado"
 }
 ],
 "UseAction": {

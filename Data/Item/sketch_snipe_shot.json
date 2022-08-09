@@ -22,8 +22,8 @@
 "BagEffect": false,
 "ItemStates": [
 {
-"$type": "RogueEssence.Dungeon.ItemIndexState, RogueEssence",
-"Index": 745
+"$type": "RogueEssence.Dungeon.ItemIDState, RogueEssence",
+"ID": "snipe_shot"
 }
 ],
 "UseAction": {

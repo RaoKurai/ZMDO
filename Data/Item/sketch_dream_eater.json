@@ -22,8 +22,8 @@
 "BagEffect": false,
 "ItemStates": [
 {
-"$type": "RogueEssence.Dungeon.ItemIndexState, RogueEssence",
-"Index": 138
+"$type": "RogueEssence.Dungeon.ItemIDState, RogueEssence",
+"ID": "dream_eater"
 }
 ],
 "UseAction": {

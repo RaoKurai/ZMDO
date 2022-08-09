@@ -22,8 +22,8 @@
 "BagEffect": false,
 "ItemStates": [
 {
-"$type": "RogueEssence.Dungeon.ItemIndexState, RogueEssence",
-"Index": 194
+"$type": "RogueEssence.Dungeon.ItemIDState, RogueEssence",
+"ID": "destiny_bond"
 }
 ],
 "UseAction": {

@@ -22,8 +22,8 @@
 "BagEffect": false,
 "ItemStates": [
 {
-"$type": "RogueEssence.Dungeon.ItemIndexState, RogueEssence",
-"Index": 416
+"$type": "RogueEssence.Dungeon.ItemIDState, RogueEssence",
+"ID": "giga_impact"
 }
 ],
 "UseAction": {

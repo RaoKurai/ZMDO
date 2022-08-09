@@ -116,7 +116,7 @@ function mystery_entrance.Cutscene()
   GAME:WaitFrames(30)
   mystery_entrance.Concurrent_Sequence(player, false)
   
-  GROUND:CharSetEmote(player, 1, 4)
+  GROUND:CharSetEmote(player, "happy", 4)
   UI:SetSpeaker(player)
   UI:WaitShowDialogue("Wow,[pause=30] that'd be amazing!")
   GAME:WaitFrames(30)

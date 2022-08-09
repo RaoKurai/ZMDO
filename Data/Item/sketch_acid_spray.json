@@ -22,8 +22,8 @@
 "BagEffect": false,
 "ItemStates": [
 {
-"$type": "RogueEssence.Dungeon.ItemIndexState, RogueEssence",
-"Index": 491
+"$type": "RogueEssence.Dungeon.ItemIDState, RogueEssence",
+"ID": "acid_spray"
 }
 ],
 "UseAction": {

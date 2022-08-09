@@ -22,8 +22,8 @@
 "BagEffect": false,
 "ItemStates": [
 {
-"$type": "RogueEssence.Dungeon.ItemIndexState, RogueEssence",
-"Index": 742
+"$type": "RogueEssence.Dungeon.ItemIDState, RogueEssence",
+"ID": "double_iron_bash"
 }
 ],
 "UseAction": {

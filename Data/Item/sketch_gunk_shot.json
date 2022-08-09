@@ -22,8 +22,8 @@
 "BagEffect": false,
 "ItemStates": [
 {
-"$type": "RogueEssence.Dungeon.ItemIndexState, RogueEssence",
-"Index": 441
+"$type": "RogueEssence.Dungeon.ItemIDState, RogueEssence",
+"ID": "gunk_shot"
 }
 ],
 "UseAction": {

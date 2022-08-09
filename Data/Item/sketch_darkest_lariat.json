@@ -22,8 +22,8 @@
 "BagEffect": false,
 "ItemStates": [
 {
-"$type": "RogueEssence.Dungeon.ItemIndexState, RogueEssence",
-"Index": 663
+"$type": "RogueEssence.Dungeon.ItemIDState, RogueEssence",
+"ID": "darkest_lariat"
 }
 ],
 "UseAction": {

@@ -22,8 +22,8 @@
 "BagEffect": false,
 "ItemStates": [
 {
-"$type": "RogueEssence.Dungeon.ItemIndexState, RogueEssence",
-"Index": 249
+"$type": "RogueEssence.Dungeon.ItemIDState, RogueEssence",
+"ID": "rock_smash"
 }
 ],
 "UseAction": {

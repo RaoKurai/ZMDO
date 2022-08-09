@@ -22,8 +22,8 @@
 "BagEffect": false,
 "ItemStates": [
 {
-"$type": "RogueEssence.Dungeon.ItemIndexState, RogueEssence",
-"Index": 183
+"$type": "RogueEssence.Dungeon.ItemIDState, RogueEssence",
+"ID": "mach_punch"
 }
 ],
 "UseAction": {

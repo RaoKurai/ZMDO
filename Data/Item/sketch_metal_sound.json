@@ -22,8 +22,8 @@
 "BagEffect": false,
 "ItemStates": [
 {
-"$type": "RogueEssence.Dungeon.ItemIndexState, RogueEssence",
-"Index": 319
+"$type": "RogueEssence.Dungeon.ItemIDState, RogueEssence",
+"ID": "metal_sound"
 }
 ],
 "UseAction": {

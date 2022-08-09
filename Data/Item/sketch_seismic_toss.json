@@ -22,8 +22,8 @@
 "BagEffect": false,
 "ItemStates": [
 {
-"$type": "RogueEssence.Dungeon.ItemIndexState, RogueEssence",
-"Index": 69
+"$type": "RogueEssence.Dungeon.ItemIDState, RogueEssence",
+"ID": "seismic_toss"
 }
 ],
 "UseAction": {
