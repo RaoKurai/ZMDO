@@ -1,5 +1,5 @@
 ﻿{
-"Version": "0.6.1.0",
+"Version": "0.7.7.0",
 "Object": {
 "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[RogueEssence.Data.EntrySummary, RogueEssence]], System.Private.CoreLib",
 "guildmaster_island": {
@@ -15,6 +15,30 @@
 "Rescues": 0,
 "CountedFloors": 0,
 "Rogue": 0,
+"Grounds": [
+"test_grounds",
+"grove_entrance",
+"grove_exit",
+"crystal_entrance",
+"crystal_exit",
+"mystery_entrance",
+"mystery_exit",
+"melumi_house",
+"title"
+],
+"Maps": [
+[
+0,
+1,
+2,
+3,
+4,
+5,
+6,
+7,
+8
+]
+],
 "Name": {
 "DefaultText": "Guildmaster Island",
 "LocalTexts": {}
@@ -36,6 +60,17 @@
 "Rescues": 0,
 "CountedFloors": 6,
 "Rogue": 2,
+"Grounds": [],
+"Maps": [
+[
+0,
+1,
+2,
+3,
+4,
+5
+]
+],
 "Name": {
 "DefaultText": "Mystery Cave",
 "LocalTexts": {}
@@ -57,6 +92,21 @@
 "Rescues": 0,
 "CountedFloors": 10,
 "Rogue": 2,
+"Grounds": [],
+"Maps": [
+[
+0,
+1,
+2,
+3,
+4,
+5,
+6,
+7,
+8,
+9
+]
+],
 "Name": {
 "DefaultText": "Mystery Dungeon",
 "LocalTexts": {}
@@ -78,6 +128,14 @@
 "Rescues": 0,
 "CountedFloors": 3,
 "Rogue": 2,
+"Grounds": [],
+"Maps": [
+[
+0,
+1,
+2
+]
+],
 "Name": {
 "DefaultText": "Mystery Grove",
 "LocalTexts": {}

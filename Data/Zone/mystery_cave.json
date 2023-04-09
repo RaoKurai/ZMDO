@@ -1,5 +1,5 @@
 ﻿{
-"Version": "0.6.1.0",
+"Version": "0.7.7.0",
 "Object": {
 "$type": "RogueEssence.Data.ZoneData, RogueEssence",
 "Name": {
@@ -37,7 +37,8 @@
 "Music": "Water Cave.ogg",
 "TimeLimit": 1500,
 "TileSight": 0,
-"CharSight": 1
+"CharSight": 1,
+"ClampCamera": false
 }
 },
 {
@@ -167,7 +168,6 @@
 },
 "ID": "",
 "Revealed": false,
-"Danger": false,
 "Owner": 0,
 "TileStates": []
 }
@@ -337,7 +337,17 @@
 ]
 },
 "Value": {
-"$type": "RogueEssence.LevelGen.MobSpawnSettingsStep`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], RogueEssence",
+"$type": "PMDC.LevelGen.MobSpawnSettingsStep`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], PMDC",
+"Priority": {
+"str": [
+15
+]
+},
+"Respawn": {
+"$type": "PMDC.Dungeon.RespawnFromEligibleEvent, PMDC",
+"MaxFoes": 10,
+"RespawnTime": 50
+},
 "MaxFoes": 10,
 "RespawnTime": 50
 }
@@ -372,7 +382,6 @@
 },
 "ID": "stairs_go_up",
 "Revealed": true,
-"Danger": false,
 "Owner": 0,
 "TileStates": []
 }
@@ -429,7 +438,6 @@
 },
 "ID": "",
 "Revealed": false,
-"Danger": false,
 "Owner": 0,
 "TileStates": []
 }
@@ -438,6 +446,7 @@
 "$type": "RogueElements.MapTerrainStencil`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], RogueElements",
 "Room": false,
 "Wall": true,
+"Blocked": false,
 "Not": false
 }
 }
@@ -470,7 +479,6 @@
 },
 "ID": "",
 "Revealed": false,
-"Danger": false,
 "Owner": 0,
 "TileStates": []
 }
@@ -505,7 +513,6 @@
 },
 "ID": "",
 "Revealed": false,
-"Danger": false,
 "Owner": 0,
 "TileStates": []
 }
@@ -588,7 +595,6 @@
 "Connection": 1
 }
 ],
-"ClumpFactor": 20,
 "Spawn": {
 "$type": "RogueEssence.LevelGen.TeamContextSpawner`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], RogueEssence",
 "Amount": {
@@ -596,7 +602,8 @@
 "Max": 5
 }
 },
-"Ally": false
+"Ally": false,
+"ClumpFactor": 20
 }
 },
 {
@@ -630,7 +637,6 @@
 },
 "ID": "tile_wonder",
 "Revealed": true,
-"Danger": false,
 "Owner": 0,
 "TileStates": []
 },
@@ -698,7 +704,8 @@
 "Music": "Water Cave.ogg",
 "TimeLimit": 1500,
 "TileSight": 0,
-"CharSight": 1
+"CharSight": 1,
+"ClampCamera": false
 }
 },
 {
@@ -828,7 +835,6 @@
 },
 "ID": "",
 "Revealed": false,
-"Danger": false,
 "Owner": 0,
 "TileStates": []
 }
@@ -998,7 +1004,17 @@
 ]
 },
 "Value": {
-"$type": "RogueEssence.LevelGen.MobSpawnSettingsStep`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], RogueEssence",
+"$type": "PMDC.LevelGen.MobSpawnSettingsStep`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], PMDC",
+"Priority": {
+"str": [
+15
+]
+},
+"Respawn": {
+"$type": "PMDC.Dungeon.RespawnFromEligibleEvent, PMDC",
+"MaxFoes": 10,
+"RespawnTime": 50
+},
 "MaxFoes": 10,
 "RespawnTime": 50
 }
@@ -1033,7 +1049,6 @@
 },
 "ID": "stairs_go_up",
 "Revealed": true,
-"Danger": false,
 "Owner": 0,
 "TileStates": []
 }
@@ -1090,7 +1105,6 @@
 },
 "ID": "",
 "Revealed": false,
-"Danger": false,
 "Owner": 0,
 "TileStates": []
 }
@@ -1099,6 +1113,7 @@
 "$type": "RogueElements.MapTerrainStencil`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], RogueElements",
 "Room": false,
 "Wall": true,
+"Blocked": false,
 "Not": false
 }
 }
@@ -1131,7 +1146,6 @@
 },
 "ID": "",
 "Revealed": false,
-"Danger": false,
 "Owner": 0,
 "TileStates": []
 }
@@ -1166,7 +1180,6 @@
 },
 "ID": "",
 "Revealed": false,
-"Danger": false,
 "Owner": 0,
 "TileStates": []
 }
@@ -1249,7 +1262,6 @@
 "Connection": 1
 }
 ],
-"ClumpFactor": 20,
 "Spawn": {
 "$type": "RogueEssence.LevelGen.TeamContextSpawner`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], RogueEssence",
 "Amount": {
@@ -1257,7 +1269,8 @@
 "Max": 5
 }
 },
-"Ally": false
+"Ally": false,
+"ClumpFactor": 20
 }
 },
 {
@@ -1291,7 +1304,6 @@
 },
 "ID": "tile_wonder",
 "Revealed": true,
-"Danger": false,
 "Owner": 0,
 "TileStates": []
 },
@@ -1359,7 +1371,8 @@
 "Music": "Water Cave.ogg",
 "TimeLimit": 1500,
 "TileSight": 0,
-"CharSight": 1
+"CharSight": 1,
+"ClampCamera": false
 }
 },
 {
@@ -1452,7 +1465,6 @@
 },
 "ID": "",
 "Revealed": false,
-"Danger": false,
 "Owner": 0,
 "TileStates": []
 }
@@ -1622,7 +1634,17 @@
 ]
 },
 "Value": {
-"$type": "RogueEssence.LevelGen.MobSpawnSettingsStep`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], RogueEssence",
+"$type": "PMDC.LevelGen.MobSpawnSettingsStep`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], PMDC",
+"Priority": {
+"str": [
+15
+]
+},
+"Respawn": {
+"$type": "PMDC.Dungeon.RespawnFromEligibleEvent, PMDC",
+"MaxFoes": 10,
+"RespawnTime": 50
+},
 "MaxFoes": 10,
 "RespawnTime": 50
 }
@@ -1657,7 +1679,6 @@
 },
 "ID": "stairs_go_up",
 "Revealed": true,
-"Danger": false,
 "Owner": 0,
 "TileStates": []
 }
@@ -1714,7 +1735,6 @@
 },
 "ID": "",
 "Revealed": false,
-"Danger": false,
 "Owner": 0,
 "TileStates": []
 }
@@ -1723,6 +1743,7 @@
 "$type": "RogueElements.MapTerrainStencil`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], RogueElements",
 "Room": false,
 "Wall": true,
+"Blocked": false,
 "Not": false
 }
 }
@@ -1755,7 +1776,6 @@
 },
 "ID": "",
 "Revealed": false,
-"Danger": false,
 "Owner": 0,
 "TileStates": []
 }
@@ -1790,7 +1810,6 @@
 },
 "ID": "",
 "Revealed": false,
-"Danger": false,
 "Owner": 0,
 "TileStates": []
 }
@@ -1873,7 +1892,6 @@
 "Connection": 1
 }
 ],
-"ClumpFactor": 20,
 "Spawn": {
 "$type": "RogueEssence.LevelGen.TeamContextSpawner`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], RogueEssence",
 "Amount": {
@@ -1881,7 +1899,8 @@
 "Max": 5
 }
 },
-"Ally": false
+"Ally": false,
+"ClumpFactor": 20
 }
 },
 {
@@ -1915,7 +1934,6 @@
 },
 "ID": "tile_wonder",
 "Revealed": true,
-"Danger": false,
 "Owner": 0,
 "TileStates": []
 },
@@ -1983,7 +2001,8 @@
 "Music": "Water Cave.ogg",
 "TimeLimit": 1500,
 "TileSight": 0,
-"CharSight": 1
+"CharSight": 1,
+"ClampCamera": false
 }
 },
 {
@@ -2076,7 +2095,6 @@
 },
 "ID": "",
 "Revealed": false,
-"Danger": false,
 "Owner": 0,
 "TileStates": []
 }
@@ -2246,7 +2264,17 @@
 ]
 },
 "Value": {
-"$type": "RogueEssence.LevelGen.MobSpawnSettingsStep`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], RogueEssence",
+"$type": "PMDC.LevelGen.MobSpawnSettingsStep`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], PMDC",
+"Priority": {
+"str": [
+15
+]
+},
+"Respawn": {
+"$type": "PMDC.Dungeon.RespawnFromEligibleEvent, PMDC",
+"MaxFoes": 10,
+"RespawnTime": 50
+},
 "MaxFoes": 10,
 "RespawnTime": 50
 }
@@ -2281,7 +2309,6 @@
 },
 "ID": "stairs_go_up",
 "Revealed": true,
-"Danger": false,
 "Owner": 0,
 "TileStates": []
 }
@@ -2338,7 +2365,6 @@
 },
 "ID": "",
 "Revealed": false,
-"Danger": false,
 "Owner": 0,
 "TileStates": []
 }
@@ -2347,6 +2373,7 @@
 "$type": "RogueElements.MapTerrainStencil`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], RogueElements",
 "Room": false,
 "Wall": true,
+"Blocked": false,
 "Not": false
 }
 }
@@ -2379,7 +2406,6 @@
 },
 "ID": "",
 "Revealed": false,
-"Danger": false,
 "Owner": 0,
 "TileStates": []
 }
@@ -2414,7 +2440,6 @@
 },
 "ID": "",
 "Revealed": false,
-"Danger": false,
 "Owner": 0,
 "TileStates": []
 }
@@ -2497,7 +2522,6 @@
 "Connection": 1
 }
 ],
-"ClumpFactor": 20,
 "Spawn": {
 "$type": "RogueEssence.LevelGen.TeamContextSpawner`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], RogueEssence",
 "Amount": {
@@ -2505,7 +2529,8 @@
 "Max": 5
 }
 },
-"Ally": false
+"Ally": false,
+"ClumpFactor": 20
 }
 },
 {
@@ -2539,7 +2564,6 @@
 },
 "ID": "tile_wonder",
 "Revealed": true,
-"Danger": false,
 "Owner": 0,
 "TileStates": []
 },
@@ -2607,7 +2631,8 @@
 "Music": "Water Cave.ogg",
 "TimeLimit": 1500,
 "TileSight": 0,
-"CharSight": 1
+"CharSight": 1,
+"ClampCamera": false
 }
 },
 {
@@ -2773,7 +2798,17 @@
 ]
 },
 "Value": {
-"$type": "RogueEssence.LevelGen.MobSpawnSettingsStep`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], RogueEssence",
+"$type": "PMDC.LevelGen.MobSpawnSettingsStep`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], PMDC",
+"Priority": {
+"str": [
+15
+]
+},
+"Respawn": {
+"$type": "PMDC.Dungeon.RespawnFromEligibleEvent, PMDC",
+"MaxFoes": 10,
+"RespawnTime": 50
+},
 "MaxFoes": 10,
 "RespawnTime": 50
 }
@@ -2808,7 +2843,6 @@
 },
 "ID": "stairs_go_up",
 "Revealed": true,
-"Danger": false,
 "Owner": 0,
 "TileStates": []
 }
@@ -2865,7 +2899,6 @@
 },
 "ID": "",
 "Revealed": false,
-"Danger": false,
 "Owner": 0,
 "TileStates": []
 }
@@ -2874,6 +2907,7 @@
 "$type": "RogueElements.MapTerrainStencil`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], RogueElements",
 "Room": false,
 "Wall": true,
+"Blocked": false,
 "Not": false
 }
 }
@@ -2906,7 +2940,6 @@
 },
 "ID": "",
 "Revealed": false,
-"Danger": false,
 "Owner": 0,
 "TileStates": []
 }
@@ -2941,7 +2974,6 @@
 },
 "ID": "",
 "Revealed": false,
-"Danger": false,
 "Owner": 0,
 "TileStates": []
 }
@@ -3024,7 +3056,6 @@
 "Connection": 1
 }
 ],
-"ClumpFactor": 20,
 "Spawn": {
 "$type": "RogueEssence.LevelGen.TeamContextSpawner`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], RogueEssence",
 "Amount": {
@@ -3032,7 +3063,8 @@
 "Max": 5
 }
 },
-"Ally": false
+"Ally": false,
+"ClumpFactor": 20
 }
 },
 {
@@ -3066,7 +3098,6 @@
 },
 "ID": "tile_wonder",
 "Revealed": true,
-"Danger": false,
 "Owner": 0,
 "TileStates": []
 },
@@ -3134,7 +3165,8 @@
 "Music": "Water Cave.ogg",
 "TimeLimit": 1500,
 "TileSight": 0,
-"CharSight": 1
+"CharSight": 1,
+"ClampCamera": false
 }
 },
 {
@@ -3300,7 +3332,17 @@
 ]
 },
 "Value": {
-"$type": "RogueEssence.LevelGen.MobSpawnSettingsStep`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], RogueEssence",
+"$type": "PMDC.LevelGen.MobSpawnSettingsStep`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], PMDC",
+"Priority": {
+"str": [
+15
+]
+},
+"Respawn": {
+"$type": "PMDC.Dungeon.RespawnFromEligibleEvent, PMDC",
+"MaxFoes": 10,
+"RespawnTime": 50
+},
 "MaxFoes": 10,
 "RespawnTime": 50
 }
@@ -3335,7 +3377,6 @@
 },
 "ID": "stairs_go_up",
 "Revealed": true,
-"Danger": false,
 "Owner": 0,
 "TileStates": []
 }
@@ -3392,7 +3433,6 @@
 },
 "ID": "",
 "Revealed": false,
-"Danger": false,
 "Owner": 0,
 "TileStates": []
 }
@@ -3401,6 +3441,7 @@
 "$type": "RogueElements.MapTerrainStencil`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], RogueElements",
 "Room": false,
 "Wall": true,
+"Blocked": false,
 "Not": false
 }
 }
@@ -3433,7 +3474,6 @@
 },
 "ID": "",
 "Revealed": false,
-"Danger": false,
 "Owner": 0,
 "TileStates": []
 }
@@ -3468,7 +3508,6 @@
 },
 "ID": "",
 "Revealed": false,
-"Danger": false,
 "Owner": 0,
 "TileStates": []
 }
@@ -3551,7 +3590,6 @@
 "Connection": 1
 }
 ],
-"ClumpFactor": 20,
 "Spawn": {
 "$type": "RogueEssence.LevelGen.TeamContextSpawner`1[[RogueEssence.LevelGen.MapGenContext, RogueEssence]], RogueEssence",
 "Amount": {
@@ -3559,7 +3597,8 @@
 "Max": 5
 }
 },
-"Ally": false
+"Ally": false,
+"ClumpFactor": 20
 }
 },
 {
@@ -3593,7 +3632,6 @@
 },
 "ID": "tile_wonder",
 "Revealed": true,
-"Danger": false,
 "Owner": 0,
 "TileStates": []
 },
@@ -3659,7 +3697,12 @@
 }
 },
 {
-"$type": "RogueEssence.LevelGen.FloorNameIDZoneStep, RogueEssence",
+"$type": "PMDC.LevelGen.FloorNameDropZoneStep, PMDC",
+"DropPriority": {
+"str": [
+-15
+]
+},
 "Name": {
 "DefaultText": "Mystery Cave\nB{0}F",
 "LocalTexts": {}
@@ -5735,17 +5778,6 @@
 },
 {
 "$type": "RogueEssence.LevelGen.SpreadStepZoneStep, RogueEssence",
-"SpreadPlan": {
-"$type": "RogueEssence.LevelGen.SpreadPlanSpaced, RogueEssence",
-"FloorSpacing": {
-"Min": 3,
-"Max": 5
-},
-"FloorRange": {
-"Min": 0,
-"Max": 6
-}
-},
 "StepPriority": {
 "str": [
 5,
@@ -5757,7 +5789,6 @@
 "$values": [
 {
 "Spawn": {
-
 "$type": "RogueElements.RandomSpawnStep`2[[RogueEssence.LevelGen.BaseMapGenContext, RogueEssence],[RogueEssence.Dungeon.MapItem, RogueEssence]], RogueElements",
 "Spawn": {
 "$type": "RogueElements.PickerSpawner`2[[RogueEssence.LevelGen.BaseMapGenContext, RogueEssence],[RogueEssence.Dungeon.MapItem, RogueEssence]], RogueElements",
@@ -5782,27 +5813,26 @@
 ]
 }
 }
-
 },
 "Rate": 10
 }
 ]
 },
-"ModStates": []
-},
-{
-"$type": "RogueEssence.LevelGen.SpreadStepZoneStep, RogueEssence",
 "SpreadPlan": {
 "$type": "RogueEssence.LevelGen.SpreadPlanSpaced, RogueEssence",
 "FloorSpacing": {
-"Min": 2,
-"Max": 4
+"Min": 3,
+"Max": 5
 },
 "FloorRange": {
 "Min": 0,
 "Max": 6
 }
 },
+"ModStates": []
+},
+{
+"$type": "RogueEssence.LevelGen.SpreadStepZoneStep, RogueEssence",
 "StepPriority": {
 "str": [
 5,
@@ -5814,7 +5844,6 @@
 "$values": [
 {
 "Spawn": {
-
 "$type": "RogueElements.RandomSpawnStep`2[[RogueEssence.LevelGen.BaseMapGenContext, RogueEssence],[RogueEssence.Dungeon.MapItem, RogueEssence]], RogueElements",
 "Spawn": {
 "$type": "RogueElements.PickerSpawner`2[[RogueEssence.LevelGen.BaseMapGenContext, RogueEssence],[RogueEssence.Dungeon.MapItem, RogueEssence]], RogueElements",
@@ -5839,16 +5868,11 @@
 ]
 }
 }
-
 },
 "Rate": 10
 }
 ]
 },
-"ModStates": []
-},
-{
-"$type": "RogueEssence.LevelGen.SpreadStepZoneStep, RogueEssence",
 "SpreadPlan": {
 "$type": "RogueEssence.LevelGen.SpreadPlanSpaced, RogueEssence",
 "FloorSpacing": {
@@ -5860,6 +5884,10 @@
 "Max": 6
 }
 },
+"ModStates": []
+},
+{
+"$type": "RogueEssence.LevelGen.SpreadStepZoneStep, RogueEssence",
 "StepPriority": {
 "str": [
 5,
@@ -5871,7 +5899,6 @@
 "$values": [
 {
 "Spawn": {
-
 "$type": "RogueElements.RandomSpawnStep`2[[RogueEssence.LevelGen.BaseMapGenContext, RogueEssence],[RogueEssence.Dungeon.MapItem, RogueEssence]], RogueElements",
 "Spawn": {
 "$type": "RogueElements.PickerSpawner`2[[RogueEssence.LevelGen.BaseMapGenContext, RogueEssence],[RogueEssence.Dungeon.MapItem, RogueEssence]], RogueElements",
@@ -5896,27 +5923,26 @@
 ]
 }
 }
-
 },
 "Rate": 10
 }
 ]
 },
-"ModStates": []
-},
-{
-"$type": "RogueEssence.LevelGen.SpreadStepZoneStep, RogueEssence",
 "SpreadPlan": {
 "$type": "RogueEssence.LevelGen.SpreadPlanSpaced, RogueEssence",
 "FloorSpacing": {
-"Min": 1,
-"Max": 1
+"Min": 2,
+"Max": 4
 },
 "FloorRange": {
 "Min": 0,
 "Max": 6
 }
 },
+"ModStates": []
+},
+{
+"$type": "RogueEssence.LevelGen.SpreadStepZoneStep, RogueEssence",
 "StepPriority": {
 "str": [
 5,
@@ -5928,7 +5954,6 @@
 "$values": [
 {
 "Spawn": {
-
 "$type": "RogueElements.RandomSpawnStep`2[[RogueEssence.LevelGen.BaseMapGenContext, RogueEssence],[RogueEssence.Dungeon.MapItem, RogueEssence]], RogueElements",
 "Spawn": {
 "$type": "RogueElements.PickerSpawner`2[[RogueEssence.LevelGen.BaseMapGenContext, RogueEssence],[RogueEssence.Dungeon.MapItem, RogueEssence]], RogueElements",
@@ -5953,13 +5978,11 @@
 ]
 }
 }
-
 },
 "Rate": 10
 },
 {
 "Spawn": {
-
 "$type": "RogueElements.RandomSpawnStep`2[[RogueEssence.LevelGen.BaseMapGenContext, RogueEssence],[RogueEssence.Dungeon.MapItem, RogueEssence]], RogueElements",
 "Spawn": {
 "$type": "RogueElements.PickerSpawner`2[[RogueEssence.LevelGen.BaseMapGenContext, RogueEssence],[RogueEssence.Dungeon.MapItem, RogueEssence]], RogueElements",
@@ -5984,13 +6007,11 @@
 ]
 }
 }
-
 },
 "Rate": 10
 },
 {
 "Spawn": {
-
 "$type": "RogueElements.RandomSpawnStep`2[[RogueEssence.LevelGen.BaseMapGenContext, RogueEssence],[RogueEssence.Dungeon.MapItem, RogueEssence]], RogueElements",
 "Spawn": {
 "$type": "RogueElements.PickerSpawner`2[[RogueEssence.LevelGen.BaseMapGenContext, RogueEssence],[RogueEssence.Dungeon.MapItem, RogueEssence]], RogueElements",
@@ -6015,13 +6036,11 @@
 ]
 }
 }
-
 },
 "Rate": 10
 },
 {
 "Spawn": {
-
 "$type": "RogueElements.RandomSpawnStep`2[[RogueEssence.LevelGen.BaseMapGenContext, RogueEssence],[RogueEssence.Dungeon.MapItem, RogueEssence]], RogueElements",
 "Spawn": {
 "$type": "RogueElements.PickerSpawner`2[[RogueEssence.LevelGen.BaseMapGenContext, RogueEssence],[RogueEssence.Dungeon.MapItem, RogueEssence]], RogueElements",
@@ -6046,13 +6065,11 @@
 ]
 }
 }
-
 },
 "Rate": 10
 },
 {
 "Spawn": {
-
 "$type": "RogueElements.RandomSpawnStep`2[[RogueEssence.LevelGen.BaseMapGenContext, RogueEssence],[RogueEssence.Dungeon.MapItem, RogueEssence]], RogueElements",
 "Spawn": {
 "$type": "RogueElements.PickerSpawner`2[[RogueEssence.LevelGen.BaseMapGenContext, RogueEssence],[RogueEssence.Dungeon.MapItem, RogueEssence]], RogueElements",
@@ -6077,13 +6094,11 @@
 ]
 }
 }
-
 },
 "Rate": 10
 },
 {
 "Spawn": {
-
 "$type": "RogueElements.RandomSpawnStep`2[[RogueEssence.LevelGen.BaseMapGenContext, RogueEssence],[RogueEssence.Dungeon.MapItem, RogueEssence]], RogueElements",
 "Spawn": {
 "$type": "RogueElements.PickerSpawner`2[[RogueEssence.LevelGen.BaseMapGenContext, RogueEssence],[RogueEssence.Dungeon.MapItem, RogueEssence]], RogueElements",
@@ -6108,13 +6123,11 @@
 ]
 }
 }
-
 },
 "Rate": 10
 },
 {
 "Spawn": {
-
 "$type": "RogueElements.RandomSpawnStep`2[[RogueEssence.LevelGen.BaseMapGenContext, RogueEssence],[RogueEssence.Dungeon.MapItem, RogueEssence]], RogueElements",
 "Spawn": {
 "$type": "RogueElements.PickerSpawner`2[[RogueEssence.LevelGen.BaseMapGenContext, RogueEssence],[RogueEssence.Dungeon.MapItem, RogueEssence]], RogueElements",
@@ -6139,13 +6152,11 @@
 ]
 }
 }
-
 },
 "Rate": 10
 },
 {
 "Spawn": {
-
 "$type": "RogueElements.RandomSpawnStep`2[[RogueEssence.LevelGen.BaseMapGenContext, RogueEssence],[RogueEssence.Dungeon.MapItem, RogueEssence]], RogueElements",
 "Spawn": {
 "$type": "RogueElements.PickerSpawner`2[[RogueEssence.LevelGen.BaseMapGenContext, RogueEssence],[RogueEssence.Dungeon.MapItem, RogueEssence]], RogueElements",
@@ -6170,13 +6181,11 @@
 ]
 }
 }
-
 },
 "Rate": 10
 },
 {
 "Spawn": {
-
 "$type": "RogueElements.RandomSpawnStep`2[[RogueEssence.LevelGen.BaseMapGenContext, RogueEssence],[RogueEssence.Dungeon.MapItem, RogueEssence]], RogueElements",
 "Spawn": {
 "$type": "RogueElements.PickerSpawner`2[[RogueEssence.LevelGen.BaseMapGenContext, RogueEssence],[RogueEssence.Dungeon.MapItem, RogueEssence]], RogueElements",
@@ -6201,13 +6210,11 @@
 ]
 }
 }
-
 },
 "Rate": 10
 },
 {
 "Spawn": {
-
 "$type": "RogueElements.RandomSpawnStep`2[[RogueEssence.LevelGen.BaseMapGenContext, RogueEssence],[RogueEssence.Dungeon.MapItem, RogueEssence]], RogueElements",
 "Spawn": {
 "$type": "RogueElements.PickerSpawner`2[[RogueEssence.LevelGen.BaseMapGenContext, RogueEssence],[RogueEssence.Dungeon.MapItem, RogueEssence]], RogueElements",
@@ -6232,14 +6239,11 @@
 ]
 }
 }
-
 },
 "Rate": 10
 },
-
 {
 "Spawn": {
-
 "$type": "RogueElements.RandomSpawnStep`2[[RogueEssence.LevelGen.BaseMapGenContext, RogueEssence],[RogueEssence.Dungeon.MapItem, RogueEssence]], RogueElements",
 "Spawn": {
 "$type": "RogueElements.PickerSpawner`2[[RogueEssence.LevelGen.BaseMapGenContext, RogueEssence],[RogueEssence.Dungeon.MapItem, RogueEssence]], RogueElements",
@@ -6264,14 +6268,11 @@
 ]
 }
 }
-
 },
 "Rate": 10
 },
-
 {
 "Spawn": {
-
 "$type": "RogueElements.RandomSpawnStep`2[[RogueEssence.LevelGen.BaseMapGenContext, RogueEssence],[RogueEssence.Dungeon.MapItem, RogueEssence]], RogueElements",
 "Spawn": {
 "$type": "RogueElements.PickerSpawner`2[[RogueEssence.LevelGen.BaseMapGenContext, RogueEssence],[RogueEssence.Dungeon.MapItem, RogueEssence]], RogueElements",
@@ -6296,13 +6297,11 @@
 ]
 }
 }
-
 },
 "Rate": 10
 },
 {
 "Spawn": {
-
 "$type": "RogueElements.RandomSpawnStep`2[[RogueEssence.LevelGen.BaseMapGenContext, RogueEssence],[RogueEssence.Dungeon.MapItem, RogueEssence]], RogueElements",
 "Spawn": {
 "$type": "RogueElements.PickerSpawner`2[[RogueEssence.LevelGen.BaseMapGenContext, RogueEssence],[RogueEssence.Dungeon.MapItem, RogueEssence]], RogueElements",
@@ -6327,13 +6326,11 @@
 ]
 }
 }
-
 },
 "Rate": 10
 },
 {
 "Spawn": {
-
 "$type": "RogueElements.RandomSpawnStep`2[[RogueEssence.LevelGen.BaseMapGenContext, RogueEssence],[RogueEssence.Dungeon.MapItem, RogueEssence]], RogueElements",
 "Spawn": {
 "$type": "RogueElements.PickerSpawner`2[[RogueEssence.LevelGen.BaseMapGenContext, RogueEssence],[RogueEssence.Dungeon.MapItem, RogueEssence]], RogueElements",
@@ -6358,13 +6355,11 @@
 ]
 }
 }
-
 },
 "Rate": 10
 },
 {
 "Spawn": {
-
 "$type": "RogueElements.RandomSpawnStep`2[[RogueEssence.LevelGen.BaseMapGenContext, RogueEssence],[RogueEssence.Dungeon.MapItem, RogueEssence]], RogueElements",
 "Spawn": {
 "$type": "RogueElements.PickerSpawner`2[[RogueEssence.LevelGen.BaseMapGenContext, RogueEssence],[RogueEssence.Dungeon.MapItem, RogueEssence]], RogueElements",
@@ -6388,14 +6383,12 @@
 }
 ]
 }
-
 }
 },
 "Rate": 10
 },
 {
 "Spawn": {
-
 "$type": "RogueElements.RandomSpawnStep`2[[RogueEssence.LevelGen.BaseMapGenContext, RogueEssence],[RogueEssence.Dungeon.MapItem, RogueEssence]], RogueElements",
 "Spawn": {
 "$type": "RogueElements.PickerSpawner`2[[RogueEssence.LevelGen.BaseMapGenContext, RogueEssence],[RogueEssence.Dungeon.MapItem, RogueEssence]], RogueElements",
@@ -6419,14 +6412,12 @@
 }
 ]
 }
-
 }
 },
 "Rate": 10
 },
 {
 "Spawn": {
-
 "$type": "RogueElements.RandomSpawnStep`2[[RogueEssence.LevelGen.BaseMapGenContext, RogueEssence],[RogueEssence.Dungeon.MapItem, RogueEssence]], RogueElements",
 "Spawn": {
 "$type": "RogueElements.PickerSpawner`2[[RogueEssence.LevelGen.BaseMapGenContext, RogueEssence],[RogueEssence.Dungeon.MapItem, RogueEssence]], RogueElements",
@@ -6450,14 +6441,12 @@
 }
 ]
 }
-
 }
 },
 "Rate": 10
 },
 {
 "Spawn": {
-
 "$type": "RogueElements.RandomSpawnStep`2[[RogueEssence.LevelGen.BaseMapGenContext, RogueEssence],[RogueEssence.Dungeon.MapItem, RogueEssence]], RogueElements",
 "Spawn": {
 "$type": "RogueElements.PickerSpawner`2[[RogueEssence.LevelGen.BaseMapGenContext, RogueEssence],[RogueEssence.Dungeon.MapItem, RogueEssence]], RogueElements",
@@ -6481,12 +6470,22 @@
 }
 ]
 }
-
 }
 },
 "Rate": 10
 }
 ]
+},
+"SpreadPlan": {
+"$type": "RogueEssence.LevelGen.SpreadPlanSpaced, RogueEssence",
+"FloorSpacing": {
+"Min": 1,
+"Max": 1
+},
+"FloorRange": {
+"Min": 0,
+"Max": 6
+}
 },
 "ModStates": []
 },
@@ -7429,7 +7428,6 @@
 },
 "ID": "trap_mud",
 "Revealed": true,
-"Danger": false,
 "Owner": 0,
 "TileStates": []
 },
@@ -7447,7 +7445,6 @@
 },
 "ID": "trap_gust",
 "Revealed": true,
-"Danger": false,
 "Owner": 0,
 "TileStates": []
 },
@@ -7465,7 +7462,6 @@
 },
 "ID": "trap_chestnut",
 "Revealed": true,
-"Danger": false,
 "Owner": 0,
 "TileStates": []
 },
@@ -7483,7 +7479,6 @@
 },
 "ID": "trap_slumber",
 "Revealed": true,
-"Danger": false,
 "Owner": 0,
 "TileStates": []
 },
@@ -7501,7 +7496,6 @@
 },
 "ID": "trap_seal",
 "Revealed": true,
-"Danger": false,
 "Owner": 0,
 "TileStates": []
 },
@@ -7519,7 +7513,6 @@
 },
 "ID": "trap_self_destruct",
 "Revealed": true,
-"Danger": false,
 "Owner": 0,
 "TileStates": []
 },
@@ -7537,7 +7530,6 @@
 },
 "ID": "trap_trip",
 "Revealed": true,
-"Danger": false,
 "Owner": 0,
 "TileStates": []
 },
@@ -7555,7 +7547,6 @@
 },
 "ID": "trap_explosion",
 "Revealed": true,
-"Danger": false,
 "Owner": 0,
 "TileStates": []
 },
@@ -7573,7 +7564,6 @@
 },
 "ID": "trap_slow",
 "Revealed": true,
-"Danger": false,
 "Owner": 0,
 "TileStates": []
 },
@@ -7591,7 +7581,6 @@
 },
 "ID": "trap_spin",
 "Revealed": true,
-"Danger": false,
 "Owner": 0,
 "TileStates": []
 },
@@ -7609,7 +7598,6 @@
 },
 "ID": "trap_trigger",
 "Revealed": true,
-"Danger": false,
 "Owner": 0,
 "TileStates": []
 },

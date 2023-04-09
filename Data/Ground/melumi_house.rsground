@@ -1,9 +1,8 @@
 ﻿{
-"Version": "0.6.1.0",
+"Version": "0.7.7.0",
 "Object": {
 "$type": "RogueEssence.Ground.GroundMap, RogueEssence",
 "TexSize": 2,
-"AssetName": "melumi_house",
 "Name": {
 "DefaultText": "House of Melumi",
 "LocalTexts": {}
@@ -23183,6 +23182,7 @@
 ]
 }
 ],
+"AssetName": "melumi_house",
 "Music": "Home.ogg",
 "EdgeView": 0,
 "NoSwitching": false,
@@ -23394,7 +23394,9 @@
 },
 "IsFounder": false,
 "IsPartner": false,
+"NameLocked": false,
 "IsFavorite": false,
+"Unrecruitable": false,
 "ActionEvents": [],
 "ScriptVars": null
 },

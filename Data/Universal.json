@@ -1,5 +1,5 @@
 ﻿{
-"Version": "0.6.1.0",
+"Version": "0.7.7.0",
 "Object": {
 "$type": "RogueEssence.Data.ActiveEffect, RogueEssence",
 "UniversalStates": [
@@ -752,7 +752,9 @@
 "$type": "PMDC.Dungeon.HandoutRelativeExpEvent, PMDC",
 "Numerator": 1,
 "Denominator": 5,
-"LevelBuffer": 10
+"LevelBuffer": 10,
+"ScaleMin": 0,
+"PowerCurve": 3
 }
 }
 ],
@@ -764,7 +766,14 @@
 ]
 },
 "Value": {
-"$type": "PMDC.Dungeon.RefreshPreEvent, PMDC"
+"$type": "PMDC.Dungeon.ElementMobilityEvent, PMDC",
+"ElementPair": {
+"water": 1,
+"fire": 2,
+"dragon": 3,
+"flying": 7,
+"ghost": 8
+}
 }
 }
 ],

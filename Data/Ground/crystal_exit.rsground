@@ -1,9 +1,8 @@
 ﻿{
-"Version": "0.6.1.0",
+"Version": "0.7.7.0",
 "Object": {
 "$type": "RogueEssence.Ground.GroundMap, RogueEssence",
 "TexSize": 3,
-"AssetName": "crystal_exit",
 "Name": {
 "DefaultText": "Cave Exit",
 "LocalTexts": {}
@@ -29097,6 +29096,7 @@
 ]
 }
 ],
+"AssetName": "crystal_exit",
 "Music": "Dungeon End.ogg",
 "EdgeView": 1,
 "NoSwitching": true,
@@ -29184,7 +29184,9 @@
 },
 "IsFounder": false,
 "IsPartner": false,
+"NameLocked": false,
 "IsFavorite": false,
+"Unrecruitable": false,
 "ActionEvents": [],
 "ScriptVars": null
 },
