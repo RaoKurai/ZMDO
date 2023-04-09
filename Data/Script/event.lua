@@ -2,12 +2,12 @@ require 'common'
 
 SINGLE_CHAR_SCRIPT = {}
 
-function SINGLE_CHAR_SCRIPT.Test(owner, ownerChar, character, args)
+function SINGLE_CHAR_SCRIPT.Test(owner, ownerChar, context, args)
   PrintInfo("Test")
 end
 
-function SINGLE_CHAR_SCRIPT.Tutorial(owner, ownerChar, character, args)
-  if character == nil then
+function SINGLE_CHAR_SCRIPT.Tutorial(owner, ownerChar, context, args)
+  if context.User == nil then
     
     UI:ResetSpeaker()
     if args.Level == 1 then
@@ -52,9 +52,9 @@ end
 
 
 
-function SINGLE_CHAR_SCRIPT.RemoveAbsentGuests(owner, ownerChar, character, args)
+function SINGLE_CHAR_SCRIPT.RemoveAbsentGuests(owner, ownerChar, context, args)
 
-  if character ~= nil then
+  if context.User ~= nil then
     return
   end
 
@@ -67,26 +67,26 @@ function SINGLE_CHAR_SCRIPT.RemoveAbsentGuests(owner, ownerChar, character, args
 end
 
 
-function SINGLE_CHAR_SCRIPT.UpdatePolymorph(owner, ownerChar, character, args)
-  if character == nil then
+function SINGLE_CHAR_SCRIPT.UpdatePolymorph(owner, ownerChar, context, args)
+  if context.User == nil then
     return
   end
   
-  if character.BaseForm.Species == "ditto" then -- ditto
+  if context.User.BaseForm.Species == "ditto" then -- ditto
     local monId = SV.charvars.MelanieForms[SV.charvars.MelanieIdx]
-	character:Transform(RogueEssence.Dungeon.MonsterID(monId.Species, monId.Form, monId.Skin, RogueEssence.Data.Gender.Genderless))
+	context.User:Transform(RogueEssence.Dungeon.MonsterID(monId.Species, monId.Form, monId.Skin, RogueEssence.Data.Gender.Genderless))
   end
 end
 
 
-function SINGLE_CHAR_SCRIPT.UpdateTransform(owner, ownerChar, character, args)
-  if character == nil then
+function SINGLE_CHAR_SCRIPT.UpdateTransform(owner, ownerChar, context, args)
+  if context.User == nil then
     return
   end
   
-  if character.BaseForm.Species == "smeargle" then -- smeargle
+  if context.User.BaseForm.Species == "smeargle" then -- smeargle
     if SV.charvars.LumiereForm ~= nil then
-		character:Transform(RogueEssence.Dungeon.MonsterID(SV.charvars.LumiereForm.Species, SV.charvars.LumiereForm.Form, SV.charvars.LumiereForm.Skin, RogueEssence.Data.Gender.Male))
+		context.User:Transform(RogueEssence.Dungeon.MonsterID(SV.charvars.LumiereForm.Species, SV.charvars.LumiereForm.Form, SV.charvars.LumiereForm.Skin, RogueEssence.Data.Gender.Male))
     end
   end
   
@@ -633,6 +633,7 @@ function FLOOR_GEN_SCRIPT.Test(map, args)
   PrintInfo("Test")
 end
 
+ITEM_SCRIPT = {}
 
 
 
