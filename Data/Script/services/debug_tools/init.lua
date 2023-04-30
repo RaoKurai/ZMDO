@@ -92,11 +92,27 @@ function DebugTools:OnNewGame()
   end
 end
 
+--[[---------------------------------------------------------------
+    DebugTools:OnMenuButtonPressed()
+      When the main menu button is pressed or the main menu should be enabled this is called!
+      This is called as a coroutine.
+---------------------------------------------------------------]]
+function DebugTools:OnMenuButtonPressed()
+  if DebugTools.MainMenu == nil then
+    DebugTools.MainMenu = RogueEssence.Menu.MainMenu()
+  end
+  DebugTools.MainMenu:SetupChoices()
+  DebugTools.MainMenu:SetupTitleAndSummary()
+  DebugTools.MainMenu:InitMenu()
+  TASK:WaitTask(_MENU:ProcessMenuCoroutine(DebugTools.MainMenu))
+end
+
 ---Summary
 -- Subscribe to all channels this service wants callbacks from
 function DebugTools:Subscribe(med)
   med:Subscribe("DebugTools", EngineServiceEvents.Init,                function() self.OnInit(self) end )
   med:Subscribe("DebugTools", EngineServiceEvents.Deinit,              function() self.OnDeinit(self) end )
+  med:Subscribe("DebugTools", EngineServiceEvents.MenuButtonPressed,        function() self.OnMenuButtonPressed() end )
   med:Subscribe("DebugTools", EngineServiceEvents.NewGame,        function() self.OnNewGame(self) end )
 --  med:Subscribe("DebugTools", EngineServiceEvents.GraphicsUnload,      function() self.OnGraphicsUnload(self) end )
 --  med:Subscribe("DebugTools", EngineServiceEvents.Restart,             function() self.OnRestart(self) end )
