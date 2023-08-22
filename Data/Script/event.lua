@@ -341,7 +341,7 @@ function BATTLE_SCRIPT.GiveMorph(owner, ownerChar, context, args)
 	local morphStatus = RogueEssence.Dungeon.StatusEffect("transform")
 	morphStatus:LoadFromData()
 	SV.charvars.LumiereForm = monId
-	TASK:WaitTask(context.Target:AddStatusEffect(context.Target, morphStatus, nil))
+	TASK:WaitTask(context.Target:AddStatusEffect(context.Target, morphStatus))
 
 	-- Update form
 	local backId = SV.charvars.MelanieForms[SV.charvars.MelanieIdx]
@@ -439,7 +439,7 @@ function BATTLE_SCRIPT.SplitGuest(owner, ownerChar, context, args)
 	-- send the new mon out
 	local noHealStatus = RogueEssence.Dungeon.StatusEffect("no_regen")
 	noHealStatus:LoadFromData()
-	TASK:WaitTask(new_mob:AddStatusEffect(new_mob, noHealStatus, nil))
+	TASK:WaitTask(new_mob:AddStatusEffect(new_mob, noHealStatus))
 
 	local dest = _ZONE.CurrentMap:GetClosestTileForChar(new_mob, context.Target.CharLoc)
 	local endLoc = nil
