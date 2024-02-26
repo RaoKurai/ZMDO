@@ -1,5 +1,5 @@
 ﻿{
-"Version": "0.7.16.0",
+"Version": "0.7.25.0",
 "Object": {
 "$type": "RogueEssence.Data.ZoneData, RogueEssence",
 "Name": {
@@ -9,12 +9,15 @@
 "Released": true,
 "Comment": "",
 "NoEXP": false,
+"ExpPercent": 100,
 "Level": -1,
 "LevelCap": false,
+"KeepSkills": false,
 "TeamRestrict": false,
 "TeamSize": -1,
 "MoneyRestrict": false,
 "BagRestrict": -1,
+"KeepTreasure": false,
 "BagSize": -1,
 "Persistent": false,
 "Rescues": 0,
@@ -88,7 +91,8 @@
 "MapID": "test_grounds"
 }
 }
-]
+],
+"Comment": ""
 },
 {
 "$type": "RogueEssence.LevelGen.LoadGen, RogueEssence",
@@ -155,7 +159,8 @@
 "MapID": "grove_entrance"
 }
 }
-]
+],
+"Comment": ""
 },
 {
 "$type": "RogueEssence.LevelGen.LoadGen, RogueEssence",
@@ -222,7 +227,8 @@
 "MapID": "grove_exit"
 }
 }
-]
+],
+"Comment": ""
 },
 {
 "$type": "RogueEssence.LevelGen.LoadGen, RogueEssence",
@@ -289,7 +295,8 @@
 "MapID": "crystal_entrance"
 }
 }
-]
+],
+"Comment": ""
 },
 {
 "$type": "RogueEssence.LevelGen.LoadGen, RogueEssence",
@@ -356,7 +363,8 @@
 "MapID": "crystal_exit"
 }
 }
-]
+],
+"Comment": ""
 },
 {
 "$type": "RogueEssence.LevelGen.LoadGen, RogueEssence",
@@ -423,7 +431,8 @@
 "MapID": "mystery_entrance"
 }
 }
-]
+],
+"Comment": ""
 },
 {
 "$type": "RogueEssence.LevelGen.LoadGen, RogueEssence",
@@ -490,7 +499,8 @@
 "MapID": "mystery_exit"
 }
 }
-]
+],
+"Comment": ""
 },
 {
 "$type": "RogueEssence.LevelGen.LoadGen, RogueEssence",
@@ -557,7 +567,8 @@
 "MapID": "melumi_house"
 }
 }
-]
+],
+"Comment": ""
 },
 {
 "$type": "RogueEssence.LevelGen.LoadGen, RogueEssence",
@@ -624,11 +635,13 @@
 "MapID": "title"
 }
 }
-]
+],
+"Comment": ""
 }
 ],
 "ZoneSteps": [],
-"IsRelevant": false
+"IsRelevant": false,
+"Comment": ""
 }
 ],
 "GroundMaps": [

@@ -1,5 +1,5 @@
 ﻿{
-"Version": "0.7.16.0",
+"Version": "0.7.25.0",
 "Object": {
 "$type": "RogueEssence.Data.MonsterData, RogueEssence",
 "Name": {
@@ -44,7 +44,10 @@
 "Details": [
 {
 "$type": "PMDC.Data.EvoForm, PMDC",
-"ReqForm": 1
+"ReqForm": 1,
+"ReqForms": [
+1
+]
 },
 {
 "$type": "PMDC.Data.EvoLevel, PMDC",
@@ -364,6 +367,7 @@
 }
 },
 "Temporary": false,
+"PromoteForm": 0,
 "Element1": "water",
 "Element2": "rock",
 "Intrinsic1": "regenerator",
@@ -469,6 +473,7 @@
 "LocalTexts": {}
 },
 "Temporary": false,
+"PromoteForm": 0,
 "Element1": "ghost",
 "Element2": "none",
 "Intrinsic1": "weak_armor",

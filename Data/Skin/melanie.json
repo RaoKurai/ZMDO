@@ -1,5 +1,5 @@
 ﻿{
-"Version": "0.7.16.0",
+"Version": "0.7.25.0",
 "Object": {
 "$type": "RogueEssence.Data.SkinData, RogueEssence",
 "Name": {
@@ -31,6 +31,7 @@
 "MaxShakeTime": 0
 }
 },
+"Display": false,
 "Challenge": false
 }
 }

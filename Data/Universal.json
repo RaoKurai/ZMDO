@@ -1,5 +1,5 @@
 ﻿{
-"Version": "0.7.16.0",
+"Version": "0.7.25.0",
 "Object": {
 "$type": "RogueEssence.Data.UniversalActiveEffect, RogueEssence",
 "ZoneSteps": [],
@@ -756,8 +756,8 @@
 "Numerator": 1,
 "Denominator": 5,
 "LevelBuffer": 10,
-"ScaleMin": 0,
-"PowerCurve": 3
+"PowerCurve": 3,
+"IgnoreMark": false
 }
 }
 ],

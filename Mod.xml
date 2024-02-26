@@ -5,6 +5,7 @@
   <Namespace>zorua_md</Namespace>
   <UUID>C6DC0E14-BEE9-4593-9D95-05CB9DC4F289</UUID>
   <Version>1.0.3</Version>
+  <GameVersion>0.0</GameVersion>
   <ModType>Quest</ModType>
   <Relationships>
     <RelatedMod>
