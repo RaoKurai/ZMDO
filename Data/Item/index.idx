@@ -1,17 +1,18 @@
 ﻿{
-"Version": "0.7.25.0",
+"Version": "0.8.0.0",
 "Object": {
 "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[RogueEssence.Data.EntrySummary, RogueEssence]], System.Private.CoreLib",
 "bunny_dango": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 2,
 "UsageType": 4,
 "States": [
 {
-"assembly": "PMDC, Version=0.7.25.0, Culture=neutral, PublicKeyToken=null",
+"assembly": "PMDC, Version=0.8.0.0, Culture=neutral, PublicKeyToken=null",
 "type": "PMDC.Dungeon.EdibleState"
 },
 {
-"assembly": "PMDC, Version=0.7.25.0, Culture=neutral, PublicKeyToken=null",
+"assembly": "PMDC, Version=0.8.0.0, Culture=neutral, PublicKeyToken=null",
 "type": "PMDC.Dungeon.FoodState"
 }
 ],
@@ -25,14 +26,15 @@
 },
 "gummi_black": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 6,
 "UsageType": 4,
 "States": [
 {
-"assembly": "PMDC, Version=0.7.25.0, Culture=neutral, PublicKeyToken=null",
+"assembly": "PMDC, Version=0.8.0.0, Culture=neutral, PublicKeyToken=null",
 "type": "PMDC.Dungeon.EdibleState"
 },
 {
-"assembly": "PMDC, Version=0.7.25.0, Culture=neutral, PublicKeyToken=null",
+"assembly": "PMDC, Version=0.8.0.0, Culture=neutral, PublicKeyToken=null",
 "type": "PMDC.Dungeon.GummiState"
 }
 ],
@@ -46,14 +48,15 @@
 },
 "gummi_blue": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 6,
 "UsageType": 4,
 "States": [
 {
-"assembly": "PMDC, Version=0.7.25.0, Culture=neutral, PublicKeyToken=null",
+"assembly": "PMDC, Version=0.8.0.0, Culture=neutral, PublicKeyToken=null",
 "type": "PMDC.Dungeon.EdibleState"
 },
 {
-"assembly": "PMDC, Version=0.7.25.0, Culture=neutral, PublicKeyToken=null",
+"assembly": "PMDC, Version=0.8.0.0, Culture=neutral, PublicKeyToken=null",
 "type": "PMDC.Dungeon.GummiState"
 }
 ],
@@ -67,14 +70,15 @@
 },
 "gummi_brown": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 6,
 "UsageType": 4,
 "States": [
 {
-"assembly": "PMDC, Version=0.7.25.0, Culture=neutral, PublicKeyToken=null",
+"assembly": "PMDC, Version=0.8.0.0, Culture=neutral, PublicKeyToken=null",
 "type": "PMDC.Dungeon.EdibleState"
 },
 {
-"assembly": "PMDC, Version=0.7.25.0, Culture=neutral, PublicKeyToken=null",
+"assembly": "PMDC, Version=0.8.0.0, Culture=neutral, PublicKeyToken=null",
 "type": "PMDC.Dungeon.GummiState"
 }
 ],
@@ -88,14 +92,15 @@
 },
 "gummi_clear": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 6,
 "UsageType": 4,
 "States": [
 {
-"assembly": "PMDC, Version=0.7.25.0, Culture=neutral, PublicKeyToken=null",
+"assembly": "PMDC, Version=0.8.0.0, Culture=neutral, PublicKeyToken=null",
 "type": "PMDC.Dungeon.EdibleState"
 },
 {
-"assembly": "PMDC, Version=0.7.25.0, Culture=neutral, PublicKeyToken=null",
+"assembly": "PMDC, Version=0.8.0.0, Culture=neutral, PublicKeyToken=null",
 "type": "PMDC.Dungeon.GummiState"
 }
 ],
@@ -109,14 +114,15 @@
 },
 "gummi_gold": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 6,
 "UsageType": 4,
 "States": [
 {
-"assembly": "PMDC, Version=0.7.25.0, Culture=neutral, PublicKeyToken=null",
+"assembly": "PMDC, Version=0.8.0.0, Culture=neutral, PublicKeyToken=null",
 "type": "PMDC.Dungeon.EdibleState"
 },
 {
-"assembly": "PMDC, Version=0.7.25.0, Culture=neutral, PublicKeyToken=null",
+"assembly": "PMDC, Version=0.8.0.0, Culture=neutral, PublicKeyToken=null",
 "type": "PMDC.Dungeon.GummiState"
 }
 ],
@@ -130,14 +136,15 @@
 },
 "gummi_grass": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 6,
 "UsageType": 4,
 "States": [
 {
-"assembly": "PMDC, Version=0.7.25.0, Culture=neutral, PublicKeyToken=null",
+"assembly": "PMDC, Version=0.8.0.0, Culture=neutral, PublicKeyToken=null",
 "type": "PMDC.Dungeon.EdibleState"
 },
 {
-"assembly": "PMDC, Version=0.7.25.0, Culture=neutral, PublicKeyToken=null",
+"assembly": "PMDC, Version=0.8.0.0, Culture=neutral, PublicKeyToken=null",
 "type": "PMDC.Dungeon.GummiState"
 }
 ],
@@ -151,14 +158,15 @@
 },
 "gummi_gray": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 6,
 "UsageType": 4,
 "States": [
 {
-"assembly": "PMDC, Version=0.7.25.0, Culture=neutral, PublicKeyToken=null",
+"assembly": "PMDC, Version=0.8.0.0, Culture=neutral, PublicKeyToken=null",
 "type": "PMDC.Dungeon.EdibleState"
 },
 {
-"assembly": "PMDC, Version=0.7.25.0, Culture=neutral, PublicKeyToken=null",
+"assembly": "PMDC, Version=0.8.0.0, Culture=neutral, PublicKeyToken=null",
 "type": "PMDC.Dungeon.GummiState"
 }
 ],
@@ -172,14 +180,15 @@
 },
 "gummi_green": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 6,
 "UsageType": 4,
 "States": [
 {
-"assembly": "PMDC, Version=0.7.25.0, Culture=neutral, PublicKeyToken=null",
+"assembly": "PMDC, Version=0.8.0.0, Culture=neutral, PublicKeyToken=null",
 "type": "PMDC.Dungeon.EdibleState"
 },
 {
-"assembly": "PMDC, Version=0.7.25.0, Culture=neutral, PublicKeyToken=null",
+"assembly": "PMDC, Version=0.8.0.0, Culture=neutral, PublicKeyToken=null",
 "type": "PMDC.Dungeon.GummiState"
 }
 ],
@@ -193,14 +202,15 @@
 },
 "gummi_magenta": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 6,
 "UsageType": 4,
 "States": [
 {
-"assembly": "PMDC, Version=0.7.25.0, Culture=neutral, PublicKeyToken=null",
+"assembly": "PMDC, Version=0.8.0.0, Culture=neutral, PublicKeyToken=null",
 "type": "PMDC.Dungeon.EdibleState"
 },
 {
-"assembly": "PMDC, Version=0.7.25.0, Culture=neutral, PublicKeyToken=null",
+"assembly": "PMDC, Version=0.8.0.0, Culture=neutral, PublicKeyToken=null",
 "type": "PMDC.Dungeon.GummiState"
 }
 ],
@@ -214,14 +224,15 @@
 },
 "gummi_orange": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 6,
 "UsageType": 4,
 "States": [
 {
-"assembly": "PMDC, Version=0.7.25.0, Culture=neutral, PublicKeyToken=null",
+"assembly": "PMDC, Version=0.8.0.0, Culture=neutral, PublicKeyToken=null",
 "type": "PMDC.Dungeon.EdibleState"
 },
 {
-"assembly": "PMDC, Version=0.7.25.0, Culture=neutral, PublicKeyToken=null",
+"assembly": "PMDC, Version=0.8.0.0, Culture=neutral, PublicKeyToken=null",
 "type": "PMDC.Dungeon.GummiState"
 }
 ],
@@ -235,14 +246,15 @@
 },
 "gummi_pink": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 6,
 "UsageType": 4,
 "States": [
 {
-"assembly": "PMDC, Version=0.7.25.0, Culture=neutral, PublicKeyToken=null",
+"assembly": "PMDC, Version=0.8.0.0, Culture=neutral, PublicKeyToken=null",
 "type": "PMDC.Dungeon.EdibleState"
 },
 {
-"assembly": "PMDC, Version=0.7.25.0, Culture=neutral, PublicKeyToken=null",
+"assembly": "PMDC, Version=0.8.0.0, Culture=neutral, PublicKeyToken=null",
 "type": "PMDC.Dungeon.GummiState"
 }
 ],
@@ -256,14 +268,15 @@
 },
 "gummi_purple": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 6,
 "UsageType": 4,
 "States": [
 {
-"assembly": "PMDC, Version=0.7.25.0, Culture=neutral, PublicKeyToken=null",
+"assembly": "PMDC, Version=0.8.0.0, Culture=neutral, PublicKeyToken=null",
 "type": "PMDC.Dungeon.EdibleState"
 },
 {
-"assembly": "PMDC, Version=0.7.25.0, Culture=neutral, PublicKeyToken=null",
+"assembly": "PMDC, Version=0.8.0.0, Culture=neutral, PublicKeyToken=null",
 "type": "PMDC.Dungeon.GummiState"
 }
 ],
@@ -277,14 +290,15 @@
 },
 "gummi_red": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 6,
 "UsageType": 4,
 "States": [
 {
-"assembly": "PMDC, Version=0.7.25.0, Culture=neutral, PublicKeyToken=null",
+"assembly": "PMDC, Version=0.8.0.0, Culture=neutral, PublicKeyToken=null",
 "type": "PMDC.Dungeon.EdibleState"
 },
 {
-"assembly": "PMDC, Version=0.7.25.0, Culture=neutral, PublicKeyToken=null",
+"assembly": "PMDC, Version=0.8.0.0, Culture=neutral, PublicKeyToken=null",
 "type": "PMDC.Dungeon.GummiState"
 }
 ],
@@ -298,14 +312,15 @@
 },
 "gummi_royal": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 6,
 "UsageType": 4,
 "States": [
 {
-"assembly": "PMDC, Version=0.7.25.0, Culture=neutral, PublicKeyToken=null",
+"assembly": "PMDC, Version=0.8.0.0, Culture=neutral, PublicKeyToken=null",
 "type": "PMDC.Dungeon.EdibleState"
 },
 {
-"assembly": "PMDC, Version=0.7.25.0, Culture=neutral, PublicKeyToken=null",
+"assembly": "PMDC, Version=0.8.0.0, Culture=neutral, PublicKeyToken=null",
 "type": "PMDC.Dungeon.GummiState"
 }
 ],
@@ -319,14 +334,15 @@
 },
 "gummi_silver": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 6,
 "UsageType": 4,
 "States": [
 {
-"assembly": "PMDC, Version=0.7.25.0, Culture=neutral, PublicKeyToken=null",
+"assembly": "PMDC, Version=0.8.0.0, Culture=neutral, PublicKeyToken=null",
 "type": "PMDC.Dungeon.EdibleState"
 },
 {
-"assembly": "PMDC, Version=0.7.25.0, Culture=neutral, PublicKeyToken=null",
+"assembly": "PMDC, Version=0.8.0.0, Culture=neutral, PublicKeyToken=null",
 "type": "PMDC.Dungeon.GummiState"
 }
 ],
@@ -340,14 +356,15 @@
 },
 "gummi_sky": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 6,
 "UsageType": 4,
 "States": [
 {
-"assembly": "PMDC, Version=0.7.25.0, Culture=neutral, PublicKeyToken=null",
+"assembly": "PMDC, Version=0.8.0.0, Culture=neutral, PublicKeyToken=null",
 "type": "PMDC.Dungeon.EdibleState"
 },
 {
-"assembly": "PMDC, Version=0.7.25.0, Culture=neutral, PublicKeyToken=null",
+"assembly": "PMDC, Version=0.8.0.0, Culture=neutral, PublicKeyToken=null",
 "type": "PMDC.Dungeon.GummiState"
 }
 ],
@@ -361,14 +378,15 @@
 },
 "gummi_white": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 6,
 "UsageType": 4,
 "States": [
 {
-"assembly": "PMDC, Version=0.7.25.0, Culture=neutral, PublicKeyToken=null",
+"assembly": "PMDC, Version=0.8.0.0, Culture=neutral, PublicKeyToken=null",
 "type": "PMDC.Dungeon.EdibleState"
 },
 {
-"assembly": "PMDC, Version=0.7.25.0, Culture=neutral, PublicKeyToken=null",
+"assembly": "PMDC, Version=0.8.0.0, Culture=neutral, PublicKeyToken=null",
 "type": "PMDC.Dungeon.GummiState"
 }
 ],
@@ -382,14 +400,15 @@
 },
 "gummi_wonder": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 6,
 "UsageType": 4,
 "States": [
 {
-"assembly": "PMDC, Version=0.7.25.0, Culture=neutral, PublicKeyToken=null",
+"assembly": "PMDC, Version=0.8.0.0, Culture=neutral, PublicKeyToken=null",
 "type": "PMDC.Dungeon.EdibleState"
 },
 {
-"assembly": "PMDC, Version=0.7.25.0, Culture=neutral, PublicKeyToken=null",
+"assembly": "PMDC, Version=0.8.0.0, Culture=neutral, PublicKeyToken=null",
 "type": "PMDC.Dungeon.GummiState"
 }
 ],
@@ -403,14 +422,15 @@
 },
 "gummi_yellow": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": 6,
 "UsageType": 4,
 "States": [
 {
-"assembly": "PMDC, Version=0.7.25.0, Culture=neutral, PublicKeyToken=null",
+"assembly": "PMDC, Version=0.8.0.0, Culture=neutral, PublicKeyToken=null",
 "type": "PMDC.Dungeon.EdibleState"
 },
 {
-"assembly": "PMDC, Version=0.7.25.0, Culture=neutral, PublicKeyToken=null",
+"assembly": "PMDC, Version=0.8.0.0, Culture=neutral, PublicKeyToken=null",
 "type": "PMDC.Dungeon.GummiState"
 }
 ],
@@ -424,6 +444,7 @@
 },
 "sketch_absorb": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -441,6 +462,7 @@
 },
 "sketch_accelerock": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -458,6 +480,7 @@
 },
 "sketch_acid": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -475,6 +498,7 @@
 },
 "sketch_acid_armor": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -492,6 +516,7 @@
 },
 "sketch_acid_downpour": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -509,6 +534,7 @@
 },
 "sketch_acid_downpour_1": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -526,6 +552,7 @@
 },
 "sketch_acid_spray": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -543,6 +570,7 @@
 },
 "sketch_acrobatics": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -560,6 +588,7 @@
 },
 "sketch_acupressure": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -577,6 +606,7 @@
 },
 "sketch_aerial_ace": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -594,6 +624,7 @@
 },
 "sketch_aeroblast": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -611,6 +642,7 @@
 },
 "sketch_after_you": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -628,6 +660,7 @@
 },
 "sketch_agility": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -645,6 +678,7 @@
 },
 "sketch_air_cutter": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -662,6 +696,7 @@
 },
 "sketch_air_slash": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -679,6 +714,7 @@
 },
 "sketch_ally_switch": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -696,6 +732,7 @@
 },
 "sketch_all_out_pummeling": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -713,6 +750,7 @@
 },
 "sketch_all_out_pummeling_1": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -730,6 +768,7 @@
 },
 "sketch_amnesia": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -747,6 +786,7 @@
 },
 "sketch_anchor_shot": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -764,6 +804,7 @@
 },
 "sketch_ancient_power": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -781,6 +822,7 @@
 },
 "sketch_apple_acid": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -798,6 +840,7 @@
 },
 "sketch_aqua_jet": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -815,6 +858,7 @@
 },
 "sketch_aqua_ring": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -832,6 +876,7 @@
 },
 "sketch_aqua_tail": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -849,6 +894,7 @@
 },
 "sketch_arm_thrust": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -866,6 +912,7 @@
 },
 "sketch_aromatherapy": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -883,6 +930,7 @@
 },
 "sketch_aromatic_mist": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -900,6 +948,7 @@
 },
 "sketch_assist": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -917,6 +966,7 @@
 },
 "sketch_assurance": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -934,6 +984,7 @@
 },
 "sketch_astonish": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -951,6 +1002,7 @@
 },
 "sketch_astral_barrage": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -968,6 +1020,7 @@
 },
 "sketch_attack": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -985,6 +1038,7 @@
 },
 "sketch_attack_order": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -1002,6 +1056,7 @@
 },
 "sketch_attract": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -1019,6 +1074,7 @@
 },
 "sketch_aura_sphere": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -1036,6 +1092,7 @@
 },
 "sketch_aura_wheel": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -1053,6 +1110,7 @@
 },
 "sketch_aurora_beam": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -1070,6 +1128,7 @@
 },
 "sketch_aurora_veil": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -1087,6 +1146,7 @@
 },
 "sketch_autotomize": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -1104,6 +1164,7 @@
 },
 "sketch_avalanche": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -1121,6 +1182,7 @@
 },
 "sketch_baby_doll_eyes": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -1138,6 +1200,7 @@
 },
 "sketch_baddy_bad": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -1155,6 +1218,7 @@
 },
 "sketch_baneful_bunker": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -1172,6 +1236,7 @@
 },
 "sketch_barrage": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -1189,6 +1254,7 @@
 },
 "sketch_barrier": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -1206,6 +1272,7 @@
 },
 "sketch_baton_pass": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -1223,6 +1290,7 @@
 },
 "sketch_beak_blast": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -1240,6 +1308,7 @@
 },
 "sketch_beat_up": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -1257,6 +1326,7 @@
 },
 "sketch_behemoth_bash": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -1274,6 +1344,7 @@
 },
 "sketch_behemoth_blade": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -1291,6 +1362,7 @@
 },
 "sketch_belch": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -1308,6 +1380,7 @@
 },
 "sketch_belly_drum": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -1325,6 +1398,7 @@
 },
 "sketch_bestow": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -1342,6 +1416,7 @@
 },
 "sketch_bide": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -1359,6 +1434,7 @@
 },
 "sketch_bind": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -1376,6 +1452,7 @@
 },
 "sketch_bite": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -1393,6 +1470,7 @@
 },
 "sketch_black_hole_eclipse": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -1410,6 +1488,7 @@
 },
 "sketch_black_hole_eclipse_1": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -1427,6 +1506,7 @@
 },
 "sketch_blast_burn": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -1444,6 +1524,7 @@
 },
 "sketch_blaze_kick": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -1461,6 +1542,7 @@
 },
 "sketch_blizzard": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -1478,6 +1560,7 @@
 },
 "sketch_block": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -1495,6 +1578,7 @@
 },
 "sketch_bloom_doom": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -1512,6 +1596,7 @@
 },
 "sketch_bloom_doom_1": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -1529,6 +1614,7 @@
 },
 "sketch_blue_flare": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -1546,6 +1632,7 @@
 },
 "sketch_body_press": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -1563,6 +1650,7 @@
 },
 "sketch_body_slam": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -1580,6 +1668,7 @@
 },
 "sketch_bolt_beak": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -1597,6 +1686,7 @@
 },
 "sketch_bolt_strike": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -1614,6 +1704,7 @@
 },
 "sketch_bonemerang": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -1631,6 +1722,7 @@
 },
 "sketch_bone_club": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -1648,6 +1740,7 @@
 },
 "sketch_bone_rush": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -1665,6 +1758,7 @@
 },
 "sketch_boomburst": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -1682,6 +1776,7 @@
 },
 "sketch_bounce": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -1699,6 +1794,7 @@
 },
 "sketch_bouncy_bubble": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -1716,6 +1812,7 @@
 },
 "sketch_branch_poke": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -1733,6 +1830,7 @@
 },
 "sketch_brave_bird": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -1750,6 +1848,7 @@
 },
 "sketch_breaking_swipe": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -1767,6 +1866,7 @@
 },
 "sketch_breakneck_blitz": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -1784,6 +1884,7 @@
 },
 "sketch_breakneck_blitz_1": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -1801,6 +1902,7 @@
 },
 "sketch_brick_break": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -1818,6 +1920,7 @@
 },
 "sketch_brine": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -1835,6 +1938,7 @@
 },
 "sketch_brutal_swing": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -1852,6 +1956,7 @@
 },
 "sketch_bubble": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -1869,6 +1974,7 @@
 },
 "sketch_bubble_beam": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -1886,6 +1992,7 @@
 },
 "sketch_bug_bite": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -1903,6 +2010,7 @@
 },
 "sketch_bug_buzz": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -1920,6 +2028,7 @@
 },
 "sketch_bulk_up": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -1937,6 +2046,7 @@
 },
 "sketch_bulldoze": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -1954,6 +2064,7 @@
 },
 "sketch_bullet_punch": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -1971,6 +2082,7 @@
 },
 "sketch_bullet_seed": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -1988,6 +2100,7 @@
 },
 "sketch_burning_jealousy": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -2005,6 +2118,7 @@
 },
 "sketch_burn_up": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -2022,6 +2136,7 @@
 },
 "sketch_buzzy_buzz": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -2039,6 +2154,7 @@
 },
 "sketch_calm_mind": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -2056,6 +2172,7 @@
 },
 "sketch_camouflage": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -2073,6 +2190,7 @@
 },
 "sketch_captivate": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -2090,6 +2208,7 @@
 },
 "sketch_catastropika": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -2107,6 +2226,7 @@
 },
 "sketch_celebrate": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -2124,6 +2244,7 @@
 },
 "sketch_charge": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -2141,6 +2262,7 @@
 },
 "sketch_charge_beam": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -2158,6 +2280,7 @@
 },
 "sketch_charm": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -2175,6 +2298,7 @@
 },
 "sketch_chatter": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -2192,6 +2316,7 @@
 },
 "sketch_chip_away": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -2209,6 +2334,7 @@
 },
 "sketch_circle_throw": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -2226,6 +2352,7 @@
 },
 "sketch_clamp": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -2243,6 +2370,7 @@
 },
 "sketch_clanging_scales": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -2260,6 +2388,7 @@
 },
 "sketch_clangorous_soul": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -2277,6 +2406,7 @@
 },
 "sketch_clangorous_soulblaze": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -2294,6 +2424,7 @@
 },
 "sketch_clear_smog": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -2311,6 +2442,7 @@
 },
 "sketch_close_combat": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -2328,6 +2460,7 @@
 },
 "sketch_coaching": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -2345,6 +2478,7 @@
 },
 "sketch_coil": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -2362,6 +2496,7 @@
 },
 "sketch_comet_punch": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -2379,6 +2514,7 @@
 },
 "sketch_confide": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -2396,6 +2532,7 @@
 },
 "sketch_confuse_ray": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -2413,6 +2550,7 @@
 },
 "sketch_confusion": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -2430,6 +2568,7 @@
 },
 "sketch_constrict": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -2447,6 +2586,7 @@
 },
 "sketch_continental_crush": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -2464,6 +2604,7 @@
 },
 "sketch_continental_crush_1": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -2481,6 +2622,7 @@
 },
 "sketch_conversion": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -2498,6 +2640,7 @@
 },
 "sketch_conversion_2": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -2515,6 +2658,7 @@
 },
 "sketch_copycat": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -2532,6 +2676,7 @@
 },
 "sketch_core_enforcer": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -2549,6 +2694,7 @@
 },
 "sketch_corkscrew_crash": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -2566,6 +2712,7 @@
 },
 "sketch_corkscrew_crash_1": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -2583,6 +2730,7 @@
 },
 "sketch_corrosive_gas": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -2600,6 +2748,7 @@
 },
 "sketch_cosmic_power": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -2617,6 +2766,7 @@
 },
 "sketch_cotton_guard": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -2634,6 +2784,7 @@
 },
 "sketch_cotton_spore": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -2651,6 +2802,7 @@
 },
 "sketch_counter": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -2668,6 +2820,7 @@
 },
 "sketch_court_change": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -2685,6 +2838,7 @@
 },
 "sketch_covet": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -2702,6 +2856,7 @@
 },
 "sketch_crabhammer": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -2719,6 +2874,7 @@
 },
 "sketch_crafty_shield": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -2736,6 +2892,7 @@
 },
 "sketch_cross_chop": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -2753,6 +2910,7 @@
 },
 "sketch_cross_poison": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -2770,6 +2928,7 @@
 },
 "sketch_crunch": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -2787,6 +2946,7 @@
 },
 "sketch_crush_claw": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -2804,6 +2964,7 @@
 },
 "sketch_crush_grip": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -2821,6 +2982,7 @@
 },
 "sketch_curse": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -2838,6 +3000,7 @@
 },
 "sketch_cut": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -2855,6 +3018,7 @@
 },
 "sketch_darkest_lariat": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -2872,6 +3036,7 @@
 },
 "sketch_dark_pulse": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -2889,6 +3054,7 @@
 },
 "sketch_dark_void": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -2906,6 +3072,7 @@
 },
 "sketch_dazzling_gleam": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -2923,6 +3090,7 @@
 },
 "sketch_decorate": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -2940,6 +3108,7 @@
 },
 "sketch_defend_order": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -2957,6 +3126,7 @@
 },
 "sketch_defense_curl": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -2974,6 +3144,7 @@
 },
 "sketch_defog": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -2991,6 +3162,7 @@
 },
 "sketch_destiny_bond": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -3008,6 +3180,7 @@
 },
 "sketch_detect": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -3025,6 +3198,7 @@
 },
 "sketch_devastating_drake": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -3042,6 +3216,7 @@
 },
 "sketch_devastating_drake_1": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -3059,6 +3234,7 @@
 },
 "sketch_diamond_storm": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -3076,6 +3252,7 @@
 },
 "sketch_dig": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -3093,6 +3270,7 @@
 },
 "sketch_disable": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -3110,6 +3288,7 @@
 },
 "sketch_disarming_voice": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -3127,6 +3306,7 @@
 },
 "sketch_discharge": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -3144,6 +3324,7 @@
 },
 "sketch_dive": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -3161,6 +3342,7 @@
 },
 "sketch_dizzy_punch": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -3178,6 +3360,7 @@
 },
 "sketch_doom_desire": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -3195,6 +3378,7 @@
 },
 "sketch_double_edge": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -3212,6 +3396,7 @@
 },
 "sketch_double_hit": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -3229,6 +3414,7 @@
 },
 "sketch_double_iron_bash": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -3246,6 +3432,7 @@
 },
 "sketch_double_kick": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -3263,6 +3450,7 @@
 },
 "sketch_double_slap": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -3280,6 +3468,7 @@
 },
 "sketch_double_team": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -3297,6 +3486,7 @@
 },
 "sketch_draco_meteor": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -3314,6 +3504,7 @@
 },
 "sketch_dragon_ascent": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -3331,6 +3522,7 @@
 },
 "sketch_dragon_breath": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -3348,6 +3540,7 @@
 },
 "sketch_dragon_claw": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -3365,6 +3558,7 @@
 },
 "sketch_dragon_dance": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -3382,6 +3576,7 @@
 },
 "sketch_dragon_darts": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -3399,6 +3594,7 @@
 },
 "sketch_dragon_energy": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -3416,6 +3612,7 @@
 },
 "sketch_dragon_hammer": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -3433,6 +3630,7 @@
 },
 "sketch_dragon_pulse": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -3450,6 +3648,7 @@
 },
 "sketch_dragon_rage": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -3467,6 +3666,7 @@
 },
 "sketch_dragon_rush": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -3484,6 +3684,7 @@
 },
 "sketch_dragon_tail": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -3501,6 +3702,7 @@
 },
 "sketch_draining_kiss": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -3518,6 +3720,7 @@
 },
 "sketch_drain_punch": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -3535,6 +3738,7 @@
 },
 "sketch_dream_eater": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -3552,6 +3756,7 @@
 },
 "sketch_drill_peck": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -3569,6 +3774,7 @@
 },
 "sketch_drill_run": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -3586,6 +3792,7 @@
 },
 "sketch_drum_beating": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -3603,6 +3810,7 @@
 },
 "sketch_dual_chop": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -3620,6 +3828,7 @@
 },
 "sketch_dual_wingbeat": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -3637,6 +3846,7 @@
 },
 "sketch_dynamax_cannon": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -3654,6 +3864,7 @@
 },
 "sketch_dynamic_punch": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -3671,6 +3882,7 @@
 },
 "sketch_earthquake": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -3688,6 +3900,7 @@
 },
 "sketch_earth_power": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -3705,6 +3918,7 @@
 },
 "sketch_echoed_voice": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -3722,6 +3936,7 @@
 },
 "sketch_eerie_impulse": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -3739,6 +3954,7 @@
 },
 "sketch_eerie_spell": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -3756,6 +3972,7 @@
 },
 "sketch_egg_bomb": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -3773,6 +3990,7 @@
 },
 "sketch_electric_terrain": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -3790,6 +4008,7 @@
 },
 "sketch_electrify": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -3807,6 +4026,7 @@
 },
 "sketch_electroweb": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -3824,6 +4044,7 @@
 },
 "sketch_electro_ball": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -3841,6 +4062,7 @@
 },
 "sketch_embargo": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -3858,6 +4080,7 @@
 },
 "sketch_ember": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -3875,6 +4098,7 @@
 },
 "sketch_encore": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -3892,6 +4116,7 @@
 },
 "sketch_endeavor": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -3909,6 +4134,7 @@
 },
 "sketch_endure": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -3926,6 +4152,7 @@
 },
 "sketch_energy_ball": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -3943,6 +4170,7 @@
 },
 "sketch_entrainment": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -3960,6 +4188,7 @@
 },
 "sketch_eruption": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -3977,6 +4206,7 @@
 },
 "sketch_eternabeam": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -3994,6 +4224,7 @@
 },
 "sketch_expanding_force": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -4011,6 +4242,7 @@
 },
 "sketch_explosion": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -4028,6 +4260,7 @@
 },
 "sketch_extrasensory": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -4045,6 +4278,7 @@
 },
 "sketch_extreme_evoboost": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -4062,6 +4296,7 @@
 },
 "sketch_extreme_speed": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -4079,6 +4314,7 @@
 },
 "sketch_facade": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -4096,6 +4332,7 @@
 },
 "sketch_fairy_lock": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -4113,6 +4350,7 @@
 },
 "sketch_fairy_wind": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -4130,6 +4368,7 @@
 },
 "sketch_fake_out": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -4147,6 +4386,7 @@
 },
 "sketch_fake_tears": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -4164,6 +4404,7 @@
 },
 "sketch_false_surrender": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -4181,6 +4422,7 @@
 },
 "sketch_false_swipe": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -4198,6 +4440,7 @@
 },
 "sketch_feather_dance": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -4215,6 +4458,7 @@
 },
 "sketch_feint": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -4232,6 +4476,7 @@
 },
 "sketch_feint_attack": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -4249,6 +4494,7 @@
 },
 "sketch_fell_stinger": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -4266,6 +4512,7 @@
 },
 "sketch_fiery_dance": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -4283,6 +4530,7 @@
 },
 "sketch_fiery_wrath": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -4300,6 +4548,7 @@
 },
 "sketch_final_gambit": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -4317,6 +4566,7 @@
 },
 "sketch_fire_blast": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -4334,6 +4584,7 @@
 },
 "sketch_fire_fang": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -4351,6 +4602,7 @@
 },
 "sketch_fire_lash": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -4368,6 +4620,7 @@
 },
 "sketch_fire_pledge": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -4385,6 +4638,7 @@
 },
 "sketch_fire_punch": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -4402,6 +4656,7 @@
 },
 "sketch_fire_spin": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -4419,6 +4674,7 @@
 },
 "sketch_first_impression": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -4436,6 +4692,7 @@
 },
 "sketch_fishious_rend": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -4453,6 +4710,7 @@
 },
 "sketch_fissure": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -4470,6 +4728,7 @@
 },
 "sketch_flail": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -4487,6 +4746,7 @@
 },
 "sketch_flamethrower": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -4504,6 +4764,7 @@
 },
 "sketch_flame_burst": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -4521,6 +4782,7 @@
 },
 "sketch_flame_charge": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -4538,6 +4800,7 @@
 },
 "sketch_flame_wheel": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -4555,6 +4818,7 @@
 },
 "sketch_flare_blitz": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -4572,6 +4836,7 @@
 },
 "sketch_flash": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -4589,6 +4854,7 @@
 },
 "sketch_flash_cannon": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -4606,6 +4872,7 @@
 },
 "sketch_flatter": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -4623,6 +4890,7 @@
 },
 "sketch_fleur_cannon": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -4640,6 +4908,7 @@
 },
 "sketch_fling": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -4657,6 +4926,7 @@
 },
 "sketch_flip_turn": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -4674,6 +4944,7 @@
 },
 "sketch_floaty_fall": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -4691,6 +4962,7 @@
 },
 "sketch_floral_healing": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -4708,6 +4980,7 @@
 },
 "sketch_flower_shield": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -4725,6 +4998,7 @@
 },
 "sketch_fly": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -4742,6 +5016,7 @@
 },
 "sketch_flying_press": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -4759,6 +5034,7 @@
 },
 "sketch_focus_blast": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -4776,6 +5052,7 @@
 },
 "sketch_focus_energy": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -4793,6 +5070,7 @@
 },
 "sketch_focus_punch": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -4810,6 +5088,7 @@
 },
 "sketch_follow_me": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -4827,6 +5106,7 @@
 },
 "sketch_force_palm": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -4844,6 +5124,7 @@
 },
 "sketch_foresight": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -4861,6 +5142,7 @@
 },
 "sketch_forests_curse": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -4878,6 +5160,7 @@
 },
 "sketch_foul_play": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -4895,6 +5178,7 @@
 },
 "sketch_freeze_dry": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -4912,6 +5196,7 @@
 },
 "sketch_freeze_shock": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -4929,6 +5214,7 @@
 },
 "sketch_freezing_glare": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -4946,6 +5232,7 @@
 },
 "sketch_freezy_frost": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -4963,6 +5250,7 @@
 },
 "sketch_frenzy_plant": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -4980,6 +5268,7 @@
 },
 "sketch_frost_breath": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -4997,6 +5286,7 @@
 },
 "sketch_frustration": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -5014,6 +5304,7 @@
 },
 "sketch_fury_attack": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -5031,6 +5322,7 @@
 },
 "sketch_fury_cutter": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -5048,6 +5340,7 @@
 },
 "sketch_fury_swipes": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -5065,6 +5358,7 @@
 },
 "sketch_fusion_bolt": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -5082,6 +5376,7 @@
 },
 "sketch_fusion_flare": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -5099,6 +5394,7 @@
 },
 "sketch_future_sight": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -5116,6 +5412,7 @@
 },
 "sketch_gastro_acid": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -5133,6 +5430,7 @@
 },
 "sketch_gear_grind": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -5150,6 +5448,7 @@
 },
 "sketch_gear_up": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -5167,6 +5466,7 @@
 },
 "sketch_genesis_supernova": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -5184,6 +5484,7 @@
 },
 "sketch_geomancy": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -5201,6 +5502,7 @@
 },
 "sketch_gigavolt_havoc": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -5218,6 +5520,7 @@
 },
 "sketch_gigavolt_havoc_1": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -5235,6 +5538,7 @@
 },
 "sketch_giga_drain": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -5252,6 +5556,7 @@
 },
 "sketch_giga_impact": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -5269,6 +5574,7 @@
 },
 "sketch_glacial_lance": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -5286,6 +5592,7 @@
 },
 "sketch_glaciate": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -5303,6 +5610,7 @@
 },
 "sketch_glare": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -5320,6 +5628,7 @@
 },
 "sketch_glitzy_glow": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -5337,6 +5646,7 @@
 },
 "sketch_grassy_glide": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -5354,6 +5664,7 @@
 },
 "sketch_grassy_terrain": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -5371,6 +5682,7 @@
 },
 "sketch_grass_knot": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -5388,6 +5700,7 @@
 },
 "sketch_grass_pledge": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -5405,6 +5718,7 @@
 },
 "sketch_grass_whistle": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -5422,6 +5736,7 @@
 },
 "sketch_gravity": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -5439,6 +5754,7 @@
 },
 "sketch_grav_apple": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -5456,6 +5772,7 @@
 },
 "sketch_growl": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -5473,6 +5790,7 @@
 },
 "sketch_growth": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -5490,6 +5808,7 @@
 },
 "sketch_grudge": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -5507,6 +5826,7 @@
 },
 "sketch_guardian_of_alola": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -5524,6 +5844,7 @@
 },
 "sketch_guard_split": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -5541,6 +5862,7 @@
 },
 "sketch_guard_swap": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -5558,6 +5880,7 @@
 },
 "sketch_guillotine": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -5575,6 +5898,7 @@
 },
 "sketch_gunk_shot": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -5592,6 +5916,7 @@
 },
 "sketch_gust": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -5609,6 +5934,7 @@
 },
 "sketch_gyro_ball": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -5626,6 +5952,7 @@
 },
 "sketch_hail": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -5643,6 +5970,7 @@
 },
 "sketch_hammer_arm": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -5660,6 +5988,7 @@
 },
 "sketch_happy_hour": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -5677,6 +6006,7 @@
 },
 "sketch_harden": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -5694,6 +6024,7 @@
 },
 "sketch_haze": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -5711,6 +6042,7 @@
 },
 "sketch_headbutt": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -5728,6 +6060,7 @@
 },
 "sketch_head_charge": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -5745,6 +6078,7 @@
 },
 "sketch_head_smash": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -5762,6 +6096,7 @@
 },
 "sketch_healing_wish": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -5779,6 +6114,7 @@
 },
 "sketch_heal_bell": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -5796,6 +6132,7 @@
 },
 "sketch_heal_block": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -5813,6 +6150,7 @@
 },
 "sketch_heal_order": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -5830,6 +6168,7 @@
 },
 "sketch_heal_pulse": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -5847,6 +6186,7 @@
 },
 "sketch_heart_stamp": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -5864,6 +6204,7 @@
 },
 "sketch_heart_swap": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -5881,6 +6222,7 @@
 },
 "sketch_heat_crash": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -5898,6 +6240,7 @@
 },
 "sketch_heat_wave": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -5915,6 +6258,7 @@
 },
 "sketch_heavy_slam": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -5932,6 +6276,7 @@
 },
 "sketch_helping_hand": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -5949,6 +6294,7 @@
 },
 "sketch_hex": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -5966,6 +6312,7 @@
 },
 "sketch_hidden_power": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -5983,6 +6330,7 @@
 },
 "sketch_high_horsepower": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -6000,6 +6348,7 @@
 },
 "sketch_high_jump_kick": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -6017,6 +6366,7 @@
 },
 "sketch_hold_back": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -6034,6 +6384,7 @@
 },
 "sketch_hold_hands": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -6051,6 +6402,7 @@
 },
 "sketch_hone_claws": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -6068,6 +6420,7 @@
 },
 "sketch_horn_attack": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -6085,6 +6438,7 @@
 },
 "sketch_horn_drill": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -6102,6 +6456,7 @@
 },
 "sketch_horn_leech": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -6119,6 +6474,7 @@
 },
 "sketch_howl": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -6136,6 +6492,7 @@
 },
 "sketch_hurricane": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -6153,6 +6510,7 @@
 },
 "sketch_hydro_cannon": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -6170,6 +6528,7 @@
 },
 "sketch_hydro_pump": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -6187,6 +6546,7 @@
 },
 "sketch_hydro_vortex": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -6204,6 +6564,7 @@
 },
 "sketch_hydro_vortex_1": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -6221,6 +6582,7 @@
 },
 "sketch_hyperspace_fury": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -6238,6 +6600,7 @@
 },
 "sketch_hyperspace_hole": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -6255,6 +6618,7 @@
 },
 "sketch_hyper_beam": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -6272,6 +6636,7 @@
 },
 "sketch_hyper_fang": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -6289,6 +6654,7 @@
 },
 "sketch_hyper_voice": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -6306,6 +6672,7 @@
 },
 "sketch_hypnosis": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -6323,6 +6690,7 @@
 },
 "sketch_ice_ball": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -6340,6 +6708,7 @@
 },
 "sketch_ice_beam": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -6357,6 +6726,7 @@
 },
 "sketch_ice_burn": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -6374,6 +6744,7 @@
 },
 "sketch_ice_fang": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -6391,6 +6762,7 @@
 },
 "sketch_ice_hammer": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -6408,6 +6780,7 @@
 },
 "sketch_ice_punch": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -6425,6 +6798,7 @@
 },
 "sketch_ice_shard": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -6442,6 +6816,7 @@
 },
 "sketch_icicle_crash": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -6459,6 +6834,7 @@
 },
 "sketch_icicle_spear": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -6476,6 +6852,7 @@
 },
 "sketch_icy_wind": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -6493,6 +6870,7 @@
 },
 "sketch_imprison": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -6510,6 +6888,7 @@
 },
 "sketch_incinerate": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -6527,6 +6906,7 @@
 },
 "sketch_inferno": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -6544,6 +6924,7 @@
 },
 "sketch_inferno_overdrive": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -6561,6 +6942,7 @@
 },
 "sketch_inferno_overdrive_1": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -6578,6 +6960,7 @@
 },
 "sketch_infestation": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -6595,6 +6978,7 @@
 },
 "sketch_ingrain": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -6612,6 +6996,7 @@
 },
 "sketch_instruct": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -6629,6 +7014,7 @@
 },
 "sketch_ion_deluge": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -6646,6 +7032,7 @@
 },
 "sketch_iron_defense": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -6663,6 +7050,7 @@
 },
 "sketch_iron_head": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -6680,6 +7068,7 @@
 },
 "sketch_iron_tail": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -6697,6 +7086,7 @@
 },
 "sketch_jaw_lock": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -6714,6 +7104,7 @@
 },
 "sketch_judgment": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -6731,6 +7122,7 @@
 },
 "sketch_jump_kick": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -6748,6 +7140,7 @@
 },
 "sketch_jungle_healing": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -6765,6 +7158,7 @@
 },
 "sketch_karate_chop": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -6782,6 +7176,7 @@
 },
 "sketch_kinesis": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -6799,6 +7194,7 @@
 },
 "sketch_kings_shield": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -6816,6 +7212,7 @@
 },
 "sketch_knock_off": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -6833,6 +7230,7 @@
 },
 "sketch_lands_wrath": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -6850,6 +7248,7 @@
 },
 "sketch_laser_focus": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -6867,6 +7266,7 @@
 },
 "sketch_lash_out": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -6884,6 +7284,7 @@
 },
 "sketch_last_resort": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -6901,6 +7302,7 @@
 },
 "sketch_lava_plume": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -6918,6 +7320,7 @@
 },
 "sketch_leafage": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -6935,6 +7338,7 @@
 },
 "sketch_leaf_blade": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -6952,6 +7356,7 @@
 },
 "sketch_leaf_storm": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -6969,6 +7374,7 @@
 },
 "sketch_leaf_tornado": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -6986,6 +7392,7 @@
 },
 "sketch_leech_life": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -7003,6 +7410,7 @@
 },
 "sketch_leech_seed": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -7020,6 +7428,7 @@
 },
 "sketch_leer": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -7037,6 +7446,7 @@
 },
 "sketch_lets_snuggle_forever": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -7054,6 +7464,7 @@
 },
 "sketch_lick": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -7071,6 +7482,7 @@
 },
 "sketch_life_dew": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -7088,6 +7500,7 @@
 },
 "sketch_light_of_ruin": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -7105,6 +7518,7 @@
 },
 "sketch_light_screen": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -7122,6 +7536,7 @@
 },
 "sketch_light_that_burns_the_sky": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -7139,6 +7554,7 @@
 },
 "sketch_liquidation": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -7156,6 +7572,7 @@
 },
 "sketch_lock_on": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -7173,6 +7590,7 @@
 },
 "sketch_lovely_kiss": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -7190,6 +7608,7 @@
 },
 "sketch_low_kick": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -7207,6 +7626,7 @@
 },
 "sketch_low_sweep": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -7224,6 +7644,7 @@
 },
 "sketch_lucky_chant": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -7241,6 +7662,7 @@
 },
 "sketch_lunar_dance": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -7258,6 +7680,7 @@
 },
 "sketch_lunge": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -7275,6 +7698,7 @@
 },
 "sketch_luster_purge": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -7292,6 +7716,7 @@
 },
 "sketch_mach_punch": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -7309,6 +7734,7 @@
 },
 "sketch_magical_leaf": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -7326,6 +7752,7 @@
 },
 "sketch_magic_coat": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -7343,6 +7770,7 @@
 },
 "sketch_magic_powder": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -7360,6 +7788,7 @@
 },
 "sketch_magic_room": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -7377,6 +7806,7 @@
 },
 "sketch_magma_storm": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -7394,6 +7824,7 @@
 },
 "sketch_magnetic_flux": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -7411,6 +7842,7 @@
 },
 "sketch_magnet_bomb": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -7428,6 +7860,7 @@
 },
 "sketch_magnet_rise": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -7445,6 +7878,7 @@
 },
 "sketch_magnitude": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -7462,6 +7896,7 @@
 },
 "sketch_malicious_moonsault": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -7479,6 +7914,7 @@
 },
 "sketch_mat_block": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -7496,6 +7932,7 @@
 },
 "sketch_max_airstream": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -7513,6 +7950,7 @@
 },
 "sketch_max_darkness": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -7530,6 +7968,7 @@
 },
 "sketch_max_flare": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -7547,6 +7986,7 @@
 },
 "sketch_max_flutterby": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -7564,6 +8004,7 @@
 },
 "sketch_max_geyser": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -7581,6 +8022,7 @@
 },
 "sketch_max_guard": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -7598,6 +8040,7 @@
 },
 "sketch_max_hailstorm": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -7615,6 +8058,7 @@
 },
 "sketch_max_knuckle": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -7632,6 +8076,7 @@
 },
 "sketch_max_lightning": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -7649,6 +8094,7 @@
 },
 "sketch_max_mindstorm": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -7666,6 +8112,7 @@
 },
 "sketch_max_ooze": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -7683,6 +8130,7 @@
 },
 "sketch_max_overgrowth": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -7700,6 +8148,7 @@
 },
 "sketch_max_phantasm": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -7717,6 +8166,7 @@
 },
 "sketch_max_quake": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -7734,6 +8184,7 @@
 },
 "sketch_max_rockfall": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -7751,6 +8202,7 @@
 },
 "sketch_max_starfall": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -7768,6 +8220,7 @@
 },
 "sketch_max_steelspike": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -7785,6 +8238,7 @@
 },
 "sketch_max_strike": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -7802,6 +8256,7 @@
 },
 "sketch_max_wyrmwind": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -7819,6 +8274,7 @@
 },
 "sketch_mean_look": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -7836,6 +8292,7 @@
 },
 "sketch_meditate": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -7853,6 +8310,7 @@
 },
 "sketch_megahorn": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -7870,6 +8328,7 @@
 },
 "sketch_mega_drain": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -7887,6 +8346,7 @@
 },
 "sketch_mega_kick": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -7904,6 +8364,7 @@
 },
 "sketch_mega_punch": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -7921,6 +8382,7 @@
 },
 "sketch_memento": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -7938,6 +8400,7 @@
 },
 "sketch_menacing_moonraze_maelstrom": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -7955,6 +8418,7 @@
 },
 "sketch_metal_burst": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -7972,6 +8436,7 @@
 },
 "sketch_metal_claw": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -7989,6 +8454,7 @@
 },
 "sketch_metal_sound": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -8006,6 +8472,7 @@
 },
 "sketch_meteor_assault": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -8023,6 +8490,7 @@
 },
 "sketch_meteor_beam": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -8040,6 +8508,7 @@
 },
 "sketch_meteor_mash": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -8057,6 +8526,7 @@
 },
 "sketch_metronome": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -8074,6 +8544,7 @@
 },
 "sketch_me_first": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -8091,6 +8562,7 @@
 },
 "sketch_milk_drink": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -8108,6 +8580,7 @@
 },
 "sketch_mimic": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -8125,6 +8598,7 @@
 },
 "sketch_mind_blown": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -8142,6 +8616,7 @@
 },
 "sketch_mind_reader": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -8159,6 +8634,7 @@
 },
 "sketch_minimize": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -8176,6 +8652,7 @@
 },
 "sketch_miracle_eye": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -8193,6 +8670,7 @@
 },
 "sketch_mirror_coat": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -8210,6 +8688,7 @@
 },
 "sketch_mirror_move": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -8227,6 +8706,7 @@
 },
 "sketch_mirror_shot": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -8244,6 +8724,7 @@
 },
 "sketch_mist": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -8261,6 +8742,7 @@
 },
 "sketch_misty_explosion": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -8278,6 +8760,7 @@
 },
 "sketch_misty_terrain": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -8295,6 +8778,7 @@
 },
 "sketch_mist_ball": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -8312,6 +8796,7 @@
 },
 "sketch_moonblast": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -8329,6 +8814,7 @@
 },
 "sketch_moongeist_beam": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -8346,6 +8832,7 @@
 },
 "sketch_moonlight": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -8363,6 +8850,7 @@
 },
 "sketch_morning_sun": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -8380,6 +8868,7 @@
 },
 "sketch_muddy_water": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -8397,6 +8886,7 @@
 },
 "sketch_mud_bomb": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -8414,6 +8904,7 @@
 },
 "sketch_mud_shot": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -8431,6 +8922,7 @@
 },
 "sketch_mud_slap": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -8448,6 +8940,7 @@
 },
 "sketch_mud_sport": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -8465,6 +8958,7 @@
 },
 "sketch_multi_attack": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -8482,6 +8976,7 @@
 },
 "sketch_mystical_fire": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -8499,6 +8994,7 @@
 },
 "sketch_nasty_plot": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -8516,6 +9012,7 @@
 },
 "sketch_natural_gift": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -8533,6 +9030,7 @@
 },
 "sketch_natures_madness": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -8550,6 +9048,7 @@
 },
 "sketch_nature_power": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -8567,6 +9066,7 @@
 },
 "sketch_needle_arm": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -8584,6 +9084,7 @@
 },
 "sketch_never_ending_nightmare": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -8601,6 +9102,7 @@
 },
 "sketch_never_ending_nightmare_1": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -8618,6 +9120,7 @@
 },
 "sketch_nightmare": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -8635,6 +9138,7 @@
 },
 "sketch_night_daze": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -8652,6 +9156,7 @@
 },
 "sketch_night_shade": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -8669,6 +9174,7 @@
 },
 "sketch_night_slash": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -8686,6 +9192,7 @@
 },
 "sketch_noble_roar": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -8703,6 +9210,7 @@
 },
 "sketch_no_retreat": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -8720,6 +9228,7 @@
 },
 "sketch_nuzzle": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -8737,6 +9246,7 @@
 },
 "sketch_oblivion_wing": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -8754,6 +9264,7 @@
 },
 "sketch_obstruct": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -8771,6 +9282,7 @@
 },
 "sketch_oceanic_operetta": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -8788,6 +9300,7 @@
 },
 "sketch_octazooka": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -8805,6 +9318,7 @@
 },
 "sketch_octolock": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -8822,6 +9336,7 @@
 },
 "sketch_odor_sleuth": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -8839,6 +9354,7 @@
 },
 "sketch_ominous_wind": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -8856,6 +9372,7 @@
 },
 "sketch_origin_pulse": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -8873,6 +9390,7 @@
 },
 "sketch_outrage": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -8890,6 +9408,7 @@
 },
 "sketch_overdrive": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -8907,6 +9426,7 @@
 },
 "sketch_overheat": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -8924,6 +9444,7 @@
 },
 "sketch_pain_split": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -8941,6 +9462,7 @@
 },
 "sketch_parabolic_charge": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -8958,6 +9480,7 @@
 },
 "sketch_parting_shot": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -8975,6 +9498,7 @@
 },
 "sketch_payback": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -8992,6 +9516,7 @@
 },
 "sketch_pay_day": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -9009,6 +9534,7 @@
 },
 "sketch_peck": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -9026,6 +9552,7 @@
 },
 "sketch_perish_song": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -9043,6 +9570,7 @@
 },
 "sketch_petal_blizzard": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -9060,6 +9588,7 @@
 },
 "sketch_petal_dance": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -9077,6 +9606,7 @@
 },
 "sketch_phantom_force": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -9094,6 +9624,7 @@
 },
 "sketch_photon_geyser": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -9111,6 +9642,7 @@
 },
 "sketch_pika_papow": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -9128,6 +9660,7 @@
 },
 "sketch_pin_missile": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -9145,6 +9678,7 @@
 },
 "sketch_plasma_fists": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -9162,6 +9696,7 @@
 },
 "sketch_play_nice": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -9179,6 +9714,7 @@
 },
 "sketch_play_rough": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -9196,6 +9732,7 @@
 },
 "sketch_pluck": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -9213,6 +9750,7 @@
 },
 "sketch_poison_fang": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -9230,6 +9768,7 @@
 },
 "sketch_poison_gas": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -9247,6 +9786,7 @@
 },
 "sketch_poison_jab": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -9264,6 +9804,7 @@
 },
 "sketch_poison_powder": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -9281,6 +9822,7 @@
 },
 "sketch_poison_sting": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -9298,6 +9840,7 @@
 },
 "sketch_poison_tail": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -9315,6 +9858,7 @@
 },
 "sketch_pollen_puff": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -9332,6 +9876,7 @@
 },
 "sketch_poltergeist": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -9349,6 +9894,7 @@
 },
 "sketch_pound": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -9366,6 +9912,7 @@
 },
 "sketch_powder": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -9383,6 +9930,7 @@
 },
 "sketch_powder_snow": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -9400,6 +9948,7 @@
 },
 "sketch_power_gem": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -9417,6 +9966,7 @@
 },
 "sketch_power_split": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -9434,6 +9984,7 @@
 },
 "sketch_power_swap": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -9451,6 +10002,7 @@
 },
 "sketch_power_trick": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -9468,6 +10020,7 @@
 },
 "sketch_power_trip": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -9485,6 +10038,7 @@
 },
 "sketch_power_up_punch": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -9502,6 +10056,7 @@
 },
 "sketch_power_whip": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -9519,6 +10074,7 @@
 },
 "sketch_precipice_blades": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -9536,6 +10092,7 @@
 },
 "sketch_present": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -9553,6 +10110,7 @@
 },
 "sketch_prismatic_laser": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -9570,6 +10128,7 @@
 },
 "sketch_protect": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -9587,6 +10146,7 @@
 },
 "sketch_psybeam": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -9604,6 +10164,7 @@
 },
 "sketch_psychic": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -9621,6 +10182,7 @@
 },
 "sketch_psychic_fangs": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -9638,6 +10200,7 @@
 },
 "sketch_psychic_terrain": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -9655,6 +10218,7 @@
 },
 "sketch_psycho_boost": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -9672,6 +10236,7 @@
 },
 "sketch_psycho_cut": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -9689,6 +10254,7 @@
 },
 "sketch_psycho_shift": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -9706,6 +10272,7 @@
 },
 "sketch_psych_up": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -9723,6 +10290,7 @@
 },
 "sketch_psyshock": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -9740,6 +10308,7 @@
 },
 "sketch_psystrike": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -9757,6 +10326,7 @@
 },
 "sketch_psywave": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -9774,6 +10344,7 @@
 },
 "sketch_pulverizing_pancake": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -9791,6 +10362,7 @@
 },
 "sketch_punishment": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -9808,6 +10380,7 @@
 },
 "sketch_purify": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -9825,6 +10398,7 @@
 },
 "sketch_pursuit": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -9842,6 +10416,7 @@
 },
 "sketch_pyro_ball": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -9859,6 +10434,7 @@
 },
 "sketch_quash": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -9876,6 +10452,7 @@
 },
 "sketch_quick_attack": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -9893,6 +10470,7 @@
 },
 "sketch_quick_guard": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -9910,6 +10488,7 @@
 },
 "sketch_quiver_dance": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -9927,6 +10506,7 @@
 },
 "sketch_rage": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -9944,6 +10524,7 @@
 },
 "sketch_rage_powder": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -9961,6 +10542,7 @@
 },
 "sketch_rain_dance": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -9978,6 +10560,7 @@
 },
 "sketch_rapid_spin": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -9995,6 +10578,7 @@
 },
 "sketch_razor_leaf": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -10012,6 +10596,7 @@
 },
 "sketch_razor_shell": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -10029,6 +10614,7 @@
 },
 "sketch_razor_wind": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -10046,6 +10632,7 @@
 },
 "sketch_recover": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -10063,6 +10650,7 @@
 },
 "sketch_recycle": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -10080,6 +10668,7 @@
 },
 "sketch_reflect": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -10097,6 +10686,7 @@
 },
 "sketch_reflect_type": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -10114,6 +10704,7 @@
 },
 "sketch_refresh": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -10131,6 +10722,7 @@
 },
 "sketch_relic_song": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -10148,6 +10740,7 @@
 },
 "sketch_rest": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -10165,6 +10758,7 @@
 },
 "sketch_retaliate": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -10182,6 +10776,7 @@
 },
 "sketch_return": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -10199,6 +10794,7 @@
 },
 "sketch_revelation_dance": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -10216,6 +10812,7 @@
 },
 "sketch_revenge": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -10233,6 +10830,7 @@
 },
 "sketch_reversal": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -10250,6 +10848,7 @@
 },
 "sketch_rising_voltage": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -10267,6 +10866,7 @@
 },
 "sketch_roar": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -10284,6 +10884,7 @@
 },
 "sketch_roar_of_time": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -10301,6 +10902,7 @@
 },
 "sketch_rock_blast": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -10318,6 +10920,7 @@
 },
 "sketch_rock_climb": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -10335,6 +10938,7 @@
 },
 "sketch_rock_polish": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -10352,6 +10956,7 @@
 },
 "sketch_rock_slide": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -10369,6 +10974,7 @@
 },
 "sketch_rock_smash": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -10386,6 +10992,7 @@
 },
 "sketch_rock_throw": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -10403,6 +11010,7 @@
 },
 "sketch_rock_tomb": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -10420,6 +11028,7 @@
 },
 "sketch_rock_wrecker": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -10437,6 +11046,7 @@
 },
 "sketch_role_play": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -10454,6 +11064,7 @@
 },
 "sketch_rolling_kick": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -10471,6 +11082,7 @@
 },
 "sketch_rollout": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -10488,6 +11100,7 @@
 },
 "sketch_roost": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -10505,6 +11118,7 @@
 },
 "sketch_rototiller": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -10522,6 +11136,7 @@
 },
 "sketch_round": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -10539,6 +11154,7 @@
 },
 "sketch_sacred_fire": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -10556,6 +11172,7 @@
 },
 "sketch_sacred_sword": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -10573,6 +11190,7 @@
 },
 "sketch_safeguard": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -10590,6 +11208,7 @@
 },
 "sketch_sandstorm": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -10607,6 +11226,7 @@
 },
 "sketch_sand_attack": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -10624,6 +11244,7 @@
 },
 "sketch_sand_tomb": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -10641,6 +11262,7 @@
 },
 "sketch_sappy_seed": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -10658,6 +11280,7 @@
 },
 "sketch_savage_spin_out": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -10675,6 +11298,7 @@
 },
 "sketch_savage_spin_out_1": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -10692,6 +11316,7 @@
 },
 "sketch_scald": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -10709,6 +11334,7 @@
 },
 "sketch_scale_shot": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -10726,6 +11352,7 @@
 },
 "sketch_scary_face": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -10743,6 +11370,7 @@
 },
 "sketch_scorching_sands": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -10760,6 +11388,7 @@
 },
 "sketch_scratch": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -10777,6 +11406,7 @@
 },
 "sketch_screech": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -10794,6 +11424,7 @@
 },
 "sketch_searing_shot": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -10811,6 +11442,7 @@
 },
 "sketch_searing_sunraze_smash": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -10828,6 +11460,7 @@
 },
 "sketch_secret_power": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -10845,6 +11478,7 @@
 },
 "sketch_secret_sword": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -10862,6 +11496,7 @@
 },
 "sketch_seed_bomb": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -10879,6 +11514,7 @@
 },
 "sketch_seed_flare": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -10896,6 +11532,7 @@
 },
 "sketch_seismic_toss": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -10913,6 +11550,7 @@
 },
 "sketch_self_destruct": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -10930,6 +11568,7 @@
 },
 "sketch_shadow_ball": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -10947,6 +11586,7 @@
 },
 "sketch_shadow_bone": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -10964,6 +11604,7 @@
 },
 "sketch_shadow_claw": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -10981,6 +11622,7 @@
 },
 "sketch_shadow_force": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -10998,6 +11640,7 @@
 },
 "sketch_shadow_punch": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -11015,6 +11658,7 @@
 },
 "sketch_shadow_sneak": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -11032,6 +11676,7 @@
 },
 "sketch_sharpen": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -11049,6 +11694,7 @@
 },
 "sketch_shattered_psyche": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -11066,6 +11712,7 @@
 },
 "sketch_shattered_psyche_1": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -11083,6 +11730,7 @@
 },
 "sketch_sheer_cold": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -11100,6 +11748,7 @@
 },
 "sketch_shell_side_arm": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -11117,6 +11766,7 @@
 },
 "sketch_shell_smash": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -11134,6 +11784,7 @@
 },
 "sketch_shell_trap": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -11151,6 +11802,7 @@
 },
 "sketch_shift_gear": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -11168,6 +11820,7 @@
 },
 "sketch_shock_wave": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -11185,6 +11838,7 @@
 },
 "sketch_shore_up": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -11202,6 +11856,7 @@
 },
 "sketch_signal_beam": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -11219,6 +11874,7 @@
 },
 "sketch_silver_wind": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -11236,6 +11892,7 @@
 },
 "sketch_simple_beam": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -11253,6 +11910,7 @@
 },
 "sketch_sing": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -11270,6 +11928,7 @@
 },
 "sketch_sinister_arrow_raid": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -11287,6 +11946,7 @@
 },
 "sketch_sizzly_slide": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -11304,6 +11964,7 @@
 },
 "sketch_sketch": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -11321,6 +11982,7 @@
 },
 "sketch_skill_swap": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -11338,6 +12000,7 @@
 },
 "sketch_skitter_smack": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -11355,6 +12018,7 @@
 },
 "sketch_skull_bash": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -11372,6 +12036,7 @@
 },
 "sketch_sky_attack": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -11389,6 +12054,7 @@
 },
 "sketch_sky_drop": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -11406,6 +12072,7 @@
 },
 "sketch_sky_uppercut": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -11423,6 +12090,7 @@
 },
 "sketch_slack_off": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -11440,6 +12108,7 @@
 },
 "sketch_slam": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -11457,6 +12126,7 @@
 },
 "sketch_slash": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -11474,6 +12144,7 @@
 },
 "sketch_sleep_powder": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -11491,6 +12162,7 @@
 },
 "sketch_sleep_talk": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -11508,6 +12180,7 @@
 },
 "sketch_sludge": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -11525,6 +12198,7 @@
 },
 "sketch_sludge_bomb": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -11542,6 +12216,7 @@
 },
 "sketch_sludge_wave": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -11559,6 +12234,7 @@
 },
 "sketch_smack_down": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -11576,6 +12252,7 @@
 },
 "sketch_smart_strike": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -11593,6 +12270,7 @@
 },
 "sketch_smelling_salts": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -11610,6 +12288,7 @@
 },
 "sketch_smog": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -11627,6 +12306,7 @@
 },
 "sketch_smokescreen": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -11644,6 +12324,7 @@
 },
 "sketch_snap_trap": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -11661,6 +12342,7 @@
 },
 "sketch_snarl": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -11678,6 +12360,7 @@
 },
 "sketch_snatch": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -11695,6 +12378,7 @@
 },
 "sketch_snipe_shot": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -11712,6 +12396,7 @@
 },
 "sketch_snore": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -11729,6 +12414,7 @@
 },
 "sketch_soak": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -11746,6 +12432,7 @@
 },
 "sketch_soft_boiled": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -11763,6 +12450,7 @@
 },
 "sketch_solar_beam": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -11780,6 +12468,7 @@
 },
 "sketch_solar_blade": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -11797,6 +12486,7 @@
 },
 "sketch_sonic_boom": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -11814,6 +12504,7 @@
 },
 "sketch_soul_stealing_7_star_strike": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -11831,6 +12522,7 @@
 },
 "sketch_spacial_rend": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -11848,6 +12540,7 @@
 },
 "sketch_spark": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -11865,6 +12558,7 @@
 },
 "sketch_sparkling_aria": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -11882,6 +12576,7 @@
 },
 "sketch_sparkly_swirl": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -11899,6 +12594,7 @@
 },
 "sketch_spectral_thief": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -11916,6 +12612,7 @@
 },
 "sketch_speed_swap": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -11933,6 +12630,7 @@
 },
 "sketch_spider_web": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -11950,6 +12648,7 @@
 },
 "sketch_spikes": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -11967,6 +12666,7 @@
 },
 "sketch_spike_cannon": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -11984,6 +12684,7 @@
 },
 "sketch_spiky_shield": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -12001,6 +12702,7 @@
 },
 "sketch_spirit_break": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -12018,6 +12720,7 @@
 },
 "sketch_spirit_shackle": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -12035,6 +12738,7 @@
 },
 "sketch_spite": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -12052,6 +12756,7 @@
 },
 "sketch_spit_up": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -12069,6 +12774,7 @@
 },
 "sketch_splash": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -12086,6 +12792,7 @@
 },
 "sketch_splintered_stormshards": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -12103,6 +12810,7 @@
 },
 "sketch_splishy_splash": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -12120,6 +12828,7 @@
 },
 "sketch_spore": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -12137,6 +12846,7 @@
 },
 "sketch_spotlight": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -12154,6 +12864,7 @@
 },
 "sketch_stealth_rock": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -12171,6 +12882,7 @@
 },
 "sketch_steamroller": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -12188,6 +12900,7 @@
 },
 "sketch_steam_eruption": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -12205,6 +12918,7 @@
 },
 "sketch_steel_beam": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -12222,6 +12936,7 @@
 },
 "sketch_steel_roller": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -12239,6 +12954,7 @@
 },
 "sketch_steel_wing": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -12256,6 +12972,7 @@
 },
 "sketch_sticky_web": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -12273,6 +12990,7 @@
 },
 "sketch_stockpile": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -12290,6 +13008,7 @@
 },
 "sketch_stoked_sparksurfer": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -12307,6 +13026,7 @@
 },
 "sketch_stomp": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -12324,6 +13044,7 @@
 },
 "sketch_stomping_tantrum": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -12341,6 +13062,7 @@
 },
 "sketch_stone_edge": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -12358,6 +13080,7 @@
 },
 "sketch_stored_power": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -12375,6 +13098,7 @@
 },
 "sketch_storm_throw": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -12392,6 +13116,7 @@
 },
 "sketch_strange_steam": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -12409,6 +13134,7 @@
 },
 "sketch_strength": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -12426,6 +13152,7 @@
 },
 "sketch_strength_sap": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -12443,6 +13170,7 @@
 },
 "sketch_string_shot": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -12460,6 +13188,7 @@
 },
 "sketch_struggle": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -12477,6 +13206,7 @@
 },
 "sketch_struggle_bug": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -12494,6 +13224,7 @@
 },
 "sketch_stuff_cheeks": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -12511,6 +13242,7 @@
 },
 "sketch_stun_spore": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -12528,6 +13260,7 @@
 },
 "sketch_submission": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -12545,6 +13278,7 @@
 },
 "sketch_substitute": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -12562,6 +13296,7 @@
 },
 "sketch_subzero_slammer": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -12579,6 +13314,7 @@
 },
 "sketch_subzero_slammer_1": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -12596,6 +13332,7 @@
 },
 "sketch_sucker_punch": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -12613,6 +13350,7 @@
 },
 "sketch_sunny_day": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -12630,6 +13368,7 @@
 },
 "sketch_sunsteel_strike": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -12647,6 +13386,7 @@
 },
 "sketch_superpower": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -12664,6 +13404,7 @@
 },
 "sketch_supersonic": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -12681,6 +13422,7 @@
 },
 "sketch_supersonic_skystrike": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -12698,6 +13440,7 @@
 },
 "sketch_supersonic_skystrike_1": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -12715,6 +13458,7 @@
 },
 "sketch_super_fang": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -12732,6 +13476,7 @@
 },
 "sketch_surf": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -12749,6 +13494,7 @@
 },
 "sketch_surging_strikes": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -12766,6 +13512,7 @@
 },
 "sketch_swagger": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -12783,6 +13530,7 @@
 },
 "sketch_swallow": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -12800,6 +13548,7 @@
 },
 "sketch_sweet_kiss": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -12817,6 +13566,7 @@
 },
 "sketch_sweet_scent": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -12834,6 +13584,7 @@
 },
 "sketch_swift": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -12851,6 +13602,7 @@
 },
 "sketch_switcheroo": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -12868,6 +13620,7 @@
 },
 "sketch_swords_dance": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -12885,6 +13638,7 @@
 },
 "sketch_synchronoise": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -12902,6 +13656,7 @@
 },
 "sketch_synthesis": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -12919,6 +13674,7 @@
 },
 "sketch_tackle": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -12936,6 +13692,7 @@
 },
 "sketch_tailwind": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -12953,6 +13710,7 @@
 },
 "sketch_tail_glow": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -12970,6 +13728,7 @@
 },
 "sketch_tail_slap": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -12987,6 +13746,7 @@
 },
 "sketch_tail_whip": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -13004,6 +13764,7 @@
 },
 "sketch_take_down": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -13021,6 +13782,7 @@
 },
 "sketch_tar_shot": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -13038,6 +13800,7 @@
 },
 "sketch_taunt": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -13055,6 +13818,7 @@
 },
 "sketch_tearful_look": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -13072,6 +13836,7 @@
 },
 "sketch_teatime": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -13089,6 +13854,7 @@
 },
 "sketch_techno_blast": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -13106,6 +13872,7 @@
 },
 "sketch_tectonic_rage": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -13123,6 +13890,7 @@
 },
 "sketch_tectonic_rage_1": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -13140,6 +13908,7 @@
 },
 "sketch_teeter_dance": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -13157,6 +13926,7 @@
 },
 "sketch_telekinesis": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -13174,6 +13944,7 @@
 },
 "sketch_teleport": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -13191,6 +13962,7 @@
 },
 "sketch_ten_million_volt_thunderbolt": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -13208,6 +13980,7 @@
 },
 "sketch_terrain_pulse": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -13225,6 +13998,7 @@
 },
 "sketch_thief": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -13242,6 +14016,7 @@
 },
 "sketch_thousand_arrows": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -13259,6 +14034,7 @@
 },
 "sketch_thousand_waves": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -13276,6 +14052,7 @@
 },
 "sketch_thrash": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -13293,6 +14070,7 @@
 },
 "sketch_throat_chop": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -13310,6 +14088,7 @@
 },
 "sketch_thunder": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -13327,6 +14106,7 @@
 },
 "sketch_thunderbolt": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -13344,6 +14124,7 @@
 },
 "sketch_thunderous_kick": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -13361,6 +14142,7 @@
 },
 "sketch_thunder_cage": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -13378,6 +14160,7 @@
 },
 "sketch_thunder_fang": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -13395,6 +14178,7 @@
 },
 "sketch_thunder_punch": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -13412,6 +14196,7 @@
 },
 "sketch_thunder_shock": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -13429,6 +14214,7 @@
 },
 "sketch_thunder_wave": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -13446,6 +14232,7 @@
 },
 "sketch_tickle": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -13463,6 +14250,7 @@
 },
 "sketch_topsy_turvy": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -13480,6 +14268,7 @@
 },
 "sketch_torment": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -13497,6 +14286,7 @@
 },
 "sketch_toxic": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -13514,6 +14304,7 @@
 },
 "sketch_toxic_spikes": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -13531,6 +14322,7 @@
 },
 "sketch_toxic_thread": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -13548,6 +14340,7 @@
 },
 "sketch_transform": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -13565,6 +14358,7 @@
 },
 "sketch_trick": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -13582,6 +14376,7 @@
 },
 "sketch_trick_or_treat": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -13599,6 +14394,7 @@
 },
 "sketch_trick_room": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -13616,6 +14412,7 @@
 },
 "sketch_triple_axel": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -13633,6 +14430,7 @@
 },
 "sketch_triple_kick": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -13650,6 +14448,7 @@
 },
 "sketch_tri_attack": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -13667,6 +14466,7 @@
 },
 "sketch_trop_kick": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -13684,6 +14484,7 @@
 },
 "sketch_trump_card": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -13701,6 +14502,7 @@
 },
 "sketch_twineedle": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -13718,6 +14520,7 @@
 },
 "sketch_twinkle_tackle": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -13735,6 +14538,7 @@
 },
 "sketch_twinkle_tackle_1": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -13752,6 +14556,7 @@
 },
 "sketch_twister": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -13769,6 +14574,7 @@
 },
 "sketch_uproar": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -13786,6 +14592,7 @@
 },
 "sketch_u_turn": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -13803,6 +14610,7 @@
 },
 "sketch_vacuum_wave": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -13820,6 +14628,7 @@
 },
 "sketch_veevee_volley": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -13837,6 +14646,7 @@
 },
 "sketch_venom_drench": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -13854,6 +14664,7 @@
 },
 "sketch_venoshock": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -13871,6 +14682,7 @@
 },
 "sketch_vice_grip": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -13888,6 +14700,7 @@
 },
 "sketch_vine_whip": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -13905,6 +14718,7 @@
 },
 "sketch_vital_throw": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -13922,6 +14736,7 @@
 },
 "sketch_volt_switch": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -13939,6 +14754,7 @@
 },
 "sketch_volt_tackle": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -13956,6 +14772,7 @@
 },
 "sketch_v_create": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -13973,6 +14790,7 @@
 },
 "sketch_wake_up_slap": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -13990,6 +14808,7 @@
 },
 "sketch_waterfall": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -14007,6 +14826,7 @@
 },
 "sketch_water_gun": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -14024,6 +14844,7 @@
 },
 "sketch_water_pledge": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -14041,6 +14862,7 @@
 },
 "sketch_water_pulse": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -14058,6 +14880,7 @@
 },
 "sketch_water_shuriken": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -14075,6 +14898,7 @@
 },
 "sketch_water_sport": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -14092,6 +14916,7 @@
 },
 "sketch_water_spout": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -14109,6 +14934,7 @@
 },
 "sketch_weather_ball": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -14126,6 +14952,7 @@
 },
 "sketch_whirlpool": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -14143,6 +14970,7 @@
 },
 "sketch_whirlwind": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -14160,6 +14988,7 @@
 },
 "sketch_wicked_blow": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -14177,6 +15006,7 @@
 },
 "sketch_wide_guard": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -14194,6 +15024,7 @@
 },
 "sketch_wild_charge": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -14211,6 +15042,7 @@
 },
 "sketch_will_o_wisp": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -14228,6 +15060,7 @@
 },
 "sketch_wing_attack": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -14245,6 +15078,7 @@
 },
 "sketch_wish": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -14262,6 +15096,7 @@
 },
 "sketch_withdraw": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -14279,6 +15114,7 @@
 },
 "sketch_wonder_room": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -14296,6 +15132,7 @@
 },
 "sketch_wood_hammer": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -14313,6 +15150,7 @@
 },
 "sketch_work_up": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -14330,6 +15168,7 @@
 },
 "sketch_worry_seed": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -14347,6 +15186,7 @@
 },
 "sketch_wrap": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -14364,6 +15204,7 @@
 },
 "sketch_wring_out": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -14381,6 +15222,7 @@
 },
 "sketch_x_scissor": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -14398,6 +15240,7 @@
 },
 "sketch_yawn": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -14415,6 +15258,7 @@
 },
 "sketch_zap_cannon": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -14432,6 +15276,7 @@
 },
 "sketch_zen_headbutt": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -14449,6 +15294,7 @@
 },
 "sketch_zing_zap": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
@@ -14466,6 +15312,7 @@
 },
 "sketch_zippy_zap": {
 "$type": "RogueEssence.Data.ItemEntrySummary, RogueEssence",
+"Icon": -1,
 "UsageType": 6,
 "States": [
 {
