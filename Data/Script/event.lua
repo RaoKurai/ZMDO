@@ -1,6 +1,4 @@
-require 'common'
-
-SINGLE_CHAR_SCRIPT = {}
+require 'origin.common'
 
 function SINGLE_CHAR_SCRIPT.Test(owner, ownerChar, context, args)
   PrintInfo("Test")
@@ -91,8 +89,6 @@ function SINGLE_CHAR_SCRIPT.UpdateTransform(owner, ownerChar, context, args)
   end
   
 end
-
-BATTLE_SCRIPT = {}
 
 function BATTLE_SCRIPT.Test(owner, ownerChar, context, args)
   PrintInfo("Test")
@@ -586,34 +582,24 @@ function BATTLE_SCRIPT.AltGummi(owner, ownerChar, context, args)
 	end
 end
 	
-STATUS_SCRIPT = {}
-
 function STATUS_SCRIPT.Test(owner, ownerChar, context, args)
   PrintInfo("Test")
 end
 
 
-MAP_STATUS_SCRIPT = {}
-
 function MAP_STATUS_SCRIPT.Test(owner, ownerChar, character, status, msg, args)
   PrintInfo("Test")
 end
-
-REFRESH_SCRIPT = {}
 
 function REFRESH_SCRIPT.Test(owner, ownerChar, character, args)
   PrintInfo("Test")
 end
 
 
-SKILL_CHANGE_SCRIPT = {}
-
 function SKILL_CHANGE_SCRIPT.Test(owner, character, skillIndices, args)
   PrintInfo("Test")
 end
 
-
-ZONE_GEN_SCRIPT = {}
 
 function ZONE_GEN_SCRIPT.Test(zoneContext, context, queue, seed, args)
   PrintInfo("Test")
@@ -627,13 +613,7 @@ MapGenContextType = luanet.import_type('RogueEssence.LevelGen.ListMapGenContext'
 EntranceType = luanet.import_type('RogueEssence.LevelGen.MapGenEntrance')
 
 
-FLOOR_GEN_SCRIPT = {}
-
 function FLOOR_GEN_SCRIPT.Test(map, args)
   PrintInfo("Test")
 end
-
-ITEM_SCRIPT = {}
-
-
 
