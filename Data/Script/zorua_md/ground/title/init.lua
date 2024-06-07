@@ -13,7 +13,7 @@ local title = {}
 -- Use this to display the named strings you added in the strings files for the map!
 -- Ex:
 --      local localizedstring = MapStrings['SomeStringName']
-local MapStrings = {}
+
 
 -------------------------------
 -- Map Callbacks

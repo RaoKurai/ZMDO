@@ -13,7 +13,7 @@ local mystery_exit = {}
 -- Use this to display the named strings you added in the strings files for the map!
 -- Ex:
 --      local localizedstring = MapStrings['SomeStringName']
-local MapStrings = {}
+
 
 -------------------------------
 -- Map Callbacks
@@ -24,7 +24,7 @@ function mystery_exit.Init(map)
 
   --This will fill the localized strings table automatically based on the locale the game is 
   -- currently in. You can use the MapStrings table after this line!
-  MapStrings = COMMON.AutoLoadLocalizedStrings()
+
 
   COMMON.RespawnPartner(false)
 end
@@ -100,13 +100,13 @@ function mystery_exit.Cutscene()
   
   UI:ResetSpeaker()
   
-  UI:WaitShowDialogue(STRINGS:Format(MapStrings['KEKEKE']))
+  UI:WaitShowDialogue(STRINGS:Format(STRINGS.MapStrings['KEKEKE']))
   
   GAME:MoveCamera(272, 200, 60, false)
   
   SOUND:PlayBGM("Mystery Dungeon.ogg", false)
   
-  UI:WaitShowDialogue(STRINGS:Format(MapStrings['KEKEKE_2']))
+  UI:WaitShowDialogue(STRINGS:Format(STRINGS.MapStrings['KEKEKE_2']))
   GAME:WaitFrames(20)
   local zorua = CH('Zorua')
   GROUND:CharSetAnim(zorua, "Shoot", false)
