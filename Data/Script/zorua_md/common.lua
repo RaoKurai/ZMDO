@@ -15,7 +15,7 @@ function COMMON.RespawnPartner(follower)
   local chara = GROUND:SpawnerDoSpawn("PARTNER_SPAWN")
   
   if follower == true then
-    AI:SetCharacterAI(chara, "ai.ground_partner", CH('PLAYER'), chara.Position)
+    AI:SetCharacterAI(chara, "origin.ai.ground_partner", CH('PLAYER'), chara.Position)
     chara.CollisionDisabled = true
   end
 end
