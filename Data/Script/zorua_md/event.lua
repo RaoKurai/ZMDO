@@ -507,27 +507,27 @@ function AddStat(stat, target)
 	
 	if stat == RogueEssence.Data.Stat.HP and target.MaxHPBonus < PMDC.Data.MonsterFormData.MAX_STAT_BOOST then
 		prevStat = target.MaxHP
-		target.MaxHPBonus = target.MaxHPBonus + 1
+		target.MaxHPBonus = target.MaxHPBonus + 2
 		newStat = target.MaxHP
 	elseif stat == RogueEssence.Data.Stat.Attack and target.AtkBonus < PMDC.Data.MonsterFormData.MAX_STAT_BOOST then
 		prevStat = target.BaseAtk
-		target.AtkBonus = target.AtkBonus + 1
+		target.AtkBonus = target.AtkBonus + 2
 		newStat = target.BaseAtk
 	elseif stat == RogueEssence.Data.Stat.Defense and target.DefBonus < PMDC.Data.MonsterFormData.MAX_STAT_BOOST then
 		prevStat = target.BaseDef
-		target.DefBonus = target.DefBonus + 1
+		target.DefBonus = target.DefBonus + 2
 		newStat = target.BaseDef
 	elseif stat == RogueEssence.Data.Stat.MAtk and target.MAtkBonus < PMDC.Data.MonsterFormData.MAX_STAT_BOOST then
 		prevStat = target.BaseMAtk
-		target.MAtkBonus = target.MAtkBonus + 1
+		target.MAtkBonus = target.MAtkBonus + 2
 		newStat = target.BaseMAtk
 	elseif stat == RogueEssence.Data.Stat.MDef and target.MDefBonus < PMDC.Data.MonsterFormData.MAX_STAT_BOOST then
 		prevStat = target.BaseMDef
-		target.MDefBonus = target.MDefBonus + 1
+		target.MDefBonus = target.MDefBonus + 2
 		newStat = target.BaseMDef
 	elseif stat == RogueEssence.Data.Stat.Speed and target.SpeedBonus < PMDC.Data.MonsterFormData.MAX_STAT_BOOST then
 		prevStat = target.BaseSpeed
-		target.SpeedBonus = target.SpeedBonus + 1
+		target.SpeedBonus = target.SpeedBonus + 2
 		newStat = target.BaseSpeed
 	end
 	
