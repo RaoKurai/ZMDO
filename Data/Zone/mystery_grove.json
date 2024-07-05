@@ -1,5 +1,5 @@
 ﻿{
-"Version": "0.8.0.0",
+"Version": "0.8.1.0",
 "Object": {
 "$type": "RogueEssence.Data.ZoneData, RogueEssence",
 "Name": {
@@ -8,8 +8,8 @@
 },
 "Released": true,
 "Comment": "",
-"NoEXP": true,
-"ExpPercent": 100,
+"NoEXP": false,
+"ExpPercent": 0,
 "Level": -1,
 "LevelCap": false,
 "KeepSkills": false,

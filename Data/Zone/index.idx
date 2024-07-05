@@ -1,5 +1,5 @@
 ﻿{
-"Version": "0.8.0.0",
+"Version": "0.8.1.0",
 "Object": {
 "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[RogueEssence.Data.EntrySummary, RogueEssence]], System.Private.CoreLib",
 "guildmaster_island": {
@@ -51,7 +51,7 @@
 },
 "mystery_cave": {
 "$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
-"ExpPercent": 100,
+"ExpPercent": 0,
 "Level": -1,
 "LevelCap": false,
 "KeepSkills": false,
@@ -85,7 +85,7 @@
 },
 "mystery_dungeon": {
 "$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
-"ExpPercent": 100,
+"ExpPercent": 0,
 "Level": -1,
 "LevelCap": false,
 "KeepSkills": false,
@@ -123,7 +123,7 @@
 },
 "mystery_grove": {
 "$type": "RogueEssence.Data.ZoneEntrySummary, RogueEssence",
-"ExpPercent": 100,
+"ExpPercent": 0,
 "Level": -1,
 "LevelCap": false,
 "KeepSkills": false,
